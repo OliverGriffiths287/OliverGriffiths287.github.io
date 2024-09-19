@@ -90,25 +90,25 @@
 
     </script>
         
-        <section>
-            <div class="chart-description">
-             <h4>Section 2: A basic GDP per capita chart</h4>
-                <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                 The visualisation is a bar chart highlighting the different GDP per capita figures amongst various nations across the world.
-                </p>
-            </div>
-          <figure id="Location2"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
-        </section>
+    <section>
+        <div class="chart-description">
+            <h4>Section 2: A basic GDP per capita chart</h4>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+             The visualisation is a bar chart highlighting the different GDP per capita figures amongst various nations across the world.
+            </p>
+        </div>
+        <figure id="Location2"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    </section>
 
-        <script>
-            // This is a comment in JavaScript - it's a different language to HTML and CSS
+    <script>
+       // This is a comment in JavaScript - it's a different language to HTML and CSS
     
-            let figure_2_spec = "wk1_chart1.json"; // We're storing the URL of the graph we want to display in a variable
-                                                                                                                        // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
+        let figure_2_spec = "wk1_chart1.json"; // We're storing the URL of the graph we want to display in a variable
+                                                                                                                     // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
     
-            vegaEmbed('#Location2', figure_2_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_1
+        vegaEmbed('#Location2', figure_2_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_1
     
-        </script>
+    </script>
 
 </body>
     
