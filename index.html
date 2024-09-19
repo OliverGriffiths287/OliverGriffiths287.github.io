@@ -110,6 +110,26 @@
     
     </script>
 
+    <section>
+        <div class="chart-description">
+            <h5>Section 3: A Real GDP per capita chart</h5>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+              The visualisation is a line graph highlighting the Real GDP per capita figures over a time series. 
+            </p>
+        </div>
+        <figure id="Location3"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    </section>
+
+    <script>
+      // This is a comment in JavaScript - it's a different language to HTML and CSS
+
+        let figure_3_spec = "wk1_chart2.json"; // We're storing the URL of the graph we want to display in a variable
+                                                                                                                 // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
+
+        vegaEmbed('#Location3', figure_3_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_1
+
+    </script>
+
 </body>
     
 </html>
