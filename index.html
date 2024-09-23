@@ -92,10 +92,10 @@
         
     <section>
         <div class="chart-description">
-            <h4>Section 2: Home goals scored in Premier League 20/21</h4>
+            <h4>Section 2: Employment rate of men, 16-64</h4>
             <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-             The visualisation is a bar chart highlighting the quantity of goals each Premier League team scored at their home stadium 
-             in the 2020/2021 season.
+             The visualisation is a line chart highlighting the change in the level of employment for men between the ages of 16 and 64
+             for the time series from 1970-2024.
             </p>
         </div>
         <figure id="Location2"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
@@ -104,7 +104,7 @@
     <script>
        // This is a comment in JavaScript - it's a different language to HTML and CSS
     
-        let figure_2_spec = "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/refs/heads/main/charts/football/chartFootball2.json"; // We're storing the URL of the graph we want to display in a variable
+        let figure_2_spec = "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/refs/heads/main/charts/ONSlabmkt/labmkt3.json"; // We're storing the URL of the graph we want to display in a variable
                                                                                                                      // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
     
         vegaEmbed('#Location2', figure_2_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_1
@@ -113,9 +113,10 @@
 
     <section>
         <div class="chart-description">
-            <h5>Section 3: UK and France Trade Chart</h5>
+            <h5>Section 3: UK Inflation of goods and services</h5>
             <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-              The visualisation identifies the quantities of imports and exports traded between UK and France over a time series. 
+              The visualisation identifies the changes of prices in consumer index goods. The size of each bubble signifying the magnitude 
+              of its price. 
             </p>
         </div>
         <figure id="Location3"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
@@ -124,7 +125,7 @@
     <script>
       // This is a comment in JavaScript - it's a different language to HTML and CSS
 
-        let figure_3_spec = "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/refs/heads/main/charts/trade/data_tradeUKFrance.json"; // We're storing the URL of the graph we want to display in a variable
+        let figure_3_spec = "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/refs/heads/main/charts/ONSinflation/chartINF14.json"; // We're storing the URL of the graph we want to display in a variable
                                                                                                                  // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
 
         vegaEmbed('#Location3', figure_3_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_1
