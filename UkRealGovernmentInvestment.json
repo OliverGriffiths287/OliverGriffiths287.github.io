@@ -4,12 +4,12 @@
     "text": "Real Government Investment",
     "anchor": "start",
     "subtitle": "General Gov GFCF, £ million | Source: ONS through ECO API",
-    "fontSize": "16",
-    "subtitleFontSize": "10",
+    "fontSize": 16,
+    "subtitleFontSize": 10,
     "color": "#000000",
     "subtitleColor": "#000000"
   },
-  "height": "250",
+  "height": 250,
   "width": "container",
   "autosize": {"type": "fit", "contains": "padding"},
   "background": "#ffffff",
@@ -18,7 +18,7 @@
     "url": "https://api.economicsobservatory.com/gbr/ginv_r?vega",
     "format": {"type": "json"}
   },
-  "mark": {"type": "line", "color": "#000000", "strokeWidth": "2"},
+  "mark": {"type": "line", "color": "#000000", "strokeWidth": 2},
   "encoding": {
     "x": {
       "field": "date",
