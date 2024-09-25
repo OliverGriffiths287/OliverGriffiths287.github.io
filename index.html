@@ -44,11 +44,11 @@
 <!-- The body tag contains the elements that visitors to our page will see. -->
     <h1 class="big" style="margin-bottom: 0px;"> <!-- We have added a class to the header called "big" which we can use to style it in the CSS -->
         <!-- This is a header, it is the largest text on the page -->
-        Ollie
+        Oliver Griffiths
     </h1>
     <p style="margin-top: 0px; color: darkblue">
         <!-- we're setting the margin to 0px so the header and authour name are close together -->
-        Oliver Griffiths | <a href="https://www.linkedin.com/in/oliver-griffiths-bb901329a/">LinkedIn</a> | <a
+        Ollie | <a href="https://www.linkedin.com/in/oliver-griffiths-bb901329a/">LinkedIn</a> | <a
             href="https://github.com/OliverGriffiths287/OliverGriffiths287.github.io">GitHub</a>
     </p>
     <h3 class="small"> <!-- We have added a class to the header called "small" which we can use to style it in the CSS -->
@@ -92,43 +92,38 @@
         
     <section>
         <div class="chart-description">
-            <h4>Section 2: Employment rate of men, 16-64</h4>
-            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-             The visualisation is a line chart highlighting the change in the level of employment for men between the ages of 16 and 64
-             for the time series from 1970-2024.
+            <h4>Portfolio Challenge 1</h4>
+            <p> 
+             The following two charts demonstrate the initial skill of implementing some visualisations into the code and therefore my github portfolio page. The visualisations and code have been
+              extracted from https://github.com/RDeconomist/RDeconomist.github.io/tree/main/charts/library. Vega-lite editor was helpful to ensure the code correctly
+              transitioned into the visualisation.
+
             </p>
         </div>
-        <figure id="Location2"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+        <figure id="Location2"></figure> 
     </section>
 
     <script>
-       // This is a comment in JavaScript - it's a different language to HTML and CSS
+       
     
         let figure_2_spec = "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/refs/heads/main/charts/ONSlabmkt/labmkt3.json"; // We're storing the URL of the graph we want to display in a variable
                                                                                                                      // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
     
-        vegaEmbed('#Location2', figure_2_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_1
+        vegaEmbed('#Location2', figure_2_spec) 
     
     </script>
 
     <section>
-        <div class="chart-description">
-            <h5>Section 3: UK Inflation of goods and services</h5>
-            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-              The visualisation identifies the changes of prices in consumer index goods. The size of each bubble signifying the magnitude 
-              of its price. 
-            </p>
-        </div>
-        <figure id="Location3"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+         <figure id="Location3"></figure> 
     </section>
 
     <script>
-      // This is a comment in JavaScript - it's a different language to HTML and CSS
+    
 
-        let figure_3_spec = "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/refs/heads/main/charts/ONSinflation/chartINF14.json"; // We're storing the URL of the graph we want to display in a variable
+        let figure_3_spec = "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/refs/heads/main/charts/ONSinflation/chartINF14.json"; 
                                                                                                                  // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
 
-        vegaEmbed('#Location3', figure_3_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_1
+        vegaEmbed('#Location3', figure_3_spec)
 
     </script>
 
