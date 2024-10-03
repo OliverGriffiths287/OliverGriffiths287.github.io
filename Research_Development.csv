@@ -1,0 +1,331 @@
+time,value,sector
+1997-01-01,1108,Manufacturing
+1997-01-01,515,Education
+1997-01-01,215,Information and communication
+1997-04-01,1112,Manufacturing
+1997-04-01,465,Education
+1997-04-01,215,Information and communication
+1997-07-01,1119,Manufacturing
+1997-07-01,567,Education
+1997-07-01,214,Information and communication
+1997-10-01,1124,Manufacturing
+1997-10-01,518,Education
+1997-10-01,214,Information and communication
+1998-01-01,1205,Manufacturing
+1998-01-01,546,Education
+1998-01-01,219,Information and communication
+1998-04-01,1212,Manufacturing
+1998-04-01,547,Education
+1998-04-01,220,Information and communication
+1998-07-01,1224,Manufacturing
+1998-07-01,550,Education
+1998-07-01,222,Information and communication
+1998-10-01,1232,Manufacturing
+1998-10-01,554,Education
+1998-10-01,222,Information and communication
+1999-01-01,1329,Manufacturing
+1999-01-01,628,Education
+1999-01-01,231,Information and communication
+1999-04-01,1337,Manufacturing
+1999-04-01,602,Education
+1999-04-01,232,Information and communication
+1999-07-01,1340,Manufacturing
+1999-07-01,576,Education
+1999-07-01,233,Information and communication
+1999-10-01,1340,Manufacturing
+1999-10-01,609,Education
+1999-10-01,235,Information and communication
+2000-01-01,1321,Manufacturing
+2000-01-01,661,Education
+2000-01-01,278,Information and communication
+2000-04-01,1324,Manufacturing
+2000-04-01,666,Education
+2000-04-01,281,Information and communication
+2000-07-01,1321,Manufacturing
+2000-07-01,670,Education
+2000-07-01,284,Information and communication
+2000-10-01,1318,Manufacturing
+2000-10-01,675,Education
+2000-10-01,283,Information and communication
+2001-01-01,1318,Manufacturing
+2001-01-01,779,Education
+2001-01-01,273,Information and communication
+2001-04-01,1324,Manufacturing
+2001-04-01,834,Education
+2001-04-01,271,Information and communication
+2001-07-01,1328,Manufacturing
+2001-07-01,760,Education
+2001-07-01,267,Information and communication
+2001-10-01,1334,Manufacturing
+2001-10-01,616,Education
+2001-10-01,266,Information and communication
+2002-01-01,1392,Manufacturing
+2002-01-01,824,Education
+2002-01-01,249,Information and communication
+2002-04-01,1395,Manufacturing
+2002-04-01,808,Education
+2002-04-01,249,Information and communication
+2002-07-01,1397,Manufacturing
+2002-07-01,892,Education
+2002-07-01,248,Information and communication
+2002-10-01,1393,Manufacturing
+2002-10-01,796,Education
+2002-10-01,248,Information and communication
+2003-01-01,1374,Manufacturing
+2003-01-01,839,Education
+2003-01-01,249,Information and communication
+2003-04-01,1374,Manufacturing
+2003-04-01,892,Education
+2003-04-01,249,Information and communication
+2003-07-01,1379,Manufacturing
+2003-07-01,904,Education
+2003-07-01,249,Information and communication
+2003-10-01,1383,Manufacturing
+2003-10-01,857,Education
+2003-10-01,251,Information and communication
+2004-01-01,1480,Manufacturing
+2004-01-01,919,Education
+2004-01-01,267,Information and communication
+2004-04-01,1487,Manufacturing
+2004-04-01,833,Education
+2004-04-01,271,Information and communication
+2004-07-01,1501,Manufacturing
+2004-07-01,967,Education
+2004-07-01,275,Information and communication
+2004-10-01,1514,Manufacturing
+2004-10-01,983,Education
+2004-10-01,279,Information and communication
+2005-01-01,1662,Manufacturing
+2005-01-01,1079,Education
+2005-01-01,326,Information and communication
+2005-04-01,1672,Manufacturing
+2005-04-01,1114,Education
+2005-04-01,330,Information and communication
+2005-07-01,1681,Manufacturing
+2005-07-01,1019,Education
+2005-07-01,332,Information and communication
+2005-10-01,1684,Manufacturing
+2005-10-01,855,Education
+2005-10-01,334,Information and communication
+2006-01-01,1737,Manufacturing
+2006-01-01,1225,Education
+2006-01-01,333,Information and communication
+2006-04-01,1744,Manufacturing
+2006-04-01,1142,Education
+2006-04-01,334,Information and communication
+2006-07-01,1754,Manufacturing
+2006-07-01,1068,Education
+2006-07-01,333,Information and communication
+2006-10-01,1772,Manufacturing
+2006-10-01,1023,Education
+2006-10-01,335,Information and communication
+2007-01-01,1969,Manufacturing
+2007-01-01,1209,Education
+2007-01-01,365,Information and communication
+2007-04-01,1982,Manufacturing
+2007-04-01,1255,Education
+2007-04-01,373,Information and communication
+2007-07-01,1988,Manufacturing
+2007-07-01,1202,Education
+2007-07-01,375,Information and communication
+2007-10-01,1993,Manufacturing
+2007-10-01,1210,Education
+2007-10-01,378,Information and communication
+2008-01-01,1983,Manufacturing
+2008-01-01,1303,Education
+2008-01-01,410,Information and communication
+2008-04-01,1977,Manufacturing
+2008-04-01,1295,Education
+2008-04-01,411,Information and communication
+2008-07-01,1968,Manufacturing
+2008-07-01,1464,Education
+2008-07-01,409,Information and communication
+2008-10-01,1954,Manufacturing
+2008-10-01,1374,Education
+2008-10-01,406,Information and communication
+2009-01-01,1806,Manufacturing
+2009-01-01,1500,Education
+2009-01-01,388,Information and communication
+2009-04-01,1793,Manufacturing
+2009-04-01,1465,Education
+2009-04-01,388,Information and communication
+2009-07-01,1790,Manufacturing
+2009-07-01,1467,Education
+2009-07-01,387,Information and communication
+2009-10-01,1801,Manufacturing
+2009-10-01,1428,Education
+2009-10-01,387,Information and communication
+2010-01-01,1862,Manufacturing
+2010-01-01,1608,Education
+2010-01-01,390,Information and communication
+2010-04-01,1869,Manufacturing
+2010-04-01,1560,Education
+2010-04-01,389,Information and communication
+2010-07-01,1868,Manufacturing
+2010-07-01,1494,Education
+2010-07-01,385,Information and communication
+2010-10-01,1858,Manufacturing
+2010-10-01,1388,Education
+2010-10-01,377,Information and communication
+2011-01-01,1844,Manufacturing
+2011-01-01,1584,Education
+2011-01-01,380,Information and communication
+2011-04-01,1847,Manufacturing
+2011-04-01,1551,Education
+2011-04-01,381,Information and communication
+2011-07-01,1853,Manufacturing
+2011-07-01,1691,Education
+2011-07-01,383,Information and communication
+2011-10-01,1855,Manufacturing
+2011-10-01,1448,Education
+2011-10-01,384,Information and communication
+2012-01-01,1997,Manufacturing
+2012-01-01,1065,Education
+2012-01-01,399,Information and communication
+2012-04-01,2023,Manufacturing
+2012-04-01,1866,Education
+2012-04-01,400,Information and communication
+2012-07-01,2041,Manufacturing
+2012-07-01,1991,Education
+2012-07-01,402,Information and communication
+2012-10-01,2057,Manufacturing
+2012-10-01,1599,Education
+2012-10-01,402,Information and communication
+2013-01-01,2249,Manufacturing
+2013-01-01,1842,Education
+2013-01-01,411,Information and communication
+2013-04-01,2270,Manufacturing
+2013-04-01,1710,Education
+2013-04-01,414,Information and communication
+2013-07-01,2281,Manufacturing
+2013-07-01,1636,Education
+2013-07-01,416,Information and communication
+2013-10-01,2297,Manufacturing
+2013-10-01,1741,Education
+2013-10-01,419,Information and communication
+2014-01-01,2452,Manufacturing
+2014-01-01,1772,Education
+2014-01-01,450,Information and communication
+2014-04-01,2467,Manufacturing
+2014-04-01,1772,Education
+2014-04-01,450,Information and communication
+2014-07-01,2483,Manufacturing
+2014-07-01,1773,Education
+2014-07-01,452,Information and communication
+2014-10-01,2499,Manufacturing
+2014-10-01,1773,Education
+2014-10-01,453,Information and communication
+2015-01-01,2797,Manufacturing
+2015-01-01,1584,Education
+2015-01-01,440,Information and communication
+2015-04-01,2822,Manufacturing
+2015-04-01,1986,Education
+2015-04-01,441,Information and communication
+2015-07-01,2849,Manufacturing
+2015-07-01,1789,Education
+2015-07-01,443,Information and communication
+2015-10-01,2871,Manufacturing
+2015-10-01,1792,Education
+2015-10-01,452,Information and communication
+2016-01-01,3130,Manufacturing
+2016-01-01,1846,Education
+2016-01-01,686,Information and communication
+2016-04-01,3147,Manufacturing
+2016-04-01,1688,Education
+2016-04-01,743,Information and communication
+2016-07-01,3152,Manufacturing
+2016-07-01,1728,Education
+2016-07-01,785,Information and communication
+2016-10-01,3141,Manufacturing
+2016-10-01,2126,Education
+2016-10-01,797,Information and communication
+2017-01-01,3269,Manufacturing
+2017-01-01,2155,Education
+2017-01-01,863,Information and communication
+2017-04-01,3284,Manufacturing
+2017-04-01,1921,Education
+2017-04-01,855,Information and communication
+2017-07-01,3316,Manufacturing
+2017-07-01,1859,Education
+2017-07-01,852,Information and communication
+2017-10-01,3365,Manufacturing
+2017-10-01,1890,Education
+2017-10-01,851,Information and communication
+2018-01-01,3502,Manufacturing
+2018-01-01,2122,Education
+2018-01-01,800,Information and communication
+2018-04-01,3555,Manufacturing
+2018-04-01,2094,Education
+2018-04-01,807,Information and communication
+2018-07-01,3582,Manufacturing
+2018-07-01,2172,Education
+2018-07-01,810,Information and communication
+2018-10-01,3583,Manufacturing
+2018-10-01,2238,Education
+2018-10-01,808,Information and communication
+2019-01-01,3789,Manufacturing
+2019-01-01,2394,Education
+2019-01-01,804,Information and communication
+2019-04-01,3775,Manufacturing
+2019-04-01,1988,Education
+2019-04-01,800,Information and communication
+2019-07-01,3772,Manufacturing
+2019-07-01,2425,Education
+2019-07-01,797,Information and communication
+2019-10-01,3758,Manufacturing
+2019-10-01,2263,Education
+2019-10-01,795,Information and communication
+2020-01-01,3881,Manufacturing
+2020-01-01,2476,Education
+2020-01-01,800,Information and communication
+2020-04-01,3878,Manufacturing
+2020-04-01,2162,Education
+2020-04-01,800,Information and communication
+2020-07-01,3875,Manufacturing
+2020-07-01,2389,Education
+2020-07-01,800,Information and communication
+2020-10-01,3871,Manufacturing
+2020-10-01,2377,Education
+2020-10-01,797,Information and communication
+2021-01-01,4006,Manufacturing
+2021-01-01,2522,Education
+2021-01-01,817,Information and communication
+2021-04-01,4009,Manufacturing
+2021-04-01,2422,Education
+2021-04-01,818,Information and communication
+2021-07-01,4014,Manufacturing
+2021-07-01,2686,Education
+2021-07-01,818,Information and communication
+2021-10-01,4024,Manufacturing
+2021-10-01,2152,Education
+2021-10-01,821,Information and communication
+2022-01-01,4212,Manufacturing
+2022-01-01,2568,Education
+2022-01-01,850,Information and communication
+2022-04-01,4225,Manufacturing
+2022-04-01,2577,Education
+2022-04-01,854,Information and communication
+2022-07-01,4235,Manufacturing
+2022-07-01,2582,Education
+2022-07-01,859,Information and communication
+2022-10-01,4238,Manufacturing
+2022-10-01,2584,Education
+2022-10-01,858,Information and communication
+2023-01-01,4539,Manufacturing
+2023-01-01,2875,Education
+2023-01-01,922,Information and communication
+2023-04-01,4552,Manufacturing
+2023-04-01,2891,Education
+2023-04-01,925,Information and communication
+2023-07-01,4573,Manufacturing
+2023-07-01,2908,Education
+2023-07-01,931,Information and communication
+2023-10-01,4597,Manufacturing
+2023-10-01,2923,Education
+2023-10-01,935,Information and communication
+2024-01-01,4750,Manufacturing
+2024-01-01,3064,Education
+2024-01-01,943,Information and communication
+2024-04-01,4767,Manufacturing
+2024-04-01,3081,Education
+2024-04-01,954,Information and communication
