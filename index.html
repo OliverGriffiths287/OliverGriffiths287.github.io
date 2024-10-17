@@ -193,35 +193,31 @@
 
     <section>
         <div class="chart-description">
-          <h7>Portfolio Challenge 4</h7>
+          <h2>Portfolio Challenge 4</h2>
             <p> This week's challenge involved finding a visualisation used by a company, journalist, or broadcast which may not be the most clear way of presenting
                 the given data and then trying to replicate it, although the specific data does not have to match. From there, I could adapt the chart to what I believe
                 to be a clearer representation and change some aspects.
             </p>
         </div>
-       <figure id="#Location8"></figure> 
+        <div style="display: flex;">
+            <img src="Bad_Visualisation.jpg" alt="" style="width:300px;height:300px">
+            <figure id="Location8"></figure>   
+        </div>
+        
     </section>
-
-    <script>
-        let figure_8_spec = "Bad_Visualisation.jpg"; 
-                                                                                                             // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
-
-        vegaEmbed('#Location8', figure_8_spec) 
-    </script>
 
     <section>
         <div class="chart-description">
            <p> My adapted pie chart seems to be a clearer demonstration of the data which involves less unnecessary colour and focuses on the data.
            </p>
         </div>
-       <figure id="#Location19"></figure> 
     </section>
 
     <script>
-        let figure_9_spec = "Election_Seats.json"; 
+        let figure_8_spec = "Election_Seats.json"; 
                                                                                                          // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
 
-        vegaEmbed('#Location9', figure_9_spec) 
+        vegaEmbed('#Location8', figure_8_spec) 
     </script>
 
 </body>
