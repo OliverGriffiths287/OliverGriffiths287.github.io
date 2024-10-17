@@ -1,5 +1,5 @@
 Country,Year,Revenue
-England,2022,6453
+United Kingdom,2022,6453
 Spain,2022,3320
 Germany,2022,3229
 Italy,2022,2346
@@ -9,7 +9,6 @@ Netherlands,2022,629
 Portugal,2022,557
 Turkey,2022,533
 Belgium,2022,494
-Scotland,2022,313
 Denmark,2022,287
 Austria,2022,267
 Switzerland,2022,248
@@ -38,7 +37,6 @@ Slovenia,2022,21
 Luxembourg,2022,18
 Bosnia,2022,17
 Moldova,2022,16
-Northern Ireland,2022,15
 Lithuania,2022,15
 Armenia,2022,14
 Estonia,2022,13
@@ -47,7 +45,6 @@ Georgia,2022,12
 Kosovo,2022,10
 Faroe Islands,2022,10
 North Macedonia,2022,10
-Wales,2022,10
 Liechtenstein,2022,8
 Montenegro,2022,8
 Albania,2022,5
