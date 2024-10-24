@@ -1,29 +1,29 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title":"Map of Europe",
-  "width": 500,
-  "height": 500,
-  "data": {
-    "url": "https://raw.githubusercontent.com/leakyMirror/map-of-europe/refs/heads/master/TopoJSON/europe.topojson",
-    "format": {
-      "type": "topojson",
-      "feature": "europe" 
-    }
-  },
- 
-  "projection": {"type": "mercator"},
-  "mark": {"type": "geoshape", "stroke": "black", "strokeWidth": 0.5},
-  "encoding": {
-    "color": {
-      "field": "", 
-      "type": "quantitative",
-      "scale": {
-        "scheme": "reds" 
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title":"Map of Europe",
+    "width": 500,
+    "height": 500,
+    "data": {
+      "url": "https://raw.githubusercontent.com/leakyMirror/map-of-europe/refs/heads/master/TopoJSON/europe.topojson",
+      "format": {
+        "type": "topojson",
+        "feature": "europe" 
       }
     },
-    "tooltip": [
-      {"field": "properties.NAME", "type": "nominal", "title": "Country"}
-      
-    ]
+   
+    "projection": {"type": "mercator"},
+    "mark": {"type": "geoshape", "stroke": "black", "strokeWidth": 0.5},
+    "encoding": {
+      "color": {
+        "field": "", 
+        "type": "quantitative",
+        "scale": {
+          "scheme": "reds" 
+        }
+      },
+      "tooltip": [
+        {"field": "properties.NAME", "type": "nominal", "title": "Country"}
+        
+      ]
+    }
   }
-}
