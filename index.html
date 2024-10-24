@@ -129,7 +129,7 @@
 
     <section>
         <div class="chart-description">
-          <h5>Portfolio Challenge 2</h5>
+          <h4>Portfolio Challenge 2</h4>
           <p> 
             The next two charts build on the previous weeks skill of implementing a visualisation by producing a visualisation through the Create a chart
             function from https://www.economicsobservatory.com/explore using the api and data on UK government investment and household UkHouseholdConsumption
@@ -160,7 +160,7 @@
 
     <section>
         <div class="chart-description">
-         <h6>Portfolio Challenge 3</h6>
+         <h4>Portfolio Challenge 3</h4>
             <p> Following a Festival of Economics talk about UK trade, this week's task involves creating two visualisations that relate to an argument made.
                 The argument made was that investment in the UK has not matched international counterparts, such as for research, development and education.
                 This first chart shows that although investment has been increasing, it is still very low per quarter in these specific sectors.
@@ -193,7 +193,7 @@
 
     <section>
         <div class="chart-description">
-          <h2>Portfolio Challenge 4</h2>
+          <h4>Portfolio Challenge 4</h4>
             <p> This week's challenge involved finding a visualisation used by a company, journalist, or broadcast which may not be the most clear way of presenting
                 the given data and then trying to replicate it, although the specific data does not have to match. From there, I could adapt the chart to what I believe
                 to be a clearer representation and change some aspects.
@@ -218,6 +218,40 @@
                                                                                                          // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
 
         vegaEmbed('#Location8', figure_8_spec) 
+    </script>
+
+    <section>
+        <div class="chart-description">
+         <h4>Portfolio Challenge 6</h4>
+            <p> To create a cluster of charts I used the ONS API to retrieve data on UK imports from various nations as a time series.
+                https://colab.research.google.com/github/OliverGriffiths287/OliverGriffiths287.github.io/blob/main/Portfolio_API_Loops.ipynb
+                After downloading the data onto Github, we used altair and json in python to convert it using loops into a separate chart for each nation.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <div class="chart-description">
+         <h4>Portfolio Challenge 7</h4>
+            <p> The first map shows European countries. The following chart includes data on league revenue and uses different shades to highlight different levels amongst countries.
+            </p>
+        </div>
+       <figure id="Location9"></figure> 
+       <figure id="Location10"></figure>
+    </section>
+
+    <script>
+        let figure_9_spec = "Europe_Map_Outline.json"; 
+                                                                                                         // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
+
+        vegaEmbed('#Location9', figure_9_spec) 
+    </script>
+
+    <script>
+        let figure_10_spec = "Europe_Revenue_Map.json"; 
+                                                                                                     // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
+
+        vegaEmbed('#Location10', figure_10_spec) 
     </script>
 
 </body>
