@@ -14,10 +14,6 @@
   "projection": {"type": "mercator"},
   "mark": {"type": "geoshape", "stroke": "black", "strokeWidth": 0.5},
   "encoding": {
-    "color": {
-      "field": "", 
-      "type": "quantitative"
-    },
     "tooltip": [
       {"field": "properties.NAME", "type": "nominal", "title": "Country"}
     ]
