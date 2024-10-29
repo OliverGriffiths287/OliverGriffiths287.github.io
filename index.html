@@ -32,6 +32,14 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monthly UK Imports</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.23.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.8.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.20.0"></script>
+
     <style>
         #chartGrid {
             display: flex;
@@ -230,6 +238,99 @@
         </div>
     </section>
 
+    <div class="grid-container">
+        <div class="grid-item" id="chart-algeria"></div>
+        <div class="grid-item" id="chart-ghana"></div>
+        <div class="grid-item" id="chart-germany"></div>
+        <div class="grid-item" id="chart-sweden"></div>
+        <div class="grid-item" id="chart-france"></div>
+        <div class="grid-item" id="chart-india"></div>
+        <div class="grid-item" id="chart-brazil"></div>
+        <div class="grid-item" id="chart-netherlands"></div>
+        <div class="grid-item" id="chart-portugal"></div>
+    </div>
+
+    <script>
+        const charts = [
+            {
+                id: 'chart-algeria',
+                url: 'https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/Monthly_Imports_Algeria.json',
+                subtitle: 'Algeria'
+            },
+            {
+                id: 'chart-ghana',
+                url: 'https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/Monthly_Imports_Ghana.json',
+                subtitle: 'Ghana'
+            },
+            {
+                id: 'chart-germany',
+                url: 'https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/Monthly_Imports_Germany.json',
+                subtitle: 'Germany'
+            },
+            {
+                id: 'chart-sweden',
+                url: 'https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/Monthly_Imports_Sweden.json',
+                subtitle: 'Sweden'
+            },
+            {
+                id: 'chart-france',
+                url: 'https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/Monthly_Imports_France.json',
+                subtitle: 'France'
+            },
+            {
+                id: 'chart-india',
+                url: 'https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/Monthly_Imports_India.json',
+                subtitle: 'India'
+            },
+            {
+                id: 'chart-brazil',
+                url: 'https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/Monthly_Imports_Brazil.json',
+                subtitle: 'Brazil'
+            },
+            {
+                id: 'chart-netherlands',
+                url: 'https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/Monthly_Imports_Netherlands.json',
+                subtitle: 'Netherlands'
+            },
+            {
+                id: 'chart-portugal',
+                url: 'https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/Monthly_Imports_Portugal.json',
+                subtitle: 'Portugal'
+            }
+        ];
+
+        charts.forEach(chart => {
+            const spec = {
+                "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+                "title": {
+                    "text": "Monthly UK Imports",
+                    "subtitle": chart.subtitle
+                },
+                "width": 100,
+                "height": 100,
+                "data": {
+                    "url": chart.url
+                },
+                "mark": {
+                    "type": "line",
+                    "color": "red"
+                },
+                "encoding": {
+                    "x": {
+                        "field": "date",
+                        "type": "temporal"
+                    },
+                    "y": {
+                        "field": "value",
+                        "type": "quantitative"
+                    }
+                }
+            };
+
+            vegaEmbed(`#${chart.id}`, spec);
+        });
+    </script>
+
     <section>
         <div class="chart-description">
          <h4>Portfolio Challenge 7</h4>
@@ -239,25 +340,25 @@
     </section>
 
     <section>
-        <figure id="Location9"></figure>
+        <figure id="Location10"></figure>
     </section>
 
     <script>
-        let figure_9_spec = "Europe_Map_Outline.json"; 
+        let figure_10_spec = "Europe_Map_Outline.json"; 
                                                                                                          // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
 
-        vegaEmbed('#Location9', figure_9_spec)
+        vegaEmbed('#Location10', figure_10_spec)
     </script>
 
     <section>
-      <figure id="Location10"></figure> 
+      <figure id="Location11"></figure> 
     </section>
 
     <script>
-        let figure_10_spec = "Europe_Revenue_Map.json"; 
+        let figure_11_spec = "Europe_Revenue_Map.json"; 
                                                                                                      // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
 
-        vegaEmbed('#Location10', figure_10_spec) 
+        vegaEmbed('#Location11', figure_11_spec) 
     </script>
 
 </body>
