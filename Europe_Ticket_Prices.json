@@ -1,0 +1,16 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/transformed_ticket_prices.csv"
+  },
+  "title":{"text": "Average ticket price 2018/19-2019/20", "subtitle": "Europe's top five leagues, measured in Euros. Source: Seatpick"},
+  "width": 300,
+  "height": 300,
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "League"},
+    "y": {"field": "Value", "type": "quantitative"},
+    "xOffset": {"field": "Season"},
+    "color": {"field": "Season"}
+  }
+}

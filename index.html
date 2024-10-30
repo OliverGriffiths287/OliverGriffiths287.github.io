@@ -52,11 +52,11 @@
 <!-- The body tag contains the elements that visitors to our page will see. -->
     <h1 class="big" style="margin-bottom: 0px;"> <!-- We have added a class to the header called "big" which we can use to style it in the CSS -->
         <!-- This is a header, it is the largest text on the page -->
-        Oliver Griffiths
+        Data Science Portfolio
     </h1>
-    <p style="margin-top: 0px; color: darkblue">
+    <p style="margin-top: 0px; color: rgb(30, 119, 254)">
         <!-- we're setting the margin to 0px so the header and authour name are close together -->
-        Ollie | <a href="https://www.linkedin.com/in/oliver-griffiths-bb901329a/">LinkedIn</a> | <a
+        Ollie Griffiths | <a href="https://www.linkedin.com/in/oliver-griffiths-bb901329a/">LinkedIn</a> | <a
             href="https://github.com/OliverGriffiths287/OliverGriffiths287.github.io">GitHub</a>
     </p>
     <h3 class="small"> <!-- We have added a class to the header called "small" which we can use to style it in the CSS -->
@@ -230,6 +230,17 @@
 
     <section>
         <div class="chart-description">
+          <h4>Portfolio Challenge 5</h4>
+            <p> I scraped data and transformed from a table from <a href="https://seatpick.com/blog/revealed-premier-league-is-the-most-expensive-dream-in-european-football-and-the-gap-between-the-rest-of-europe-is-just-increasing">Ticket Prices</a>
+                as it relates to my project so may be reused later. <a href="https://colab.research.google.com/drive/1Noxw-HHr9Xsqngw6HJ4mfe1C6SWkg18j#scrollTo=JrXKnkPz6JZW">Scraping Code Colab</a>
+            </p>
+        </div>
+       <figure id="Location9"></figure>
+    </section>
+
+
+    <section>
+        <div class="chart-description">
          <h4>Portfolio Challenge 6</h4>
             <p> To create a cluster of charts I used the ONS API to retrieve data on UK imports from various nations as a time series.
                 After downloading the data onto Github, we used altair and json in python to convert it using loops into a separate chart for each nation.
@@ -237,6 +248,13 @@
             </p>
         </div>
     </section>
+
+    <script>
+        let figure_9_spec = "Europe_Ticket_Prices.json"; 
+                                                                                                         // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
+
+        vegaEmbed('#Location9', figure_9_spec) 
+    </script>
 
     <div class="grid-container">
         <div class="grid-item" id="chart-algeria"></div>
