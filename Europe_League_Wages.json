@@ -1,0 +1,19 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {"url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/League_Wages.csv"},
+  "title":{"text":"Average Wage per Season", "subtitle": "Top 5 European Leagues, measured in Euros. Source: Capology"},
+  "width": 300,
+  "height": 300,
+  "mark": {
+    "type": "line",
+    "point": {
+      "filled": false,
+      "fill": "white"
+    }
+  },
+  "encoding": {
+    "x": {"field": "Season", "type": "temporal"},
+    "y": {"field": "Wage", "type": "quantitative"},
+    "color": {"field": "League", "type": "nominal"}
+  }
+}
