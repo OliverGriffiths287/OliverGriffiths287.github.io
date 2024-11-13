@@ -1,80 +1,177 @@
-/* This is an example CSS file. If you include it in your portfolio, it'll provide some clean and basic styling */
-/* for your page. Feel free to experiment with the values, or copy them into a new file and use that instead. */
-
-/* These are comments in CSS. Comments don't do anything except explain your working to make code easier to understand. */
-
-
-body { /* We can style any HTML element by using its name - here we're styling the body */
-  /* We want text that uses a clean sans-serif font, is usually 16px big and close to black */
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  color: #ffffff;
-  line-height: 1.6;
-  /* we want a white page, that's centered and not too wide */
-  background-color: #000000;
-  margin:0 auto;
-  max-width: 800px;
-  padding-top: 60px;
+body { 
+    font-family: 'Calibri', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: #000000;
+    line-height: 1.6;
+    background-color: rgb(130, 144, 172);
+    height: 100vh;
+    background: linear-gradient(to right, rgb(155, 163, 180) 0%, rgb(130, 144, 172) 15%, rgb(130, 144, 172) 85%, rgb(155, 163, 180) 100%);
+    margin:0 auto;
+    max-width: 900px;
+    align-items: center;
 }
 
-
-/* Headings */
-h1, h2, h3, h4, h5, h6 {
-  color: #ffffff;
-  margin-top: 24px;
-  margin-bottom: 16px;
-  font-weight: 600;
+header {
+    width: 100%;
+    padding: 0;
 }
 
-/* We want the headings to be a little bigger than the paragraph text */
-.big { /* This is the class we created in the HTML file, you can use it to style any element */
-  font-size: 2.5em;
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 100px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 30px;
+}
+
+nav ul li a:hover {
+    color: #ff2929;
+}
+
+main {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 3em;
+    color: #000000;
+}
+
+p {
+    font-size: 1.2em;
+    color: #000000;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    height: 150px;
+    padding: 20px;
+    background-color: rgb(130, 144, 172);
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    height: 150px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgb(130, 144, 172);
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    height: 150px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgb(130, 144, 172);
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 h2 {
-  font-size: 1.75em;
+    font-size: 2em;
+    margin-bottom: 5px;
 }
 
-.small {
-  font-size: 1.25em;
+.box p {
+    font-size: 1em;
 }
 
-/* Paragraph */
-p {
-  margin-bottom: 1em;
-  font-weight: 300;
-}
-
-section {
-  margin-bottom: 2.5em;  /* We want a little more space between sections */
-}
-
-/* Links */
-/* We want the links to be a little more visible  and a different color */
-a {
-  color: #16c493;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
+@media only screen and (max-width: 767px) {
+    body {
+      font-size: 16px;
+      max-width: 100%;
+      padding: 0 15px;
+    }
   
-/* Images */
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  padding: 10px;
-}
-
-.grid-item {
-  border: 1px solid #ccc;
-  padding: 10px;
-  background-color: #f9f9f9;
-}
+    nav ul {
+      display: flex;
+      align-items: center;
+    }
+  
+    nav ul li {
+      margin: 10px 30px;
+    }
+  
+    nav ul li a {
+      font-size: 18px;
+    }
+  
+    h1 {
+      font-size: 2em;
+    }
+  
+    p {
+      font-size: 1em;
+    }
+  
+    .container {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .box1, .box2, .box3 {
+      width: 300px;
+      height: auto;
+      padding: 25px;
+      margin-top: 25px;
+    }
+  
+    h2 {
+      font-size: 1.5em;
+    }
+  
+    .box p {
+      font-size: 0.9em;
+    }
+  }

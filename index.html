@@ -1,384 +1,46 @@
-<!-- This HTML file provides a simple example of a portfolio page. It contains a header, a few sections, and a few charts. -->
-<!-- It works with the three css files in this folder: example1.css, example2.css and example3.css. -->
-<!-- The HTML file defines the structure of the page, and the CSS files define how it looks. -->
-<!-- The CSS examples are all designed to work with this page. Try swapping them out on line 29 and see what happens. -->
-
-<!-- Take a look around and make your own copy to adapt for your own use. -->
-
-<!-- This is a comment -->
-<!-- Comments are not displayed in the browser -->
-<!-- They can be used to leave notes in the code -->
-
 <!DOCTYPE html>
-<html> 
-    <!-- HTML is heirarchial: tags like this define elements on the page. 
-    Each tag does something different. For example:
-        - The <html> tag defines the whole document.
-        - The <h1> tag defines a large heading
-        - The <p> tag defines a paragraph
-        - Tags appear as an opening <div> and closing </div> pair
-    -->
-
-<head>    
-    <!-- The head tag links to resources our page needs and defines information about it. Tags in the <head> aren't displayed on the page. -->
-
-    <!-- This is a link to a stylesheet which contains rules about how each element on the page should be defined-->
-    <!-- Try swapping example1.css to another, and take a look at example1.css to see if you understand it-->
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <title>My Portfolio</title> <!-- The title displayed in the browser tab, not on the page itself -->
-
-    <!-- This is a link to the vega-lite which we're using to make graphs -->
-    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monthly UK Imports</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://cdn.jsdelivr.net/npm/vega@5.23.0"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.8.0"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.20.0"></script>
-
-    <style>
-        #chartGrid {
-            display: flex;
-        }
-        
-    </style>
+    <title>Data Science Homepage</title>
+    <link rel="stylesheet" href="index.css">
 </head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="https://github.com/OliverGriffiths287/OliverGriffiths287.github.io">Github</a></li>
+                <li><a href="https://www.linkedin.com/in/oliver-griffiths-bb901329a/">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<body> 
-<!-- The body tag contains the elements that visitors to our page will see. -->
-    <h1 class="big" style="margin-bottom: 0px;"> <!-- We have added a class to the header called "big" which we can use to style it in the CSS -->
-        <!-- This is a header, it is the largest text on the page -->
-        Data Science Portfolio
-    </h1>
-    <p style="margin-top: 0px; color: rgb(30, 119, 254)">
-        <!-- we're setting the margin to 0px so the header and authour name are close together -->
-        Ollie Griffiths | <a href="https://www.linkedin.com/in/oliver-griffiths-bb901329a/">LinkedIn</a> | <a
-            href="https://github.com/OliverGriffiths287/OliverGriffiths287.github.io">GitHub</a>
-    </p>
-    <h3 class="small"> <!-- We have added a class to the header called "small" which we can use to style it in the CSS -->
-        This page acts as your portfolio of charts. You can use it as a good starting point to display your work but make sure to customise it to make it your own, or even start from scratch.  
-    </h3>
+    <main>
+        <h1>Oliver Griffiths Practical Data Science</h1>
 
-    <!-- We're organising the page into sections, with each section containing a chart, title and a description -->
-    <section>
-        <div class="chart-description">
-            <h2>Section 1: A basic chart</h2>
-            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                We've organised the page into sections, with each section containing a chart, title and a description.
-                Here, we can describe the chart and give some context. As a first example, we're using a basic chart from our repo.
-            </p>
+        <div class="container">
+            <div>
+                <a href="project.html" class="box1">
+                  <h2>Project</h2>
+                  <p>The primary output of the module, looking at increased revenue in football.</p>
+                </a>
+            </div>
+            <div>
+                <a href="portfolio.html" class="box2">
+                  <h2>Portfolio</h2>
+                  <p>Consists of weekly tasks showcasing the various skills learnt throughout the module.</p>
+                </a>
+            </div>
+            <div>
+                <a href="https://github.com/OliverGriffiths287/OliverGriffiths287.github.io" class="box3">
+                  <h2>Github</h2>
+                  <p>The hub for all data, code and charts displayed across my pages.</p>
+                </a>
+            </div>
         </div>
-        <figure id="Location1"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
-    </section>
-
-    <!-- Do you want to add more sections? -->
-        <!-- Try copying pasting the section above -->
-        <!-- You'll need to change the id of the figure "<figure id="Location3"... -->
-        <!-- ... and add a new variable for the graph spec in the script at the bottom of the page -->
-
-
-    <!-- This is a script, it's a way to run JavaScript code on the page -->
-    <script>
-        // This is a comment in JavaScript - it's a different language to HTML and CSS
-
-        let figure_1_spec = "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/2/s2_chart2.json"; // We're storing the URL of the graph we want to display in a variable
-                                                                                                                    // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
-
-        vegaEmbed('#Location1', figure_1_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_1
-
-        // Do you want to add more graphs?
-        // try defining a new variable for figure_3_spec, adding VegaEmbed for Location3, and adding a new section in the HTML
-        // e.g. 
-        // let figure_3_spec = ...
-        // vegaEmbed('#Location3', figure_3_spec)
-
-    </script>
-        
-    <section>
-        <div class="chart-description">
-            <h4>Portfolio Challenge 1</h4>
-            <p> 
-             The following two charts demonstrate the initial skill of implementing some visualisations into the code and therefore my github portfolio page. The visualisations and code have been
-              extracted from <a href="https://github.com/RDeconomist/RDeconomist.github.io/tree/main/charts/library">RDeconomistGithub</a>. Vega-lite editor was helpful to ensure the code correctly
-              transitioned into the visualisation.
-
-            </p>
-        </div>
-        <figure id="Location2"></figure> 
-    </section>
-
-    <script>
-       
-    
-        let figure_2_spec = "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/refs/heads/main/charts/covidGlobal/euDailyMAExample.json"; // We're storing the URL of the graph we want to display in a variable
-                                                                                                                     // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
-    
-        vegaEmbed('#Location2', figure_2_spec) 
-    
-    </script>
-
-    <section>
-         <figure id="Location3"></figure> 
-    </section>
-
-    <script>
-    
-
-        let figure_3_spec = "https://raw.githubusercontent.com/RDeconomist/RDeconomist.github.io/refs/heads/main/charts/ONSinflation/chartINF14.json"; 
-                                                                                                                 // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
-
-        vegaEmbed('#Location3', figure_3_spec)
-
-    </script>
-
-    <section>
-        <div class="chart-description">
-          <h4>Portfolio Challenge 2</h4>
-          <p> 
-            The next two charts build on the previous weeks skill of implementing a visualisation by producing a visualisation through the Create a chart
-            function from <a href="https://www.economicsobservatory.com/explore">EconomicsObservatory</a> using the api and data on UK government investment and household UkHouseholdConsumption
-            Additionally, using Vega-Lite Editor, the charts have been altered visually using different font sizes, adding titles to the axes, changing the 
-            dimensions of the graph as well as appearance of the line and scatters.
-          </p>
-        </div>
-      <figure id="Location4"></figure> 
-    </section>
-
-    <script>
-        let figure_4_spec = "UkRealGovernmentInvestment.json"; // We're storing the URL of the graph we want to display in a variable
-                                                                                                                 // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
-
-        vegaEmbed('#Location4', figure_4_spec) 
-    </script>
-
-    <section>
-      <figure id="Location5"></figure> 
-    </section>
-
-    <script>
-        let figure_5_spec = "UkHouseholdConsumption.json"; 
-                                                                                                             // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
-
-        vegaEmbed('#Location5', figure_5_spec)
-    </script>
-
-    <section>
-        <div class="chart-description">
-         <h4>Portfolio Challenge 3</h4>
-            <p> Following a Festival of Economics talk about UK trade, this week's task involves creating two visualisations that relate to an argument made.
-                The argument made was that investment in the UK has not matched international counterparts, such as for research, development and education.
-                This first chart shows that although investment has been increasing, it is still very low per quarter in these specific sectors.
-            </p>
-        </div>
-       <figure id="Location6"></figure> 
-    </section>
-
-    <script>
-        let figure_6_spec = "ResearchInvestment.json"; 
-                                                                                                                 // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
-
-        vegaEmbed('#Location6', figure_6_spec) 
-    </script>
-
-    <section>
-        <div class="chart-description">
-            <p> This second visualisation below highlights our investment into education relative to G7 nations based off GDP is not perhaps a significant concern.
-            </p>
-        </div>
-       <figure id="Location7"></figure> 
-    </section>
-
-    <script>
-        let figure_7_spec = "Education_Expenditure.json"; 
-                                                                                                             // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
-
-        vegaEmbed('#Location7', figure_7_spec) 
-    </script>
-
-    <section>
-        <div class="chart-description">
-          <h4>Portfolio Challenge 4</h4>
-            <p> This week's challenge involved finding a visualisation used by a company, journalist, or broadcast which may not be the most clear way of presenting
-                the given data and then trying to replicate it, although the specific data does not have to match. From there, I could adapt the chart to what I believe
-                to be a clearer representation and change some aspects.
-            </p>
-        </div>
-        <div style="display: flex;">
-            <img src="Bad_Visualisation.jpg" alt="" style="width:300px;height:300px">
-            <figure id="Location8"></figure>   
-        </div>
-        
-    </section>
-
-    <section>
-        <div class="chart-description">
-           <p> My adapted pie chart seems to be a clearer demonstration of the data which involves less unnecessary colour and focuses on the data.
-           </p>
-        </div>
-    </section>
-
-    <script>
-        let figure_8_spec = "Election_Seats.json"; 
-                                                                                                         // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
-
-        vegaEmbed('#Location8', figure_8_spec) 
-    </script>
-
-    <section>
-        <div class="chart-description">
-          <h4>Portfolio Challenge 5</h4>
-            <p> I scraped data and transformed from a table from <a href="https://seatpick.com/blog/revealed-premier-league-is-the-most-expensive-dream-in-european-football-and-the-gap-between-the-rest-of-europe-is-just-increasing">Ticket Prices</a>
-                as it relates to my project so may be reused later. <a href="https://colab.research.google.com/drive/1Noxw-HHr9Xsqngw6HJ4mfe1C6SWkg18j#scrollTo=JrXKnkPz6JZW">Scraping Code Colab</a>
-            </p>
-        </div>
-       <figure id="Location9"></figure>
-    </section>
-
-
-    <section>
-        <div class="chart-description">
-         <h4>Portfolio Challenge 6</h4>
-            <p> To create a cluster of charts I used the ONS API to retrieve data on UK imports from various nations as a time series.
-                After downloading the data onto Github, we used altair and json in python to convert it using loops into a separate chart for each nation.
-                <a href="https://colab.research.google.com/github/OliverGriffiths287/OliverGriffiths287.github.io/blob/main/Portfolio_API_Loops.ipynb">ApiLoopsColab</a>
-            </p>
-        </div>
-    </section>
-
-    <script>
-        let figure_9_spec = "Europe_Ticket_Prices.json"; 
-                                                                                                         // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
-
-        vegaEmbed('#Location9', figure_9_spec) 
-    </script>
-
-    <div class="grid-container">
-        <div class="grid-item" id="chart-algeria"></div>
-        <div class="grid-item" id="chart-ghana"></div>
-        <div class="grid-item" id="chart-germany"></div>
-        <div class="grid-item" id="chart-sweden"></div>
-        <div class="grid-item" id="chart-france"></div>
-        <div class="grid-item" id="chart-india"></div>
-        <div class="grid-item" id="chart-brazil"></div>
-        <div class="grid-item" id="chart-netherlands"></div>
-        <div class="grid-item" id="chart-portugal"></div>
-    </div>
-
-    <script>
-        const charts = [
-            {
-                id: 'chart-algeria',
-                url: 'https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/Monthly_Imports_Algeria.json',
-                subtitle: 'Algeria'
-            },
-            {
-                id: 'chart-ghana',
-                url: 'https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/Monthly_Imports_Ghana.json',
-                subtitle: 'Ghana'
-            },
-            {
-                id: 'chart-germany',
-                url: 'https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/Monthly_Imports_Germany.json',
-                subtitle: 'Germany'
-            },
-            {
-                id: 'chart-sweden',
-                url: 'https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/Monthly_Imports_Sweden.json',
-                subtitle: 'Sweden'
-            },
-            {
-                id: 'chart-france',
-                url: 'https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/Monthly_Imports_France.json',
-                subtitle: 'France'
-            },
-            {
-                id: 'chart-india',
-                url: 'https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/Monthly_Imports_India.json',
-                subtitle: 'India'
-            },
-            {
-                id: 'chart-brazil',
-                url: 'https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/Monthly_Imports_Brazil.json',
-                subtitle: 'Brazil'
-            },
-            {
-                id: 'chart-netherlands',
-                url: 'https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/Monthly_Imports_Netherlands.json',
-                subtitle: 'Netherlands'
-            },
-            {
-                id: 'chart-portugal',
-                url: 'https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/Monthly_Imports_Portugal.json',
-                subtitle: 'Portugal'
-            }
-        ];
-
-        charts.forEach(chart => {
-            const spec = {
-                "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-                "title": {
-                    "text": "Monthly UK Imports",
-                    "subtitle": chart.subtitle
-                },
-                "width": 100,
-                "height": 100,
-                "data": {
-                    "url": chart.url
-                },
-                "mark": {
-                    "type": "line",
-                    "color": "red"
-                },
-                "encoding": {
-                    "x": {
-                        "field": "date",
-                        "type": "temporal"
-                    },
-                    "y": {
-                        "field": "value",
-                        "type": "quantitative"
-                    }
-                }
-            };
-
-            vegaEmbed(`#${chart.id}`, spec);
-        });
-    </script>
-
-    <section>
-        <div class="chart-description">
-         <h4>Portfolio Challenge 7</h4>
-            <p> The first map shows European countries. The following chart includes data on league revenue and uses different shades to highlight different levels amongst countries.
-            </p>
-        </div> 
-    </section>
-
-    <section>
-        <figure id="Location10"></figure>
-    </section>
-
-    <script>
-        let figure_10_spec = "Europe_Map_Outline.json"; 
-                                                                                                         // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
-
-        vegaEmbed('#Location10', figure_10_spec)
-    </script>
-
-    <section>
-      <figure id="Location11"></figure> 
-    </section>
-
-    <script>
-        let figure_11_spec = "Europe_Revenue_Map.json"; 
-                                                                                                     // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
-
-        vegaEmbed('#Location11', figure_11_spec) 
-    </script>
-
+    </main>
 </body>
-    
 </html>
