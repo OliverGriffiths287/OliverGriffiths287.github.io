@@ -1,0 +1,277 @@
+year,region,price
+2002,East,4.32
+2002,East Midlands (England),4.07
+2002,London,4.41
+2002,North East (England),4.59
+2002,North West (England),4.15
+2002,Northern Ireland,4.42
+2002,Scotland,4.39
+2002,South East (England),4.25
+2002,South West (England),4.50
+2002,Wales,3.81
+2002,West Midlands (England),4.72
+2002,Yorkshire and The Humber,4.29
+2003,East,4.53
+2003,East Midlands (England),4.38
+2003,London,4.11
+2003,North East (England),4.53
+2003,North West (England),4.42
+2003,Northern Ireland,4.44
+2003,Scotland,4.66
+2003,South East (England),4.49
+2003,South West (England),4.70
+2003,Wales,3.72
+2003,West Midlands (England),4.54
+2003,Yorkshire and The Humber,4.05
+2004,East,4.50
+2004,East Midlands (England),4.27
+2004,London,4.07
+2004,North East (England),4.52
+2004,North West (England),4.41
+2004,Northern Ireland,4.43
+2004,Scotland,4.58
+2004,South East (England),4.25
+2004,South West (England),4.57
+2004,Wales,3.87
+2004,West Midlands (England),4.61
+2004,Yorkshire and The Humber,3.94
+2005,East,4.42
+2005,East Midlands (England),4.32
+2005,London,4.10
+2005,North East (England),4.76
+2005,North West (England),4.40
+2005,Northern Ireland,4.68
+2005,Scotland,4.56
+2005,South East (England),4.28
+2005,South West (England),4.36
+2005,Wales,4.22
+2005,West Midlands (England),5.09
+2005,Yorkshire and The Humber,4.08
+2006,East,4.52
+2006,East Midlands (England),4.17
+2006,London,4.44
+2006,North East (England),4.98
+2006,North West (England),4.48
+2006,Northern Ireland,4.73
+2006,Scotland,4.57
+2006,South East (England),4.26
+2006,South West (England),4.38
+2006,Wales,4.45
+2006,West Midlands (England),5.27
+2006,Yorkshire and The Humber,4.33
+2007,East,4.52
+2007,East Midlands (England),4.39
+2007,London,4.59
+2007,North East (England),5.13
+2007,North West (England),4.70
+2007,Northern Ireland,4.76
+2007,Scotland,4.76
+2007,South East (England),4.42
+2007,South West (England),4.38
+2007,Wales,4.48
+2007,West Midlands (England),5.32
+2007,Yorkshire and The Humber,4.32
+2008,East,4.68
+2008,East Midlands (England),4.49
+2008,London,4.59
+2008,North East (England),5.21
+2008,North West (England),5.03
+2008,Northern Ireland,5.12
+2008,Scotland,4.74
+2008,South East (England),4.43
+2008,South West (England),4.43
+2008,Wales,4.55
+2008,West Midlands (England),5.03
+2008,Yorkshire and The Humber,4.78
+2009,East,4.26
+2009,East Midlands (England),4.45
+2009,London,4.90
+2009,North East (England),5.29
+2009,North West (England),5.15
+2009,Northern Ireland,5.84
+2009,Scotland,4.65
+2009,South East (England),4.46
+2009,South West (England),4.42
+2009,Wales,4.71
+2009,West Midlands (England),5.26
+2009,Yorkshire and The Humber,4.78
+2010,East,4.63
+2010,East Midlands (England),4.80
+2010,London,5.15
+2010,North East (England),5.35
+2010,North West (England),5.26
+2010,Northern Ireland,5.11
+2010,Scotland,4.81
+2010,South East (England),4.47
+2010,South West (England),4.42
+2010,Wales,4.69
+2010,West Midlands (England),5.19
+2010,Yorkshire and The Humber,4.98
+2011,East,4.92
+2011,East Midlands (England),4.86
+2011,London,5.46
+2011,North East (England),5.45
+2011,North West (England),5.44
+2011,Northern Ireland,5.07
+2011,Scotland,4.74
+2011,South East (England),4.68
+2011,South West (England),4.53
+2011,Wales,5.00
+2011,West Midlands (England),5.05
+2011,Yorkshire and The Humber,5.01
+2012,East,5.11
+2012,East Midlands (England),4.84
+2012,London,5.61
+2012,North East (England),5.36
+2012,North West (England),5.45
+2012,Northern Ireland,5.25
+2012,Scotland,4.72
+2012,South East (England),4.61
+2012,South West (England),4.65
+2012,Wales,4.83
+2012,West Midlands (England),5.24
+2012,Yorkshire and The Humber,5.20
+2013,East,5.24
+2013,East Midlands (England),4.80
+2013,London,5.33
+2013,North East (England),5.59
+2013,North West (England),5.18
+2013,Northern Ireland,5.31
+2013,Scotland,5.12
+2013,South East (England),4.72
+2013,South West (England),5.13
+2013,Wales,4.88
+2013,West Midlands (England),5.18
+2013,Yorkshire and The Humber,5.25
+2014,East,4.87
+2014,East Midlands (England),5.00
+2014,London,5.10
+2014,North East (England),5.82
+2014,North West (England),5.22
+2014,Northern Ireland,5.25
+2014,Scotland,5.41
+2014,South East (England),4.93
+2014,South West (England),5.03
+2014,Wales,4.80
+2014,West Midlands (England),5.21
+2014,Yorkshire and The Humber,5.31
+2015,East,4.89
+2015,East Midlands (England),5.10
+2015,London,5.24
+2015,North East (England),6.04
+2015,North West (England),5.42
+2015,Northern Ireland,5.25
+2015,Scotland,5.55
+2015,South East (England),5.12
+2015,South West (England),5.19
+2015,Wales,4.80
+2015,West Midlands (England),5.09
+2015,Yorkshire and The Humber,5.39
+2016,East,4.83
+2016,East Midlands (England),5.04
+2016,London,5.50
+2016,North East (England),6.38
+2016,North West (England),5.47
+2016,Northern Ireland,5.26
+2016,Scotland,5.57
+2016,South East (England),5.20
+2016,South West (England),5.16
+2016,Wales,4.93
+2016,West Midlands (England),5.41
+2016,Yorkshire and The Humber,5.39
+2017,East,4.98
+2017,East Midlands (England),5.01
+2017,London,5.81
+2017,North East (England),6.63
+2017,North West (England),5.55
+2017,Northern Ireland,5.43
+2017,Scotland,5.82
+2017,South East (England),5.41
+2017,South West (England),5.23
+2017,Wales,5.03
+2017,West Midlands (England),5.52
+2017,Yorkshire and The Humber,5.47
+2018,East,5.16
+2018,East Midlands (England),5.30
+2018,London,6.10
+2018,North East (England),6.90
+2018,North West (England),5.58
+2018,Northern Ireland,5.63
+2018,Scotland,5.65
+2018,South East (England),5.59
+2018,South West (England),5.43
+2018,Wales,5.21
+2018,West Midlands (England),5.75
+2018,Yorkshire and The Humber,5.38
+2019,East,5.36
+2019,East Midlands (England),5.30
+2019,London,6.20
+2019,North East (England),7.02
+2019,North West (England),5.68
+2019,Northern Ireland,5.73
+2019,Scotland,5.70
+2019,South East (England),5.58
+2019,South West (England),5.51
+2019,Wales,5.49
+2019,West Midlands (England),5.70
+2019,Yorkshire and The Humber,5.82
+2020,East,5.66
+2020,East Midlands (England),5.65
+2020,London,6.43
+2020,North East (England),7.29
+2020,North West (England),5.83
+2020,Northern Ireland,5.85
+2020,Scotland,5.80
+2020,South East (England),5.66
+2020,South West (England),5.60
+2020,Wales,5.56
+2020,West Midlands (England),5.91
+2020,Yorkshire and The Humber,5.86
+2021,East,5.85
+2021,East Midlands (England),5.82
+2021,London,6.84
+2021,North East (England),7.45
+2021,North West (England),6.31
+2021,Northern Ireland,5.96
+2021,Scotland,6.05
+2021,South East (England),5.70
+2021,South West (England),5.81
+2021,Wales,5.54
+2021,West Midlands (England),6.13
+2021,Yorkshire and The Humber,6.17
+2022,East,6.23
+2022,East Midlands (England),6.41
+2022,London,8.26
+2022,North East (England),8.03
+2022,North West (England),6.48
+2022,Northern Ireland,6.42
+2022,Scotland,6.59
+2022,South East (England),6.14
+2022,South West (England),6.19
+2022,Wales,6.47
+2022,West Midlands (England),6.71
+2022,Yorkshire and The Humber,6.80
+2023,East,6.82
+2023,East Midlands (England),6.74
+2023,London,9.26
+2023,North East (England),8.11
+2023,North West (England),6.68
+2023,Northern Ireland,7.48
+2023,Scotland,6.93
+2023,South East (England),6.95
+2023,South West (England),6.78
+2023,Wales,6.87
+2023,West Midlands (England),6.83
+2023,Yorkshire and The Humber,7.05
+2024,East,7.57
+2024,East Midlands (England),7.13
+2024,London,9.04
+2024,North East (England),8.98
+2024,North West (England),6.96
+2024,Northern Ireland,7.72
+2024,Scotland,7.53
+2024,South East (England),7.28
+2024,South West (England),7.21
+2024,Wales,6.94
+2024,West Midlands (England),7.63
+2024,Yorkshire and The Humber,7.28
