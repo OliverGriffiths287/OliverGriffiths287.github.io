@@ -317,13 +317,13 @@ img {
   #Location1 {
     width: 350px;
     height: 350px;
-    padding: 20px;
+    margin-left: 0;
   }
   
   #Location2 {
     width: 350px;
     height: 350px;
-    padding: 20px;
+    margin-left: 0;
   }
   
   #Location3 {
@@ -343,66 +343,74 @@ img {
   #Location5 {
     width: 350px;
     height: 350px;
+    margin-left: 0;
   }
   
   #Location6 {
     width: 350px;
     height: 350px;
+    margin-left: 0;
   }
   
   #Location7 {
     width: 350px;
     height: 350px;
+    margin-left: 0;
   }
   
   #Location8 {
     width: 350px;
     height: 350px;
+    margin-left: 0;
   }
   
   #Location9 {
     width: 350px;
     height: 450px;
+    margin-left: 0;
   }
   
   #Location10 {
     width: 350px;
     height: 450px;
+    margin-left: 0;
   }
   
   #Location11 {
     width: 350px;
     height: 350px;
+    margin-left: 0;
   }
   
   #Location12 {
     width: 400px;
     height: 250px;
+    margin-left: 0;
   }
   
   #Location13 {
     width: 350px;
     height: 450px;
-    padding: 30px;
+    margin-left: 0;
   }
   
   #Location14 {
     width: 350px;
     height: 450px;
-    padding: 30px;
+    margin-left: 0;
   }
   
   #Location15 {
     width: 350px;
     height: 350px;
-    padding: 30px;
+    margin-left: 0;
   }
   
   #Location16 {
     width: 350px;
     height: 450px;
     padding: 20px;
-    margin-left: 50px;
+    margin-left: 0;
   }
   
   figure {
@@ -433,10 +441,11 @@ img {
     height: 300px;
     align-items: center;
     margin-top: 30px;
+    margin-left: 0;
     border-radius: 25px;
     overflow: hidden;
     background-color: #ffffff;
-    padding: 20px;
+    padding: 30px;
     box-shadow: 0 4px 8px rgba#ffffff;
   }
   
