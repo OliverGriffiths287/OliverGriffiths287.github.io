@@ -1,0 +1,128 @@
+<html>
+
+<head>
+   <link rel="stylesheet" type="text/css" href="project.css">
+   <title>Project</title>
+
+   <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Scrollable Vega-Embed Gallery</title>
+
+</head>
+
+<body>
+   <header>
+      <nav>
+         <ul>
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="https://github.com/OliverGriffiths287/OliverGriffiths287.github.io">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/oliver-griffiths-bb901329a/">LinkedIn</a></li>
+         </ul>
+      </nav>
+   </header>
+
+   <div class="title-container">
+      <h1 class="title"> What effect has increased commercialisation had on domestic and european football?</h1>
+   </div>
+
+   <div class="gallery-container">
+      <div class="nav-button" id="prevBtn">&#8592;</div>
+      <div class="chart-container" id="chartView"></div>
+      <div class="nav-button" id="nextBtn">&#8594;</div>
+   </div>
+
+   <script>
+      const ChartFiles = [
+         'Revenue_Points_2014.json',
+         'Revenue_Points_2015.json',
+         'Revenue_Points_2016.json',
+         'Revenue_Points_2017.json',
+         'Revenue_Points_2018.json',
+         'Revenue_Points_2019.json',
+         'Revenue_Points_2020.json',
+         'Revenue_Points_2021.json',
+         'Revenue_Points_2022.json',
+         'Revenue_Points_2023.json'
+      ];
+
+      let currentIndex = 0;
+
+      function loadChart(index) {
+         fetch(ChartFiles[index])
+            .then(response => response.json())
+            .then(spec => {
+               vegaEmbed('#chartView', spec).catch(console.error);
+            })
+            .catch(error => {
+               console.error(`Error loading ${chartFiles[index]}:`, error);
+            });
+      }
+
+      function showNextChart() {
+         currentIndex = (currentIndex + 1) % ChartFiles.length;
+         loadChart(currentIndex);
+      }
+
+      function showPrevChart() {
+         currentIndex = (currentIndex - 1 + chartFiles.length) % ChartFiles.length;
+         loadChart(currentIndex);
+      }
+
+      document.getElementById('nextBtn').addEventListener('click', showNextChart);
+      document.getElementById('prevBtn').addEventListener('click', showPrevChart);
+
+
+      loadChart(currentIndex);
+   </script>
+
+   <section>
+      <figure id="Location1"></figure>
+   </section>
+
+   <script>
+      let figure_1_spec = "Europe_Revenue_Map.json";
+      vegaEmbed('#Location1', figure_1_spec) 
+   </script>
+
+   <section>
+      <figure id="Location2"></figure>
+   </section>
+
+   <script>
+      let figure_2_spec = "2014_2023_Wages.json";
+      vegaEmbed('#Location2', figure_2_spec)
+   </script>
+
+   <section>
+      <figure id="Location3"></figure>
+   </section>
+
+   <script>
+      let figure_3_spec = "PL_Yearly_Revenue.json";
+      vegaEmbed('#Location3', figure_3_spec)
+   </script>
+
+   <section>
+      <figure id="Location4"></figure>
+   </section>
+
+   <script>
+      let figure_4_spec = "Revenue_Breakdown.json";
+      vegaEmbed('#Location4', figure_4_spec)
+   </script>
+   
+   <section>
+      <figure id="Location5"></figure>
+   </section>
+
+   <script>
+      let figure_5_spec = "wage_salary_boxplot.json";
+      vegaEmbed('#Location5', figure_5_spec)
+   </script>
+
+</body>
