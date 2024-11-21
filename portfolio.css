@@ -231,100 +231,224 @@ img {
 }
 
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 480px) {
   body {
+    font-family: 'Calibri', Helvetica, Arial, sans-serif;
     font-size: 16px;
-    width: 400px;
-    padding: 15px;
-    padding-top: 30px;
-    margin-left: 0;
-  }
-
-  nav ul {
-    display: flex;
+    color: #000000;
+    line-height: 1.6;
+    background-color: rgb(130, 144, 172);
+    height: 100vh;
+    background: linear-gradient(to right, rgb(155, 163, 180) 0%, rgb(130, 144, 172) 15%, rgb(130, 144, 172) 85%, rgb(155, 163, 180) 100%);
+    width: 480px;
+    padding-top: 50px;
     align-items: center;
-    margin-left: 0
   }
-
-  nav ul li {
-    margin: 10px 25px;
-  }
-
-  nav ul li a {
-    font-size: 14px;
-  }
-
+  
   .page-container {
     width: 400px;
     margin-left: 0;
     align-self: center;
     align-items: center;
   }
-
-  .big {
-    font-size: 2em;
-  }
-
-  h2 {
-    font-size: 1.5em;
-  }
-
-  .small {
-    font-size: 1.2em;
-  }
-
-  p {
-    margin-bottom: 0.8em;
-  }
-
-  figure {
-    border-radius: 15px;
-    padding: 5px;
+  
+  header {
+    padding: 0;
+    margin-top: 0;
     margin-left: 0;
   }
-
-  .loc-container {
-    width: 85vw;
-    height: 40vh;
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin-left: 0;
+  }
+  
+  nav ul li {
+    margin-right: 50px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  
+  nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  nav ul li a:hover {
+    color: #ff2929;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: black;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-weight: 600;
+  }
+  
+  
+  .big {
+    font-size: 3em;
+  }
+  
+  h2 {
+    font-size: 2em;
+  }
+  
+  .small {
+    font-size: 1.5em;
+  }
+  
+  p {
+    margin-bottom: 1em;
+    font-weight: 400;
+  }
+  
+  #Location1 {
+    width: 300px;
+    height: 450px;
     padding: 20px;
   }
-
-  section {
-    margin-bottom: 1.5em;
+  
+  #Location2 {
+    width: 300px;
+    height: 350px;
+    padding: 20px;
   }
-
+  
+  #Location3 {
+    width: 400px;
+    height: 250px;
+    margin-top: 20px;
+  }
+  
+  #Location4 {
+    width: 400px;
+    height: 250px;
+    margin-top: 50px;
+  }
+  
+  #Location5 {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+  }
+  
+  #Location6 {
+    width: 300px;
+    height: 300px;
+  }
+  
+  #Location7 {
+    width: 300px;
+    height: 300px;
+  }
+  
+  #Location8 {
+    width: 300px;
+    height: 300px;
+  }
+  
+  #Location9 {
+    width: 350px;
+    height: 450px;
+  }
+  
+  #Location10 {
+    width: 350px;
+    height: 450px;
+  }
+  
+  #Location11 {
+    width: 300px;
+    height: 300px;
+  }
+  
+  #Location12 {
+    width: 400px;
+    height: 250px;
+  }
+  
+  #Location13 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+  }
+  
+  #Location14 {
+    width: 350px;
+    height: 450px;
+    padding: 30px;
+  }
+  
+  #Location15 {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+  }
+  
+  #Location16 {
+    width: 300px;
+    height: 450px;
+    padding: 20px;
+    margin-left: 50px;
+  }
+  
+  figure {
+    align-content: center;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba#ffffff;
+    margin-left: 0;
+  }
+  
+  section {
+    margin-bottom: 2.5em;
+  }
+  
+  a {
+    color: #002c74;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
   img {
     width: auto;
-    margin-top: 25px;
-    border-radius: 15px;
-    padding: 5px;
+    height: auto;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 40px;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba#ffffff;
   }
-
+  
   .grid-container {
-    grid-template-columns: 1fr;
-    gap: 15px;
-    padding: 5px;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+    margin-left: 40px;
   }
-
+  
   .grid-item {
-    padding: 8px;
-  }
-
-  .chart_container1 {
-    display: flex;
-    flex-wrap: wrap;
-    width: auto;
-  }
-
-  .chart_container2 {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .chart_container3 {
-    display: flex;
-    flex-wrap: wrap;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
   }
 
 }
