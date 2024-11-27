@@ -1,0 +1,30 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {"url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/Prem_Revenue_Points_2014.csv"},
+  "title":{"text": "Premier League Season Revenue and Points Total, 2013/14", "subtitle": "114 Possible Points. Source: Premier League and Gov.uk"},
+  "width": 300,
+  "encoding": {
+    "x": {"field": "points", "type": "quantitative", "title": "Points Total", "scale": {"domain": [20, 90]}},
+    "y": {"field": "revenue", "type": "quantitative", "title": "Season Revenue £M", "scale": {"domain": [50, 450]}},
+    "color": {"field": "Team", "type": "nominal"}
+  },
+  "layer": [{
+      "mark":{"type": "circle", "size": 100, "opacity": 1}
+    }, {
+      "params": [{
+          "name": "hover",
+          "select": {"type": "point", "on": "pointerover", "clear": "pointerout"}
+        }],
+      "mark": {"type": "circle", "tooltip": true},
+      "encoding": {
+        "opacity": {
+          "condition": {"test": {"param": "hover", "empty": false}, "value": 1},
+          "value": 0
+        },
+        "size": {
+          "condition": {"test": {"param": "hover", "empty": false}, "value": 100},
+          "value": 200
+        }
+      }
+    }]
+}

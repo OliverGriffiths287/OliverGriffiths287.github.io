@@ -1,0 +1,89 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "description": "UK CPI data visualisation",
+
+  "title": {
+    "text": "This month - top fallers by size",
+    "subtitle": "Hover for item detail. Bubble size based on median price",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start",
+    "color": "black"
+  },
+
+  "config": {
+  "background":"white",
+  "view": {
+    "stroke": "transparent"}},
+
+
+  "data": {
+    "url": "https://raw.githubusercontent.com/RDeconomist/prices/master/data/db_priceChangesThisMonth.csv"
+  },
+
+  "height": "container",
+  "width": "container",
+  "Xselection": {
+      "paintbrush": {"type": "multi", "on": "mouseover", "nearest": true}
+      },
+
+  "transform": [
+    {"filter":"datum.downRank12<21"},
+    {"filter":"datum.downRank12>0"}
+
+  ],
+
+  "mark":{
+      "type":"point",
+      "opacity":0.8,
+      "XYZcolor":"#f4a245",
+      "XXsize":60
+  },
+
+  "encoding": {
+    
+    "y": {
+        "field": "description",
+        "sort":"-x",
+        "type": "nominal",
+        "axis":{
+          "grid": false,
+          "labels":false},
+        "scale": {"zero": false},
+        "title": null},
+
+    "x": {
+      "field": "down_ch12",
+      "type": "quantitative",
+      "axis":{
+        "grid": false,
+        "format":",.0%"},
+      "scale": {"zero": true},
+      "title": "Median price rise"},
+
+    "size": {
+      "field": "p",
+      "type": "quantitative",
+      "title": "Price",
+      "legend": null,
+      "Xlegend":{"orient": "bottom-right"}
+      },
+
+      "color":{
+        "field": "division_sh",
+        "type": "ordinal",
+        "title": "Item type",
+        "legend":{"orient": "bottom-left"},
+        "scale": {"scheme": "set1"}
+      },
+
+
+    "tooltip": [
+      {"field": "description", "type": "nominal", "title": "Description"},
+      {"field": "p", "type": "quantitative", "title": "Price (median)", "format": ".0f"},
+      {"field": "down_ch12", "type": "quantitative", "title": "Median increase", "format": ",.0%"},
+      {"field": "downRank12", "type": "quantitative", "title": "Down Rank"}
+    ]
+}
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "UK exports and imports 2000-2023",
+  "data": {"url" : "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/Trade_data.csv"},
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "year", "type": "quantitative"},
+    "y": {"field": "exports", "type": "quantitative"},
+    "color": {"field": "symbol", "type": "nominal"}
+  }
+}

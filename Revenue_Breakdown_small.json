@@ -1,0 +1,63 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/Revenue_Breakdown_PL.csv"
+  },
+  "title": {
+    "text": "Premier League Revenue Breakdown",
+    "subtitle": "Revenue measured in Million Pounds. Source: Deloitte"
+  },
+  "width": 300,
+  "height": 300,
+  "encoding": {
+    "x": {
+      "aggregate": "sum",
+      "field": "Revenue",
+      "axis": {
+        "title": "Revenue"
+      }
+    },
+    "y": {
+      "field": "Season"
+    },
+    "color": {
+      "field": "Stream"
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "opacity": 1
+      }
+    },
+    {
+      "params": [
+        {
+          "name": "hover",
+          "select": {
+            "type": "point",
+            "on": "pointerover",
+            "clear": "pointerout"
+          }
+        }
+      ],
+      "mark": {
+        "type": "bar",
+        "tooltip": true
+      },
+      "encoding": {
+        "opacity": {
+          "condition": {
+            "test": {
+              "param": "hover",
+              "empty": false
+            },
+            "value": 1
+          },
+          "value": 0
+        }
+      }
+    }
+  ]
+}

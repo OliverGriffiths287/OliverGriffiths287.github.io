@@ -7,8 +7,8 @@
     "text": "UK Quarterly Investment by Sector",
     "subtitle": "Current Prices and Non Seasonally Adjusted. Source: ONS"
   },
-  "height": "container",
-  "width": "container",
+  "height": 250,
+  "width": 250,
   "encoding": {
     "x": {
       "field": "time",
@@ -21,13 +21,11 @@
     "y": {
       "field": "value",
       "type": "quantitative",
-      "title": "Quarterly investment",
-      "axis": {"grid": false}
+      "title": "Quarterly investment"
     },
     "color": {
       "field": "Sector",
-      "type": "nominal",
-      "legend": {"orient": "top-left"}
+      "type": "nominal"
     }
   },
   "layer": [

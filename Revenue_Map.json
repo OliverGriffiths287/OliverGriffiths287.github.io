@@ -1,0 +1,32 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 500,
+  "height": 300,
+  "data": {
+    "url": "https://raw.githubusercontent.com/leakyMirror/map-of-europe/refs/heads/master/TopoJSON/europe.topojson",
+    "format": {
+      "type": "topojson",
+      "feature": "europe"
+    }
+  },
+  "transform": [{
+    "lookup": "id",
+    "from": {
+      "data": {
+        "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/Europe_Revenue.csv"
+      },
+      "key": "id",
+      "fields": ["Revenue"]
+    }
+  }],
+  "projection": {
+    "type": "albers"
+  },
+  "mark": "geoshape",
+  "encoding": {
+    "color": {
+      "field": "Revenue",
+      "type": "quantitative"
+    }
+  }
+}

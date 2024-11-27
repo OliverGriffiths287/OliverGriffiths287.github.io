@@ -1,12 +1,37 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "data": {"url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/Education_Spending.csv"},
-  "title": {"text": "Government Expenditure on Education for G7 nations", "subtitle": "Shown as a percentage of total government expenditure. Source: WorldBank"}, 
-  "height": 300,
-  "width": 300,
-  "mark": {"type": "line", "opacity": 1, "strokeWidth": 2},
+  "data": {
+    "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/Education_Spending.csv"
+  },
+  "title": {
+    "text": "Government Expenditure on Education for G7 nations",
+    "subtitle": "Percentage of total government expenditure. Source: WorldBank"
+  },
+  "width": "container",
+  "height": "container",
+  "mark": {
+    "type": "line",
+    "opacity": 1,
+    "strokeWidth": 2
+  },
   "encoding": {
-    "x": {"field": "year", "type": "temporal", "title": "", "axis": {"grid": false}},
-    "y": {"field": "Education Spending", "type": "quantitative", "title": "Education Expenditure (%)"},
-    "color": {"field": "Country", "type": "nominal"}}
+    "x": {
+      "field": "year",
+      "type": "temporal",
+      "title": "",
+      "axis": {
+        "grid": false
+      }
+    },
+    "y": {
+      "field": "Education Spending",
+      "type": "quantitative",
+      "title": "Education Expenditure (%)"
+    },
+    "color": {
+      "field": "Country",
+      "type": "nominal",
+      "legend": {"orient": "bottom-left"}
+    }
+  }
 }

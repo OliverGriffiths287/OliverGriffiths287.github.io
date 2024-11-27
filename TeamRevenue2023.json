@@ -1,0 +1,18 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Team Revenue 2023 figures in millions",
+  "data": { 
+    "values": [
+      {"Team": "Real Madrid", "Revenue": 831, "country": "Spain"}, {"Team": "Man City", "Revenue": 826, "country": "England"}, {"Team": "PSG", "Revenue": 802, "country": "France"},
+      {"Team": "Barcelona", "Revenue": 800, "country": "Spain"}, {"Team": "Man Utd", "Revenue": 746, "country": "England"}, {"Team": "Bayern", "Revenue": 744, "country": "Germany"},
+      {"Team": "Liverpool", "Revenue": 683, "country": "England"}, {"Team": "Tottenham", "Revenue": 631, "country": "England"}, {"Team": "Chelsea", "Revenue": 590, "country": "England"}, {"Team": "Arsenal", "Revenue": 533, "country": "England"}, {"Team": "Juventus", "Revenue": 432, "country": "Italy"}, {"Team": "Borussia Dortmund", "Revenue": 421, "country": "Germany"}
+    ]
+  },
+  "width":750,
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "Team", "type": "nominal", "axis": {"labelAngle": 0}},
+    "y": {"field": "Revenue", "type": "quantitative"},
+    "color": {"field": "country"}
+  }
+}

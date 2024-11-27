@@ -1,0 +1,26 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/Monthly_Imports_Germany.json"
+  },
+  "title": {
+    "text": "Monthly UK imports",
+    "subtitle": "Germany"
+  },
+  "width": 150,
+  "height": 150,
+  "mark": {
+    "type": "line",
+    "color": "red"
+  },
+  "encoding": {
+    "x": {
+      "field": "date",
+      "type": "temporal"
+    },
+    "y": {
+      "field": "value",
+      "type": "quantitative"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": "container",
+  "title": {
+    "text": "Average Chinese Takeaway Price",
+    "subtitle": "ITL1 regions, 2002 - 2024"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/yearly_average_takeaways.csv"
+  },
+  "params": [
+    {
+      "name": "year",
+      "value": 2024,
+      "bind": {
+        "input": "range",
+        "min": 2002,
+        "max": 2024,
+        "step": 1,
+        "name": "Year:"
+      }
+    }
+  ],
+  "projection": {"type": "equalEarth"},
+  "transform": [
+    {
+      "lookup": "region",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/datasets/advanced/nuts1.json",
+          "format": {"type":"json", "property": "features"}
+        },
+        "key": "properties.NUTS_NAME",
+        "fields": ["geometry", "type", "properties"]
+      }
+    },
+    {"filter": "datum.year == year"}
+  ],
+  "layer": [
+    {
+      "mark": {"type": "geoshape"},
+      "encoding": {
+        "geometry": {"field": "geometry", "type": "geojson"},
+        "color": {
+          "title": "Average Price",
+          "field": "price",
+          "type": "quantitative",
+          "scale": {"type": "linear", "scheme": "bluepurple"}
+        },
+        "tooltip": [
+          {"field": "region", "title": "Region"},
+          {"field": "price", "type": "quantitative", 
+           "title": 
+           "Average Price", 
+           "format": ".2f"}
+        ]
+      }
+    }
+  ]
+}

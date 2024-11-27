@@ -1,38 +1,38 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {
-    "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/Research_Development.csv"
+    "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/Prem_Revenue_Points_2017.csv"
   },
   "title": {
-    "text": "UK Quarterly Investment by Sector",
-    "subtitle": "Current Prices and Non Seasonally Adjusted. Source: ONS"
+    "text": "Premier League Season Revenue and Points Total, 2016/17",
+    "subtitle": "114 Possible Points. Source: Premier League and Gov.uk"
   },
-  "height": "container",
-  "width": "container",
+  "width": 300,
   "encoding": {
     "x": {
-      "field": "time",
-      "type": "temporal",
-      "title": "",
-      "axis": {
-        "grid": false
-      }
+      "field": "points",
+      "type": "quantitative",
+      "title": "Points Total", 
+      "scale": {"domain": [20, 100]}
     },
     "y": {
-      "field": "value",
+      "field": "revenue",
       "type": "quantitative",
-      "title": "Quarterly investment",
-      "axis": {"grid": false}
+      "title": "Season Revenue £M", 
+      "scale": {"domain": [100, 600]}
     },
     "color": {
-      "field": "Sector",
-      "type": "nominal",
-      "legend": {"orient": "top-left"}
+      "field": "Team",
+      "type": "nominal"
     }
   },
   "layer": [
     {
-      "mark": "line"
+      "mark": {
+        "type": "circle",
+        "size": 100,
+        "opacity": 1
+      }
     },
     {
       "params": [
@@ -66,9 +66,9 @@
               "param": "hover",
               "empty": false
             },
-            "value": 48
+            "value": 100
           },
-          "value": 100
+          "value": 200
         }
       }
     }

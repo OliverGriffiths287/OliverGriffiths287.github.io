@@ -1,0 +1,20 @@
+{"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+    "data": {
+       "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/Productivity_Uk.csv"},
+
+    "title": {
+      "text": "UK Productivity 1960-2023",
+      "subtitle":["Output per worker, seasonally adjusted, 2019=100", "Source: ONS"]},
+
+    "width":300,
+    "height":300,
+
+    "mark":{"type": "line","color":"red", "strokeWidth": 1.5},
+ 
+    "encoding": {
+      "x": {"field": "year","title":"", "axis":{"grid": false},
+      "type": "temporal"},
+      "y": {"field": "output", "title":"","type": "quantitative"}
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/2014_2023_Wages.csv"
+  },
+  "title": {
+    "text": "Change in Average Weekly Wages for Premier League Clubs",
+    "subtitle": "Wage measured in pounds covering 2013/14 and 2022/23 seasons. Source: Planet Football"
+  },
+  "width": 300,
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "Team"
+    },
+    "y": {
+      "field": "Value",
+      "type": "quantitative",
+      "axis": {
+        "title": "Wage"
+      }
+    },
+    "xOffset": {
+      "field": "Season"
+    },
+    "color": {
+      "field": "Season"
+    }
+  }
+}

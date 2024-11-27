@@ -1,0 +1,43 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/PL_Finishing_Position.csv"
+  },
+  "width": 300,
+  "title":{"text": "All time Premier League finishing positions", "subtitle": "White displays 0 occasions finished. Source: Premier League"},
+  "transform": [
+    {
+      "calculate": "toNumber(datum.Position)",
+      "as": "Position_numeric"
+    }
+  ],
+
+  "mark": "rect",
+  "encoding": {
+    "x": {
+      "field": "Position_numeric",
+      "type": "ordinal",
+      "axis": {"title": "Position"},
+      "sort": "ascending"
+      
+    },
+    "y": {
+      "field": "Team",
+      "type": "ordinal",
+      "axis": {"title": "Team"}
+    },
+    "color": {
+      "field": "Occasions",
+      "type": "quantitative",
+      "scale": {"scheme": "bluepurple"} 
+    },
+    "tooltip": [
+      {"field": "Position", "type": "ordinal", "title": "Position"},
+      {"field": "Team", "type": "ordinal", "title": "Team"},
+      {"field": "Occasions", "type": "quantitative", "title": "Occasions"}
+    ]
+  },
+  "config": {
+    "axis": {"grid": true, "tickBand": "extent", "gridColor": "darkgrey"}
+  }
+}

@@ -14,8 +14,8 @@
     ]
   },
   "title":{"text": "Share of Parliamentary Seats following 2024 election", "subtitle": "Source: BBC"},
-  "height": "container",
-  "width": "container",
+  "height": 250,
+  "width": 250,
   "mark": {"type": "arc", "tooltip": true},
   "encoding": {
     "theta": {"field": "value", "type": "quantitative", "stack": "normalize"},

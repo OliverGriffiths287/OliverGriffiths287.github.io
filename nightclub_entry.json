@@ -1,0 +1,54 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Stock prices of 5 Tech Companies over Time.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/average_nightclub.csv"
+  },
+  "title":{"text": "Average nightclub entry cost, Saturday Night", "subtitle": "Average of all locations within region across that year."},
+  "width": 500,
+  "height": 500,
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "temporal",
+      "axis": {"grid": false}
+    },
+    "y": {
+      "field": "price",
+      "type": "quantitative",
+      "scale": {"type": "linear", "domain": [3.5, 11.5]},
+      "axis": {"grid": true, "title": "Enrty Cost"}
+    },
+    "color": {"field": "area", "type": "nominal", "legend":{"title": "Region", "symbolOpacity": 1}}
+  },
+  "layer": [
+    {"mark": {"type": "line", "strokeWidth": 1.5, "point": true, "opacity": 0.5}},
+    {
+      "params": [
+        {
+          "name": "hover",
+          "select": {
+            "type": "point",
+            "on": "pointerover",
+            "clear": "pointerout"
+          }
+        }
+      ],
+      "mark": {"type": "line"},
+      "encoding": {
+        "opacity": {
+          "condition": {"test": {"param": "hover", "empty": false}, "value": 1},
+          "value": 0
+        },
+        "strokeWidth": {
+          "condition": {"test": {"param": "hover", "empty": false}, "value": 4},
+          "value": 0
+        },
+        "size": {
+          "condition": {"test": {"param": "hover", "empty": false}, "value": 4},
+          "value": 0
+        }
+      }
+    }
+  ]
+}

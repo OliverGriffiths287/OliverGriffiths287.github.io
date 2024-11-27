@@ -1,0 +1,67 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "title": {
+    "text": "Regional Productivity",
+    "subtitle": "ITL2 regions, displayed as index: UK base = 100. Source: ONS"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/jhellingsdata/jhellingsdata.github.io/main/Data/UK%20Map%20Data/ITL2_2021_20m.geojson",
+    "format": {
+      "property": "features"
+    }
+  },
+  "projection": {
+    "type": "equalEarth"
+  },
+  "transform": [
+    {
+      "lookup": "properties.ITL221NM",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/RegionalProductivity.csv"
+        },
+        "key": "region",
+        "fields": [
+          "region",
+          "value"
+        ]
+      }
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "geoshape"
+      },
+      "encoding": {
+        "color": {
+          "title": "Productivity",
+          "field": "value",
+          "type": "quantitative",
+          "scale": {
+            "type": "linear",
+            "scheme": "plasma",
+            "reverse": true
+          }
+        }
+      }
+    }
+  ],
+  "encoding": {
+    "tooltip": [
+      {
+        "field": "properties.ITL221NM",
+        "title": "Region"
+      },
+      {
+        "field": "value",
+        "type": "quantitative",
+        "title": "Productivity"
+      }
+    ]
+  }
+}
