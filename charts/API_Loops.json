@@ -6,7 +6,7 @@
         }
     },
     "data": {
-        "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/Monthly_Imports_Portugal.json"
+        "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/data/Monthly_Imports_Portugal.json"
     },
     "mark": {
         "type": "line",
