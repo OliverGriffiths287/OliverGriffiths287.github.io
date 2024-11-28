@@ -3,7 +3,7 @@
   "width": 600,
   "height": 300,
   "data": {
-    "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/map_world.geojson",
+    "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/data/map_world.geojson",
     "format": {"property": "features"}
   },
   "projection": {"type":"naturalEarth1"},
@@ -12,7 +12,7 @@
       "lookup": "properties.ISO3",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/world_gdp_per_capita_PPP_wb.csv"
+          "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/data/world_gdp_per_capita_PPP_wb.csv"
         },
         "key": "ISO3",
         "fields": ["value", "Country"]

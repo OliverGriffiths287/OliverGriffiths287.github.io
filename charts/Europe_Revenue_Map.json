@@ -15,7 +15,7 @@
       "lookup": "properties.NAME", 
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/Europe_Revenue.csv",
+          "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/data/Europe_Revenue.csv",
           "format": {"type": "csv"}
         },
         "key": "Country", 

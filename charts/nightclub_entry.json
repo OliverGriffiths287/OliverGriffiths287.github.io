@@ -1,7 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Stock prices of 5 Tech Companies over Time.",
   "data": {
-    "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/average_nightclub.csv"
+    "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/data/average_nightclub.csv"
   },
   "title":{"text": "Average nightclub entry cost, Saturday Night", "subtitle": "Average of all locations within region across that year."},
   "width": 500,
