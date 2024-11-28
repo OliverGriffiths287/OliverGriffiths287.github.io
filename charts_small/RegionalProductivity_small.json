@@ -22,7 +22,7 @@
       "lookup": "properties.ITL221NM",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/RegionalProductivity.csv"
+          "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/data/RegionalProductivity.csv"
         },
         "key": "region",
         "fields": [

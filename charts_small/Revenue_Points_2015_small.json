@@ -1,13 +1,10 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {
-    "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/Prem_Revenue_Points_2015.csv"
+    "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/data/Prem_Revenue_Points_2015.csv"
   },
-  "title": {
-    "text": "Premier League Season Revenue and Points Total, 2014/15",
-    "subtitle": "114 Possible Points. Source: Premier League and Gov.uk"
-  },
-  "width": 300,
+  "width": "container",
+  "height": "container",
   "encoding": {
     "x": {
       "field": "points",

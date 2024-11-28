@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "data": {"url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/Education_Spending.csv"},
+  "data": {"url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/data/Education_Spending.csv"},
   "title": {"text": "Government Expenditure on Education for G7 nations", "subtitle": "Shown as a percentage of total government expenditure. Source: WorldBank"}, 
   "height": 250,
   "width": 250,

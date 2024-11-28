@@ -4,7 +4,7 @@
   "height": 250,
   "title": {"text": "Premier League Annual Wages Distribution and Average Salary Trend","subtitle": "Points denote extreme values, log scale on y-axis. Source: Capology"},
   "data": {
-    "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/PL_annual_wages.csv"
+    "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/data/PL_annual_wages.csv"
   },
    "transform": [
     {
