@@ -59,16 +59,9 @@
     
         <script>
             let figure_1_spec = "RDeconomist_week1_example.json";
-            
-            function loadChart() {
-                vegaEmbed('#Location1', figure_1_spec, {
-                    width: "container",
-                    height: "container"
-                }).catch(console.error);
-            }
-        
-            window.addEventListener('load', loadChart);
-            window.addEventListener('resize', loadChart);
+            window.addEventListener('load', function() {
+                vegaEmbed('#Location1', figure_1_spec)    
+            });
         </script>
     
         <script>
