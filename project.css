@@ -7,7 +7,7 @@ body {
   height: 100vh;
   background: linear-gradient(to right, rgb(155, 163, 180) 0%, rgb(130, 144, 172) 15%, rgb(130, 144, 172) 85%, rgb(155, 163, 180) 100%);
   width: 900px;
-  padding-top: 50px;
+  padding-top: 25px;
   align-self: center;
   align-items: center;
 }
@@ -40,7 +40,7 @@ nav ul li {
 
 nav ul li a {
   color: rgb(0, 0, 0);
-  text-decoration: none;
+  text-decoration: underline;
   font-size: 30px;
 }
 
@@ -82,8 +82,8 @@ section {
 }
 
 a {
-  color: #16c493;
-  text-decoration: none;
+  color: #d10000;
+  text-decoration: underline;
 }
 
 a:hover {
@@ -242,8 +242,8 @@ figure {
   }
   
   a {
-    color: #16c493;
-    text-decoration: none;
+    color: #d10000;
+    text-decoration: underline;
   }
   
   a:hover {

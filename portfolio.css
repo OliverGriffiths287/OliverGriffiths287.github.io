@@ -159,7 +159,6 @@ p {
   width: 520px;
   height: 600px;
   margin-left: 25px;
-  overflow-y: scroll;
 }
 
 #Location14 {
@@ -195,8 +194,8 @@ section {
 }
 
 a {
-  color: #002c74;
-  text-decoration: none;
+  color: #d10000;
+  text-decoration: underline;
 }
 
 a:hover {
@@ -271,7 +270,7 @@ img {
   
   nav ul li a {
     color: rgb(0, 0, 0);
-    text-decoration: none;
+    text-decoration: underline;
     font-size: 14px;
   }
   
@@ -428,8 +427,8 @@ img {
   }
   
   a {
-    color: #002c74;
-    text-decoration: none;
+    color: #d10000;
+    text-decoration: underline;
   }
   
   a:hover {
