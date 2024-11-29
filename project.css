@@ -14,7 +14,7 @@ body {
 
 .page-container {
   width: 600px;
-  margin-left: 360px;
+  margin-left: 300px;
   align-self: center;
   align-items: center;
 }
@@ -23,7 +23,7 @@ header {
   width: auto;
   padding: 0;
   margin-top: 0;
-  margin-left: 700px;
+  margin-left: 575px;
   align-self: center;
   align-items: center;
 }
