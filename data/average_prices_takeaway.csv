@@ -1,0 +1,3264 @@
+month,price,area
+2002-02,4.16,London
+2002-03,4.77,London
+2002-04,4.71,London
+2002-05,4.17,London
+2002-06,4.18,London
+2002-07,4.44,London
+2002-08,4.44,London
+2002-09,4.39,London
+2002-10,4.41,London
+2002-11,4.41,London
+2002-12,4.42,London
+2003-01,4.41,London
+2003-02,4.06,London
+2003-03,4.07,London
+2003-04,4.05,London
+2003-05,4.00,London
+2003-06,4.05,London
+2003-07,4.17,London
+2003-08,4.24,London
+2003-09,4.16,London
+2003-10,4.15,London
+2003-11,3.98,London
+2003-12,3.93,London
+2004-01,3.90,London
+2004-02,4.02,London
+2004-03,3.98,London
+2004-04,4.04,London
+2004-05,4.04,London
+2004-06,4.18,London
+2004-07,4.09,London
+2004-08,3.93,London
+2004-09,4.23,London
+2004-10,4.13,London
+2004-11,4.13,London
+2004-12,4.14,London
+2005-01,4.14,London
+2005-02,4.02,London
+2005-03,4.16,London
+2005-04,4.11,London
+2005-05,3.71,London
+2005-06,4.10,London
+2005-07,4.13,London
+2005-08,4.10,London
+2005-09,3.93,London
+2005-10,4.08,London
+2005-11,4.31,London
+2005-12,4.27,London
+2006-01,4.11,London
+2006-02,4.36,London
+2006-03,4.63,London
+2006-04,4.51,London
+2006-05,4.31,London
+2006-06,4.41,London
+2006-07,4.41,London
+2006-08,4.43,London
+2006-09,4.44,London
+2006-10,4.53,London
+2006-11,4.53,London
+2006-12,4.53,London
+2007-01,4.54,London
+2007-02,4.43,London
+2007-03,4.67,London
+2007-04,4.61,London
+2007-05,4.62,London
+2007-06,4.63,London
+2007-07,4.63,London
+2007-08,4.63,London
+2007-09,4.56,London
+2007-10,4.52,London
+2007-11,4.59,London
+2007-12,4.59,London
+2008-01,4.65,London
+2008-02,4.62,London
+2008-03,4.67,London
+2008-04,4.56,London
+2008-05,4.57,London
+2008-06,4.57,London
+2008-07,4.51,London
+2008-08,4.52,London
+2008-09,4.54,London
+2008-10,4.70,London
+2008-11,4.62,London
+2008-12,4.63,London
+2009-01,4.70,London
+2009-02,4.80,London
+2009-03,4.72,London
+2009-04,4.74,London
+2009-05,4.83,London
+2009-06,4.93,London
+2009-07,4.93,London
+2009-08,5.08,London
+2009-09,4.98,London
+2009-10,4.98,London
+2009-11,4.99,London
+2009-12,4.99,London
+2010-01,5.06,London
+2010-02,5.15,London
+2010-03,5.06,London
+2010-04,5.08,London
+2010-05,5.09,London
+2010-06,5.09,London
+2010-07,5.30,London
+2010-08,5.10,London
+2010-09,5.16,London
+2010-10,5.16,London
+2010-11,5.22,London
+2010-12,5.29,London
+2011-01,5.42,London
+2011-02,5.50,London
+2011-03,5.38,London
+2011-04,5.38,London
+2011-05,5.38,London
+2011-06,5.41,London
+2011-07,5.44,London
+2011-08,5.46,London
+2011-09,5.37,London
+2011-10,5.52,London
+2011-11,5.53,London
+2011-12,5.65,London
+2012-01,5.56,London
+2012-02,5.50,London
+2012-03,5.58,London
+2012-04,5.66,London
+2012-05,5.57,London
+2012-06,5.68,London
+2012-07,5.65,London
+2012-08,5.74,London
+2012-09,5.59,London
+2012-10,5.53,London
+2012-11,5.66,London
+2012-12,5.60,London
+2013-01,5.60,London
+2013-02,5.40,London
+2013-03,5.35,London
+2013-04,5.34,London
+2013-05,5.29,London
+2013-06,5.37,London
+2013-07,5.29,London
+2013-08,5.31,London
+2013-09,5.23,London
+2013-10,5.23,London
+2013-11,5.27,London
+2013-12,5.28,London
+2014-01,5.53,London
+2014-02,5.21,London
+2014-03,5.03,London
+2014-04,5.10,London
+2014-05,5.02,London
+2014-06,5.02,London
+2014-07,5.02,London
+2014-08,5.04,London
+2014-09,5.06,London
+2014-10,5.06,London
+2014-11,5.15,London
+2014-12,5.09,London
+2015-01,5.09,London
+2015-02,5.34,London
+2015-03,5.27,London
+2015-04,5.27,London
+2015-05,5.23,London
+2015-06,5.41,London
+2015-07,5.26,London
+2015-08,5.19,London
+2015-09,5.14,London
+2015-10,5.19,London
+2015-11,5.26,London
+2015-12,5.24,London
+2016-01,5.22,London
+2016-02,5.32,London
+2016-03,5.32,London
+2016-04,5.25,London
+2016-05,5.31,London
+2016-06,5.27,London
+2016-07,5.34,London
+2016-08,5.59,London
+2016-09,5.59,London
+2016-10,5.62,London
+2016-11,5.99,London
+2016-12,6.06,London
+2017-01,5.98,London
+2017-02,5.73,London
+2017-03,5.73,London
+2017-04,5.74,London
+2017-05,5.84,London
+2017-06,5.79,London
+2017-07,5.81,London
+2017-08,5.76,London
+2017-09,5.76,London
+2017-10,5.78,London
+2017-11,5.86,London
+2017-12,5.94,London
+2018-01,5.99,London
+2018-02,6.13,London
+2018-03,6.13,London
+2018-04,6.02,London
+2018-05,6.16,London
+2018-06,6.10,London
+2018-07,6.10,London
+2018-08,6.12,London
+2018-09,6.10,London
+2018-10,6.07,London
+2018-11,6.19,London
+2018-12,6.17,London
+2019-01,6.19,London
+2019-02,6.12,London
+2019-03,6.10,London
+2019-04,6.10,London
+2019-05,6.16,London
+2019-06,6.15,London
+2019-07,6.15,London
+2019-08,6.21,London
+2019-09,6.21,London
+2019-10,6.28,London
+2019-11,6.39,London
+2019-12,6.41,London
+2020-01,6.52,London
+2020-02,6.32,London
+2020-03,6.32,London
+2020-04,6.06,London
+2020-05,5.32,London
+2020-06,6.68,London
+2020-07,6.44,London
+2020-08,6.54,London
+2020-09,6.58,London
+2020-10,6.60,London
+2020-11,6.60,London
+2020-12,6.84,London
+2021-01,7.01,London
+2021-02,7.01,London
+2021-03,6.87,London
+2021-04,6.87,London
+2021-05,6.81,London
+2021-06,6.76,London
+2021-07,6.76,London
+2021-08,6.76,London
+2021-09,6.76,London
+2021-10,6.75,London
+2021-11,6.88,London
+2021-12,6.89,London
+2022-01,7.02,London
+2022-02,7.06,London
+2022-03,7.31,London
+2022-04,8.11,London
+2022-05,8.37,London
+2022-06,8.63,London
+2022-07,8.53,London
+2022-08,8.99,London
+2022-09,8.56,London
+2022-10,8.50,London
+2022-11,8.92,London
+2022-12,8.94,London
+2023-01,8.97,London
+2023-02,9.30,London
+2023-03,9.61,London
+2023-04,9.41,London
+2023-05,9.42,London
+2023-06,9.52,London
+2023-07,9.61,London
+2023-08,9.60,London
+2023-09,8.71,London
+2023-10,8.63,London
+2023-11,9.08,London
+2023-12,9.10,London
+2024-01,9.13,London
+2024-02,8.92,London
+2024-03,8.92,London
+2024-04,8.93,London
+2024-05,9.07,London
+2024-06,9.11,London
+2024-07,9.13,London
+2024-08,8.80,London
+2024-09,9.40,London
+2002-02,4.20,South East (England)
+2002-03,4.20,South East (England)
+2002-04,4.26,South East (England)
+2002-05,4.29,South East (England)
+2002-06,4.18,South East (England)
+2002-07,4.24,South East (England)
+2002-08,4.23,South East (England)
+2002-09,4.29,South East (England)
+2002-10,4.29,South East (England)
+2002-11,4.29,South East (England)
+2002-12,4.29,South East (England)
+2003-01,4.29,South East (England)
+2003-02,4.48,South East (England)
+2003-03,4.48,South East (England)
+2003-04,4.48,South East (England)
+2003-05,4.51,South East (England)
+2003-06,4.51,South East (England)
+2003-07,4.51,South East (England)
+2003-08,4.53,South East (England)
+2003-09,4.51,South East (England)
+2003-10,4.52,South East (England)
+2003-11,4.52,South East (England)
+2003-12,4.51,South East (England)
+2004-01,4.52,South East (England)
+2004-02,4.31,South East (England)
+2004-03,4.25,South East (England)
+2004-04,4.25,South East (England)
+2004-05,4.26,South East (England)
+2004-06,4.18,South East (England)
+2004-07,4.20,South East (England)
+2004-08,4.22,South East (England)
+2004-09,4.22,South East (England)
+2004-10,4.19,South East (England)
+2004-11,4.19,South East (England)
+2004-12,4.23,South East (England)
+2005-01,4.20,South East (England)
+2005-02,4.30,South East (England)
+2005-03,4.28,South East (England)
+2005-04,4.28,South East (England)
+2005-05,4.33,South East (England)
+2005-06,4.19,South East (England)
+2005-07,4.24,South East (England)
+2005-08,4.24,South East (England)
+2005-09,4.27,South East (England)
+2005-10,4.39,South East (England)
+2005-11,4.30,South East (England)
+2005-12,4.31,South East (England)
+2006-01,4.31,South East (England)
+2006-02,4.22,South East (England)
+2006-03,4.22,South East (England)
+2006-04,4.22,South East (England)
+2006-05,4.23,South East (England)
+2006-06,4.21,South East (England)
+2006-07,4.34,South East (England)
+2006-08,4.22,South East (England)
+2006-09,4.22,South East (England)
+2006-10,4.20,South East (England)
+2006-11,4.36,South East (England)
+2006-12,4.36,South East (England)
+2007-01,4.39,South East (England)
+2007-02,4.39,South East (England)
+2007-03,4.40,South East (England)
+2007-04,4.40,South East (England)
+2007-05,4.40,South East (England)
+2007-06,4.42,South East (England)
+2007-07,4.39,South East (England)
+2007-08,4.41,South East (England)
+2007-09,4.47,South East (England)
+2007-10,4.47,South East (England)
+2007-11,4.47,South East (England)
+2007-12,4.44,South East (England)
+2008-01,4.57,South East (England)
+2008-02,4.40,South East (England)
+2008-03,4.41,South East (England)
+2008-04,4.46,South East (England)
+2008-05,4.40,South East (England)
+2008-06,4.40,South East (England)
+2008-07,4.43,South East (England)
+2008-08,4.49,South East (England)
+2008-09,4.43,South East (England)
+2008-10,4.45,South East (England)
+2008-11,4.46,South East (England)
+2008-12,4.26,South East (England)
+2009-01,4.37,South East (England)
+2009-02,4.44,South East (England)
+2009-03,4.44,South East (England)
+2009-04,4.48,South East (England)
+2009-05,4.44,South East (England)
+2009-06,4.44,South East (England)
+2009-07,4.48,South East (England)
+2009-08,4.50,South East (England)
+2009-09,4.48,South East (England)
+2009-10,4.53,South East (England)
+2009-11,4.44,South East (England)
+2009-12,4.42,South East (England)
+2010-01,4.43,South East (England)
+2010-02,4.41,South East (England)
+2010-03,4.42,South East (England)
+2010-04,4.46,South East (England)
+2010-05,4.47,South East (England)
+2010-06,4.47,South East (England)
+2010-07,4.48,South East (England)
+2010-08,4.47,South East (England)
+2010-09,4.49,South East (England)
+2010-10,4.50,South East (England)
+2010-11,4.52,South East (England)
+2010-12,4.50,South East (England)
+2011-01,4.59,South East (England)
+2011-02,4.71,South East (England)
+2011-03,4.69,South East (England)
+2011-04,4.73,South East (England)
+2011-05,4.65,South East (England)
+2011-06,4.65,South East (England)
+2011-07,4.67,South East (England)
+2011-08,4.67,South East (England)
+2011-09,4.69,South East (England)
+2011-10,4.69,South East (England)
+2011-11,4.73,South East (England)
+2011-12,4.74,South East (England)
+2012-01,4.71,South East (England)
+2012-02,4.60,South East (England)
+2012-03,4.60,South East (England)
+2012-04,4.60,South East (England)
+2012-05,4.60,South East (England)
+2012-06,4.61,South East (England)
+2012-07,4.57,South East (England)
+2012-08,4.57,South East (England)
+2012-09,4.65,South East (England)
+2012-10,4.59,South East (England)
+2012-11,4.59,South East (England)
+2012-12,4.64,South East (England)
+2013-01,4.70,South East (England)
+2013-02,4.74,South East (England)
+2013-03,4.71,South East (England)
+2013-04,4.71,South East (England)
+2013-05,4.71,South East (England)
+2013-06,4.67,South East (England)
+2013-07,4.74,South East (England)
+2013-08,4.74,South East (England)
+2013-09,4.74,South East (England)
+2013-10,4.71,South East (England)
+2013-11,4.76,South East (England)
+2013-12,4.73,South East (England)
+2014-01,4.72,South East (England)
+2014-02,4.84,South East (England)
+2014-03,4.80,South East (England)
+2014-04,4.80,South East (England)
+2014-05,4.84,South East (England)
+2014-06,4.88,South East (England)
+2014-07,4.97,South East (England)
+2014-08,5.07,South East (England)
+2014-09,5.07,South East (England)
+2014-10,5.06,South East (England)
+2014-11,5.07,South East (England)
+2014-12,5.07,South East (England)
+2015-01,5.08,South East (England)
+2015-02,5.08,South East (England)
+2015-03,5.09,South East (England)
+2015-04,5.07,South East (England)
+2015-05,5.11,South East (England)
+2015-06,5.11,South East (England)
+2015-07,5.11,South East (England)
+2015-08,5.11,South East (England)
+2015-09,5.11,South East (England)
+2015-10,5.18,South East (England)
+2015-11,5.18,South East (England)
+2015-12,5.19,South East (England)
+2016-01,5.20,South East (England)
+2016-02,5.17,South East (England)
+2016-03,5.16,South East (England)
+2016-04,5.17,South East (England)
+2016-05,5.17,South East (England)
+2016-06,5.17,South East (England)
+2016-07,5.13,South East (England)
+2016-08,5.13,South East (England)
+2016-09,5.18,South East (England)
+2016-10,5.21,South East (England)
+2016-11,5.35,South East (England)
+2016-12,5.32,South East (England)
+2017-01,5.37,South East (England)
+2017-02,5.35,South East (England)
+2017-03,5.36,South East (England)
+2017-04,5.36,South East (England)
+2017-05,5.40,South East (England)
+2017-06,5.40,South East (England)
+2017-07,5.40,South East (England)
+2017-08,5.40,South East (England)
+2017-09,5.43,South East (England)
+2017-10,5.47,South East (England)
+2017-11,5.49,South East (England)
+2017-12,5.52,South East (England)
+2018-01,5.52,South East (England)
+2018-02,5.40,South East (England)
+2018-03,5.45,South East (England)
+2018-04,5.52,South East (England)
+2018-05,5.59,South East (England)
+2018-06,5.59,South East (England)
+2018-07,5.64,South East (England)
+2018-08,5.70,South East (England)
+2018-09,5.70,South East (England)
+2018-10,5.64,South East (England)
+2018-11,5.64,South East (England)
+2018-12,5.61,South East (England)
+2019-01,5.61,South East (England)
+2019-02,5.43,South East (England)
+2019-03,5.44,South East (England)
+2019-04,5.60,South East (England)
+2019-05,5.51,South East (England)
+2019-06,5.57,South East (England)
+2019-07,5.59,South East (England)
+2019-08,5.59,South East (England)
+2019-09,5.58,South East (England)
+2019-10,5.68,South East (England)
+2019-11,5.69,South East (England)
+2019-12,5.62,South East (England)
+2020-01,5.76,South East (England)
+2020-02,5.78,South East (England)
+2020-03,5.66,South East (England)
+2020-04,5.29,South East (England)
+2020-05,5.48,South East (England)
+2020-06,5.47,South East (England)
+2020-07,5.47,South East (England)
+2020-08,5.56,South East (England)
+2020-09,5.81,South East (England)
+2020-10,5.76,South East (England)
+2020-11,5.81,South East (England)
+2020-12,5.84,South East (England)
+2021-01,5.78,South East (England)
+2021-02,5.78,South East (England)
+2021-03,5.78,South East (England)
+2021-04,5.77,South East (England)
+2021-05,5.60,South East (England)
+2021-06,5.64,South East (England)
+2021-07,5.65,South East (England)
+2021-08,5.69,South East (England)
+2021-09,5.64,South East (England)
+2021-10,5.67,South East (England)
+2021-11,5.71,South East (England)
+2021-12,5.71,South East (England)
+2022-01,5.79,South East (England)
+2022-02,5.89,South East (England)
+2022-03,5.98,South East (England)
+2022-04,6.00,South East (England)
+2022-05,6.15,South East (England)
+2022-06,6.17,South East (England)
+2022-07,6.23,South East (England)
+2022-08,6.23,South East (England)
+2022-09,6.27,South East (England)
+2022-10,6.29,South East (England)
+2022-11,6.28,South East (England)
+2022-12,6.38,South East (England)
+2023-01,6.43,South East (England)
+2023-02,6.80,South East (England)
+2023-03,6.86,South East (England)
+2023-04,6.88,South East (England)
+2023-05,7.05,South East (England)
+2023-06,6.88,South East (England)
+2023-07,6.98,South East (England)
+2023-08,7.04,South East (England)
+2023-09,7.09,South East (England)
+2023-10,7.13,South East (England)
+2023-11,7.10,South East (England)
+2023-12,7.09,South East (England)
+2024-01,7.16,South East (England)
+2024-02,7.44,South East (England)
+2024-03,7.25,South East (England)
+2024-04,7.27,South East (England)
+2024-05,7.19,South East (England)
+2024-06,7.23,South East (England)
+2024-07,7.21,South East (England)
+2024-08,7.29,South East (England)
+2024-09,7.49,South East (England)
+2002-02,4.66,South West (England)
+2002-03,4.47,South West (England)
+2002-04,4.47,South West (England)
+2002-05,4.47,South West (England)
+2002-06,4.47,South West (England)
+2002-07,4.47,South West (England)
+2002-08,4.47,South West (England)
+2002-09,4.55,South West (England)
+2002-10,4.47,South West (England)
+2002-11,4.47,South West (England)
+2002-12,4.47,South West (England)
+2003-01,4.49,South West (England)
+2003-02,4.68,South West (England)
+2003-03,4.81,South West (England)
+2003-04,4.81,South West (England)
+2003-05,4.68,South West (England)
+2003-06,4.70,South West (England)
+2003-07,4.70,South West (England)
+2003-08,4.70,South West (England)
+2003-09,4.68,South West (England)
+2003-10,4.70,South West (England)
+2003-11,4.70,South West (England)
+2003-12,4.70,South West (England)
+2004-01,4.65,South West (England)
+2004-02,4.52,South West (England)
+2004-03,4.54,South West (England)
+2004-04,4.48,South West (England)
+2004-05,4.54,South West (England)
+2004-06,4.59,South West (England)
+2004-07,4.59,South West (England)
+2004-08,4.59,South West (England)
+2004-09,4.59,South West (England)
+2004-10,4.59,South West (England)
+2004-11,4.60,South West (England)
+2004-12,4.60,South West (England)
+2005-01,4.60,South West (England)
+2005-02,4.33,South West (England)
+2005-03,4.33,South West (England)
+2005-04,4.33,South West (England)
+2005-05,4.33,South West (England)
+2005-06,4.32,South West (England)
+2005-07,4.32,South West (England)
+2005-08,4.33,South West (England)
+2005-09,4.33,South West (England)
+2005-10,4.33,South West (England)
+2005-11,4.33,South West (England)
+2005-12,4.44,South West (England)
+2006-01,4.36,South West (England)
+2006-02,4.27,South West (England)
+2006-03,4.27,South West (England)
+2006-04,4.27,South West (England)
+2006-05,4.29,South West (England)
+2006-06,4.38,South West (England)
+2006-07,4.38,South West (England)
+2006-08,4.46,South West (England)
+2006-09,4.46,South West (England)
+2006-10,4.47,South West (England)
+2006-11,4.47,South West (England)
+2006-12,4.42,South West (England)
+2007-01,4.38,South West (England)
+2007-02,4.33,South West (England)
+2007-03,4.33,South West (England)
+2007-04,4.40,South West (England)
+2007-05,4.40,South West (England)
+2007-06,4.40,South West (England)
+2007-07,4.48,South West (England)
+2007-08,4.35,South West (England)
+2007-09,4.35,South West (England)
+2007-10,4.35,South West (England)
+2007-11,4.35,South West (England)
+2007-12,4.39,South West (England)
+2008-01,4.39,South West (England)
+2008-02,4.40,South West (England)
+2008-03,4.40,South West (England)
+2008-04,4.35,South West (England)
+2008-05,4.37,South West (England)
+2008-06,4.37,South West (England)
+2008-07,4.37,South West (England)
+2008-08,4.37,South West (England)
+2008-09,4.49,South West (England)
+2008-10,4.50,South West (England)
+2008-11,4.49,South West (England)
+2008-12,4.67,South West (England)
+2009-01,4.49,South West (England)
+2009-02,4.41,South West (England)
+2009-03,4.48,South West (England)
+2009-04,4.41,South West (England)
+2009-05,4.41,South West (England)
+2009-06,4.41,South West (England)
+2009-07,4.41,South West (England)
+2009-08,4.41,South West (England)
+2009-09,4.41,South West (England)
+2009-10,4.41,South West (England)
+2009-11,4.41,South West (England)
+2009-12,4.41,South West (England)
+2010-01,4.40,South West (England)
+2010-02,4.36,South West (England)
+2010-03,4.36,South West (England)
+2010-04,4.38,South West (England)
+2010-05,4.38,South West (England)
+2010-06,4.41,South West (England)
+2010-07,4.46,South West (England)
+2010-08,4.46,South West (England)
+2010-09,4.45,South West (England)
+2010-10,4.50,South West (England)
+2010-11,4.43,South West (England)
+2010-12,4.45,South West (England)
+2011-01,4.35,South West (England)
+2011-02,4.66,South West (England)
+2011-03,4.60,South West (England)
+2011-04,4.52,South West (England)
+2011-05,4.55,South West (England)
+2011-06,4.57,South West (England)
+2011-07,4.54,South West (England)
+2011-08,4.68,South West (England)
+2011-09,4.47,South West (England)
+2011-10,4.50,South West (England)
+2011-11,4.50,South West (England)
+2011-12,4.47,South West (England)
+2012-01,4.47,South West (England)
+2012-02,4.59,South West (England)
+2012-03,4.61,South West (England)
+2012-04,4.66,South West (England)
+2012-05,4.66,South West (England)
+2012-06,4.66,South West (England)
+2012-07,4.70,South West (England)
+2012-08,4.66,South West (England)
+2012-09,4.79,South West (England)
+2012-10,4.66,South West (England)
+2012-11,4.66,South West (England)
+2012-12,4.66,South West (England)
+2013-01,4.73,South West (England)
+2013-02,5.00,South West (England)
+2013-03,5.11,South West (England)
+2013-04,5.14,South West (England)
+2013-05,5.23,South West (England)
+2013-06,5.17,South West (England)
+2013-07,5.17,South West (England)
+2013-08,5.17,South West (England)
+2013-09,5.17,South West (England)
+2013-10,5.17,South West (England)
+2013-11,5.17,South West (England)
+2013-12,5.25,South West (England)
+2014-01,5.04,South West (England)
+2014-02,4.99,South West (England)
+2014-03,4.99,South West (England)
+2014-04,5.02,South West (England)
+2014-05,5.02,South West (England)
+2014-06,4.97,South West (England)
+2014-07,4.97,South West (England)
+2014-08,5.01,South West (England)
+2014-09,5.10,South West (England)
+2014-10,5.07,South West (England)
+2014-11,5.09,South West (England)
+2014-12,5.15,South West (England)
+2015-01,5.15,South West (England)
+2015-02,5.15,South West (England)
+2015-03,5.19,South West (England)
+2015-04,5.36,South West (England)
+2015-05,5.19,South West (England)
+2015-06,5.19,South West (England)
+2015-07,5.15,South West (England)
+2015-08,5.19,South West (England)
+2015-09,5.19,South West (England)
+2015-10,5.19,South West (England)
+2015-11,5.19,South West (England)
+2015-12,5.21,South West (England)
+2016-01,5.23,South West (England)
+2016-02,5.23,South West (England)
+2016-03,5.23,South West (England)
+2016-04,5.23,South West (England)
+2016-05,5.23,South West (England)
+2016-06,5.23,South West (England)
+2016-07,5.23,South West (England)
+2016-08,5.23,South West (England)
+2016-09,4.98,South West (England)
+2016-10,4.99,South West (England)
+2016-11,5.01,South West (England)
+2016-12,5.02,South West (England)
+2017-01,5.06,South West (England)
+2017-02,5.24,South West (England)
+2017-03,5.24,South West (England)
+2017-04,5.26,South West (England)
+2017-05,5.23,South West (England)
+2017-06,5.12,South West (England)
+2017-07,5.12,South West (England)
+2017-08,5.31,South West (England)
+2017-09,5.33,South West (England)
+2017-10,5.22,South West (England)
+2017-11,5.37,South West (England)
+2017-12,5.37,South West (England)
+2018-01,5.39,South West (England)
+2018-02,5.34,South West (England)
+2018-03,5.40,South West (England)
+2018-04,5.37,South West (England)
+2018-05,5.37,South West (England)
+2018-06,5.38,South West (England)
+2018-07,5.31,South West (England)
+2018-08,5.47,South West (England)
+2018-09,5.50,South West (England)
+2018-10,5.50,South West (England)
+2018-11,5.53,South West (England)
+2018-12,5.53,South West (England)
+2019-01,5.53,South West (England)
+2019-02,5.53,South West (England)
+2019-03,5.46,South West (England)
+2019-04,5.48,South West (England)
+2019-05,5.50,South West (England)
+2019-06,5.51,South West (England)
+2019-07,5.51,South West (England)
+2019-08,5.51,South West (England)
+2019-09,5.51,South West (England)
+2019-10,5.51,South West (England)
+2019-11,5.55,South West (England)
+2019-12,5.55,South West (England)
+2020-01,5.56,South West (England)
+2020-02,5.54,South West (England)
+2020-03,5.54,South West (England)
+2020-04,5.38,South West (England)
+2020-05,5.63,South West (England)
+2020-06,5.55,South West (England)
+2020-07,5.72,South West (England)
+2020-08,5.68,South West (England)
+2020-09,5.61,South West (England)
+2020-10,5.47,South West (England)
+2020-11,5.77,South West (England)
+2020-12,5.74,South West (England)
+2021-01,5.74,South West (England)
+2021-02,5.74,South West (England)
+2021-03,5.74,South West (England)
+2021-04,5.74,South West (England)
+2021-05,5.75,South West (England)
+2021-06,5.81,South West (England)
+2021-07,5.71,South West (England)
+2021-08,5.80,South West (England)
+2021-09,5.77,South West (England)
+2021-10,5.95,South West (England)
+2021-11,5.95,South West (England)
+2021-12,5.98,South West (England)
+2022-01,6.00,South West (England)
+2022-02,5.99,South West (England)
+2022-03,6.01,South West (England)
+2022-04,6.06,South West (England)
+2022-05,6.10,South West (England)
+2022-06,6.15,South West (England)
+2022-07,6.15,South West (England)
+2022-08,6.21,South West (England)
+2022-09,6.42,South West (England)
+2022-10,6.37,South West (England)
+2022-11,6.44,South West (England)
+2022-12,6.45,South West (England)
+2023-01,6.44,South West (England)
+2023-02,6.45,South West (England)
+2023-03,6.69,South West (England)
+2023-04,6.66,South West (England)
+2023-05,6.69,South West (England)
+2023-06,6.72,South West (England)
+2023-07,6.80,South West (England)
+2023-08,6.80,South West (England)
+2023-09,6.98,South West (England)
+2023-10,7.04,South West (England)
+2023-11,7.06,South West (England)
+2023-12,7.00,South West (England)
+2024-01,7.16,South West (England)
+2024-02,7.10,South West (England)
+2024-03,7.14,South West (England)
+2024-04,7.15,South West (England)
+2024-05,7.17,South West (England)
+2024-06,7.27,South West (England)
+2024-07,7.30,South West (England)
+2024-08,7.36,South West (England)
+2024-09,7.34,South West (England)
+2002-02,4.28,East
+2002-03,4.28,East
+2002-04,4.26,East
+2002-05,4.26,East
+2002-06,4.34,East
+2002-07,4.37,East
+2002-08,4.37,East
+2002-09,4.38,East
+2002-10,4.38,East
+2002-11,4.30,East
+2002-12,4.26,East
+2003-01,4.33,East
+2003-02,4.60,East
+2003-03,4.57,East
+2003-04,4.57,East
+2003-05,4.57,East
+2003-06,4.61,East
+2003-07,4.58,East
+2003-08,4.54,East
+2003-09,4.52,East
+2003-10,4.57,East
+2003-11,4.38,East
+2003-12,4.51,East
+2004-01,4.37,East
+2004-02,4.49,East
+2004-03,4.36,East
+2004-04,4.18,East
+2004-05,4.67,East
+2004-06,4.51,East
+2004-07,4.55,East
+2004-08,4.55,East
+2004-09,4.55,East
+2004-10,4.55,East
+2004-11,4.58,East
+2004-12,4.57,East
+2005-01,4.57,East
+2005-02,4.32,East
+2005-03,4.40,East
+2005-04,4.40,East
+2005-05,4.01,East
+2005-06,4.46,East
+2005-07,4.46,East
+2005-08,4.53,East
+2005-09,4.46,East
+2005-10,4.46,East
+2005-11,4.46,East
+2005-12,4.46,East
+2006-01,4.05,East
+2006-02,4.47,East
+2006-03,4.49,East
+2006-04,4.57,East
+2006-05,4.57,East
+2006-06,4.57,East
+2006-07,4.57,East
+2006-08,4.57,East
+2006-09,4.57,East
+2006-10,4.57,East
+2006-11,4.60,East
+2006-12,4.63,East
+2007-01,4.60,East
+2007-02,3.98,East
+2007-03,4.60,East
+2007-04,4.60,East
+2007-05,4.06,East
+2007-06,4.60,East
+2007-07,4.62,East
+2007-08,4.62,East
+2007-09,4.63,East
+2007-10,4.63,East
+2007-11,4.63,East
+2007-12,4.63,East
+2008-01,4.64,East
+2008-02,4.64,East
+2008-03,4.64,East
+2008-04,4.64,East
+2008-05,4.66,East
+2008-06,4.73,East
+2008-07,4.67,East
+2008-08,4.67,East
+2008-09,4.68,East
+2008-10,4.68,East
+2008-11,4.68,East
+2008-12,4.79,East
+2009-01,4.99,East
+2009-02,4.20,East
+2009-03,4.25,East
+2009-04,4.21,East
+2009-05,4.23,East
+2009-06,4.24,East
+2009-07,4.25,East
+2009-08,4.17,East
+2009-09,4.22,East
+2009-10,4.20,East
+2009-11,4.20,East
+2009-12,4.23,East
+2010-01,4.23,East
+2010-02,4.69,East
+2010-03,4.60,East
+2010-04,4.60,East
+2010-05,4.65,East
+2010-06,4.63,East
+2010-07,4.63,East
+2010-08,4.67,East
+2010-09,4.67,East
+2010-10,4.70,East
+2010-11,4.81,East
+2010-12,4.75,East
+2011-01,4.73,East
+2011-02,4.77,East
+2011-03,4.77,East
+2011-04,5.02,East
+2011-05,4.95,East
+2011-06,4.95,East
+2011-07,4.99,East
+2011-08,4.93,East
+2011-09,5.00,East
+2011-10,4.98,East
+2011-11,4.98,East
+2011-12,4.96,East
+2012-01,5.04,East
+2012-02,5.09,East
+2012-03,5.04,East
+2012-04,5.02,East
+2012-05,5.12,East
+2012-06,5.10,East
+2012-07,5.02,East
+2012-08,5.04,East
+2012-09,5.13,East
+2012-10,5.22,East
+2012-11,5.22,East
+2012-12,5.33,East
+2013-01,5.25,East
+2013-02,5.19,East
+2013-03,5.19,East
+2013-04,5.21,East
+2013-05,5.30,East
+2013-06,5.21,East
+2013-07,5.30,East
+2013-08,5.21,East
+2013-09,5.21,East
+2013-10,5.21,East
+2013-11,5.21,East
+2013-12,5.36,East
+2014-01,5.45,East
+2014-02,4.82,East
+2014-03,4.82,East
+2014-04,4.82,East
+2014-05,4.82,East
+2014-06,4.82,East
+2014-07,4.86,East
+2014-08,4.82,East
+2014-09,4.82,East
+2014-10,4.82,East
+2014-11,4.82,East
+2014-12,4.75,East
+2015-01,4.92,East
+2015-02,4.79,East
+2015-03,4.82,East
+2015-04,4.83,East
+2015-05,4.89,East
+2015-06,4.90,East
+2015-07,4.90,East
+2015-08,4.93,East
+2015-09,4.93,East
+2015-10,4.93,East
+2015-11,4.99,East
+2015-12,4.85,East
+2016-01,4.85,East
+2016-02,4.80,East
+2016-03,4.85,East
+2016-04,4.85,East
+2016-05,4.85,East
+2016-06,4.85,East
+2016-07,4.85,East
+2016-08,4.82,East
+2016-09,4.82,East
+2016-10,4.82,East
+2016-11,4.81,East
+2016-12,4.85,East
+2017-01,4.84,East
+2017-02,4.79,East
+2017-03,4.97,East
+2017-04,4.88,East
+2017-05,4.98,East
+2017-06,5.01,East
+2017-07,5.01,East
+2017-08,5.01,East
+2017-09,5.01,East
+2017-10,5.06,East
+2017-11,5.10,East
+2017-12,5.10,East
+2018-01,5.11,East
+2018-02,5.11,East
+2018-03,5.14,East
+2018-04,5.12,East
+2018-05,5.16,East
+2018-06,5.14,East
+2018-07,5.16,East
+2018-08,5.18,East
+2018-09,5.18,East
+2018-10,5.20,East
+2018-11,5.18,East
+2018-12,5.18,East
+2019-01,5.18,East
+2019-02,5.35,East
+2019-03,5.36,East
+2019-04,5.36,East
+2019-05,5.36,East
+2019-06,5.41,East
+2019-07,5.38,East
+2019-08,5.38,East
+2019-09,5.38,East
+2019-10,5.40,East
+2019-11,5.40,East
+2019-12,5.40,East
+2020-01,5.55,East
+2020-02,5.56,East
+2020-03,5.57,East
+2020-04,5.74,East
+2020-05,5.63,East
+2020-06,5.52,East
+2020-07,5.56,East
+2020-08,5.63,East
+2020-09,5.59,East
+2020-10,5.76,East
+2020-11,6.00,East
+2020-12,5.87,East
+2021-01,5.87,East
+2021-02,5.90,East
+2021-03,5.69,East
+2021-04,5.93,East
+2021-05,5.76,East
+2021-06,5.82,East
+2021-07,5.83,East
+2021-08,5.86,East
+2021-09,5.89,East
+2021-10,5.85,East
+2021-11,5.89,East
+2021-12,5.92,East
+2022-01,5.92,East
+2022-02,5.83,East
+2022-03,5.87,East
+2022-04,5.99,East
+2022-05,6.12,East
+2022-06,6.25,East
+2022-07,6.42,East
+2022-08,6.56,East
+2022-09,6.43,East
+2022-10,6.39,East
+2022-11,6.46,East
+2022-12,6.54,East
+2023-01,6.55,East
+2023-02,6.51,East
+2023-03,6.57,East
+2023-04,6.57,East
+2023-05,6.63,East
+2023-06,6.77,East
+2023-07,6.96,East
+2023-08,7.08,East
+2023-09,7.18,East
+2023-10,7.05,East
+2023-11,7.06,East
+2023-12,7.06,East
+2024-01,7.03,East
+2024-02,7.46,East
+2024-03,7.46,East
+2024-04,7.69,East
+2024-05,7.66,East
+2024-06,7.72,East
+2024-07,7.76,East
+2024-08,7.76,East
+2024-09,7.76,East
+2002-02,4.23,East Midlands (England)
+2002-03,4.11,East Midlands (England)
+2002-04,4.12,East Midlands (England)
+2002-05,4.09,East Midlands (England)
+2002-06,4.09,East Midlands (England)
+2002-07,4.09,East Midlands (England)
+2002-08,4.09,East Midlands (England)
+2002-09,3.79,East Midlands (England)
+2002-10,4.02,East Midlands (England)
+2002-11,4.02,East Midlands (England)
+2002-12,4.11,East Midlands (England)
+2003-01,4.17,East Midlands (England)
+2003-02,4.37,East Midlands (England)
+2003-03,4.39,East Midlands (England)
+2003-04,4.41,East Midlands (England)
+2003-05,4.34,East Midlands (England)
+2003-06,4.34,East Midlands (England)
+2003-07,4.41,East Midlands (England)
+2003-08,4.46,East Midlands (England)
+2003-09,4.44,East Midlands (England)
+2003-10,4.44,East Midlands (England)
+2003-11,4.37,East Midlands (England)
+2003-12,4.37,East Midlands (England)
+2004-01,4.37,East Midlands (England)
+2004-02,4.25,East Midlands (England)
+2004-03,4.25,East Midlands (England)
+2004-04,4.25,East Midlands (England)
+2004-05,4.25,East Midlands (England)
+2004-06,4.25,East Midlands (England)
+2004-07,4.25,East Midlands (England)
+2004-08,4.27,East Midlands (England)
+2004-09,4.28,East Midlands (England)
+2004-10,4.28,East Midlands (England)
+2004-11,4.28,East Midlands (England)
+2004-12,4.28,East Midlands (England)
+2005-01,4.28,East Midlands (England)
+2005-02,4.28,East Midlands (England)
+2005-03,4.28,East Midlands (England)
+2005-04,4.27,East Midlands (England)
+2005-05,4.28,East Midlands (England)
+2005-06,4.34,East Midlands (England)
+2005-07,4.29,East Midlands (England)
+2005-08,4.34,East Midlands (England)
+2005-09,4.34,East Midlands (England)
+2005-10,4.48,East Midlands (England)
+2005-11,4.35,East Midlands (England)
+2005-12,4.35,East Midlands (England)
+2006-01,4.35,East Midlands (England)
+2006-02,3.93,East Midlands (England)
+2006-03,3.99,East Midlands (England)
+2006-04,3.99,East Midlands (England)
+2006-05,4.09,East Midlands (England)
+2006-06,4.19,East Midlands (England)
+2006-07,4.19,East Midlands (England)
+2006-08,4.30,East Midlands (England)
+2006-09,4.19,East Midlands (England)
+2006-10,4.26,East Midlands (England)
+2006-11,4.27,East Midlands (England)
+2006-12,4.27,East Midlands (England)
+2007-01,4.28,East Midlands (England)
+2007-02,4.29,East Midlands (England)
+2007-03,4.39,East Midlands (England)
+2007-04,4.32,East Midlands (England)
+2007-05,4.32,East Midlands (England)
+2007-06,4.32,East Midlands (England)
+2007-07,4.30,East Midlands (England)
+2007-08,4.45,East Midlands (England)
+2007-09,4.45,East Midlands (England)
+2007-10,4.45,East Midlands (England)
+2007-11,4.56,East Midlands (England)
+2007-12,4.45,East Midlands (England)
+2008-01,4.52,East Midlands (England)
+2008-02,4.53,East Midlands (England)
+2008-03,4.48,East Midlands (England)
+2008-04,4.49,East Midlands (England)
+2008-05,4.35,East Midlands (England)
+2008-06,4.51,East Midlands (England)
+2008-07,4.51,East Midlands (England)
+2008-08,4.54,East Midlands (England)
+2008-09,4.44,East Midlands (England)
+2008-10,4.59,East Midlands (England)
+2008-11,4.44,East Midlands (England)
+2008-12,4.47,East Midlands (England)
+2009-01,4.54,East Midlands (England)
+2009-02,4.41,East Midlands (England)
+2009-03,4.41,East Midlands (England)
+2009-04,4.41,East Midlands (England)
+2009-05,4.41,East Midlands (England)
+2009-06,4.41,East Midlands (England)
+2009-07,4.38,East Midlands (England)
+2009-08,4.34,East Midlands (England)
+2009-09,4.38,East Midlands (England)
+2009-10,4.38,East Midlands (England)
+2009-11,4.65,East Midlands (England)
+2009-12,4.67,East Midlands (England)
+2010-01,4.67,East Midlands (England)
+2010-02,4.84,East Midlands (England)
+2010-03,4.75,East Midlands (England)
+2010-04,4.75,East Midlands (England)
+2010-05,4.76,East Midlands (England)
+2010-06,4.76,East Midlands (England)
+2010-07,4.84,East Midlands (England)
+2010-08,4.84,East Midlands (England)
+2010-09,4.84,East Midlands (England)
+2010-10,4.84,East Midlands (England)
+2010-11,4.86,East Midlands (England)
+2010-12,4.86,East Midlands (England)
+2011-01,4.89,East Midlands (England)
+2011-02,4.94,East Midlands (England)
+2011-03,4.96,East Midlands (England)
+2011-04,4.84,East Midlands (England)
+2011-05,4.84,East Midlands (England)
+2011-06,4.84,East Midlands (England)
+2011-07,4.80,East Midlands (England)
+2011-08,4.97,East Midlands (England)
+2011-09,4.76,East Midlands (England)
+2011-10,4.76,East Midlands (England)
+2011-11,4.85,East Midlands (England)
+2011-12,4.86,East Midlands (England)
+2012-01,4.77,East Midlands (England)
+2012-02,4.87,East Midlands (England)
+2012-03,4.87,East Midlands (England)
+2012-04,4.88,East Midlands (England)
+2012-05,4.82,East Midlands (England)
+2012-06,4.82,East Midlands (England)
+2012-07,4.82,East Midlands (England)
+2012-08,4.82,East Midlands (England)
+2012-09,4.82,East Midlands (England)
+2012-10,4.82,East Midlands (England)
+2012-11,4.93,East Midlands (England)
+2012-12,4.82,East Midlands (England)
+2013-01,4.49,East Midlands (England)
+2013-02,4.80,East Midlands (England)
+2013-03,4.80,East Midlands (England)
+2013-04,4.80,East Midlands (England)
+2013-05,4.80,East Midlands (England)
+2013-06,4.80,East Midlands (England)
+2013-07,4.80,East Midlands (England)
+2013-08,4.80,East Midlands (England)
+2013-09,4.86,East Midlands (England)
+2013-10,4.86,East Midlands (England)
+2013-11,4.93,East Midlands (England)
+2013-12,4.93,East Midlands (England)
+2014-01,4.93,East Midlands (England)
+2014-02,4.98,East Midlands (England)
+2014-03,5.03,East Midlands (England)
+2014-04,4.94,East Midlands (England)
+2014-05,4.90,East Midlands (England)
+2014-06,4.90,East Midlands (England)
+2014-07,4.90,East Midlands (England)
+2014-08,4.90,East Midlands (England)
+2014-09,4.90,East Midlands (England)
+2014-10,5.19,East Midlands (England)
+2014-11,5.19,East Midlands (England)
+2014-12,5.19,East Midlands (England)
+2015-01,5.08,East Midlands (England)
+2015-02,5.18,East Midlands (England)
+2015-03,5.10,East Midlands (England)
+2015-04,5.10,East Midlands (England)
+2015-05,5.10,East Midlands (England)
+2015-06,5.07,East Midlands (England)
+2015-07,5.07,East Midlands (England)
+2015-08,5.09,East Midlands (England)
+2015-09,5.09,East Midlands (England)
+2015-10,5.15,East Midlands (England)
+2015-11,5.09,East Midlands (England)
+2015-12,5.11,East Midlands (England)
+2016-01,5.18,East Midlands (England)
+2016-02,5.20,East Midlands (England)
+2016-03,5.32,East Midlands (England)
+2016-04,5.20,East Midlands (England)
+2016-05,4.95,East Midlands (England)
+2016-06,4.89,East Midlands (England)
+2016-07,4.90,East Midlands (England)
+2016-08,4.96,East Midlands (England)
+2016-09,5.18,East Midlands (England)
+2016-10,4.96,East Midlands (England)
+2016-11,4.96,East Midlands (England)
+2016-12,4.96,East Midlands (England)
+2017-01,4.92,East Midlands (England)
+2017-02,4.87,East Midlands (England)
+2017-03,4.87,East Midlands (England)
+2017-04,4.87,East Midlands (England)
+2017-05,4.92,East Midlands (England)
+2017-06,4.92,East Midlands (England)
+2017-07,5.18,East Midlands (England)
+2017-08,4.98,East Midlands (England)
+2017-09,4.98,East Midlands (England)
+2017-10,5.19,East Midlands (England)
+2017-11,5.21,East Midlands (England)
+2017-12,5.23,East Midlands (England)
+2018-01,5.20,East Midlands (England)
+2018-02,5.22,East Midlands (England)
+2018-03,5.43,East Midlands (England)
+2018-04,5.53,East Midlands (England)
+2018-05,5.22,East Midlands (England)
+2018-06,5.22,East Midlands (England)
+2018-07,5.11,East Midlands (England)
+2018-08,5.29,East Midlands (England)
+2018-09,5.08,East Midlands (England)
+2018-10,5.47,East Midlands (England)
+2018-11,5.47,East Midlands (England)
+2018-12,5.34,East Midlands (England)
+2019-01,5.18,East Midlands (England)
+2019-02,5.19,East Midlands (England)
+2019-03,5.27,East Midlands (England)
+2019-04,5.22,East Midlands (England)
+2019-05,5.24,East Midlands (England)
+2019-06,5.24,East Midlands (England)
+2019-07,5.29,East Midlands (England)
+2019-08,5.42,East Midlands (England)
+2019-09,5.29,East Midlands (England)
+2019-10,5.37,East Midlands (England)
+2019-11,5.37,East Midlands (England)
+2019-12,5.47,East Midlands (England)
+2020-01,5.49,East Midlands (England)
+2020-02,5.53,East Midlands (England)
+2020-03,5.53,East Midlands (England)
+2020-04,5.80,East Midlands (England)
+2020-05,6.01,East Midlands (England)
+2020-06,5.96,East Midlands (England)
+2020-07,5.83,East Midlands (England)
+2020-08,5.53,East Midlands (England)
+2020-09,5.36,East Midlands (England)
+2020-10,5.36,East Midlands (England)
+2020-11,5.76,East Midlands (England)
+2020-12,5.96,East Midlands (England)
+2021-01,5.92,East Midlands (England)
+2021-02,5.77,East Midlands (England)
+2021-03,5.77,East Midlands (England)
+2021-04,5.71,East Midlands (England)
+2021-05,5.64,East Midlands (England)
+2021-06,5.71,East Midlands (England)
+2021-07,5.71,East Midlands (England)
+2021-08,5.71,East Midlands (England)
+2021-09,5.86,East Midlands (England)
+2021-10,5.98,East Midlands (England)
+2021-11,5.98,East Midlands (England)
+2021-12,6.06,East Midlands (England)
+2022-01,6.12,East Midlands (England)
+2022-02,6.31,East Midlands (England)
+2022-03,6.19,East Midlands (England)
+2022-04,6.23,East Midlands (England)
+2022-05,6.32,East Midlands (England)
+2022-06,6.33,East Midlands (England)
+2022-07,6.33,East Midlands (England)
+2022-08,6.55,East Midlands (England)
+2022-09,6.60,East Midlands (England)
+2022-10,6.60,East Midlands (England)
+2022-11,6.66,East Midlands (England)
+2022-12,6.63,East Midlands (England)
+2023-01,6.65,East Midlands (England)
+2023-02,6.63,East Midlands (England)
+2023-03,6.72,East Midlands (England)
+2023-04,6.64,East Midlands (England)
+2023-05,6.87,East Midlands (England)
+2023-06,6.87,East Midlands (England)
+2023-07,6.59,East Midlands (England)
+2023-08,6.68,East Midlands (England)
+2023-09,6.75,East Midlands (England)
+2023-10,6.75,East Midlands (England)
+2023-11,6.85,East Midlands (England)
+2023-12,6.85,East Midlands (England)
+2024-01,6.85,East Midlands (England)
+2024-02,7.11,East Midlands (England)
+2024-03,7.02,East Midlands (England)
+2024-04,6.98,East Midlands (England)
+2024-05,6.98,East Midlands (England)
+2024-06,7.29,East Midlands (England)
+2024-07,7.29,East Midlands (England)
+2024-08,7.32,East Midlands (England)
+2024-09,7.35,East Midlands (England)
+2002-02,4.30,West Midlands (England)
+2002-03,4.39,West Midlands (England)
+2002-04,4.40,West Midlands (England)
+2002-05,4.91,West Midlands (England)
+2002-06,4.91,West Midlands (England)
+2002-07,4.91,West Midlands (England)
+2002-08,4.91,West Midlands (England)
+2002-09,4.81,West Midlands (England)
+2002-10,4.81,West Midlands (England)
+2002-11,4.71,West Midlands (England)
+2002-12,4.74,West Midlands (England)
+2003-01,4.80,West Midlands (England)
+2003-02,4.91,West Midlands (England)
+2003-03,4.30,West Midlands (England)
+2003-04,4.39,West Midlands (England)
+2003-05,4.39,West Midlands (England)
+2003-06,4.44,West Midlands (England)
+2003-07,4.45,West Midlands (England)
+2003-08,4.44,West Midlands (England)
+2003-09,4.39,West Midlands (England)
+2003-10,4.65,West Midlands (England)
+2003-11,4.65,West Midlands (England)
+2003-12,4.65,West Midlands (England)
+2004-01,4.65,West Midlands (England)
+2004-02,4.53,West Midlands (England)
+2004-03,4.53,West Midlands (England)
+2004-04,4.55,West Midlands (England)
+2004-05,4.55,West Midlands (England)
+2004-06,4.55,West Midlands (England)
+2004-07,4.57,West Midlands (England)
+2004-08,4.65,West Midlands (England)
+2004-09,4.66,West Midlands (England)
+2004-10,4.66,West Midlands (England)
+2004-11,4.69,West Midlands (England)
+2004-12,4.70,West Midlands (England)
+2005-01,4.71,West Midlands (England)
+2005-02,4.95,West Midlands (England)
+2005-03,4.99,West Midlands (England)
+2005-04,5.31,West Midlands (England)
+2005-05,4.56,West Midlands (England)
+2005-06,5.22,West Midlands (England)
+2005-07,5.13,West Midlands (England)
+2005-08,5.22,West Midlands (England)
+2005-09,5.22,West Midlands (England)
+2005-10,5.23,West Midlands (England)
+2005-11,5.15,West Midlands (England)
+2005-12,5.23,West Midlands (England)
+2006-01,5.23,West Midlands (England)
+2006-02,5.28,West Midlands (England)
+2006-03,5.28,West Midlands (England)
+2006-04,5.28,West Midlands (England)
+2006-05,5.28,West Midlands (England)
+2006-06,5.40,West Midlands (England)
+2006-07,5.28,West Midlands (England)
+2006-08,5.27,West Midlands (England)
+2006-09,5.27,West Midlands (England)
+2006-10,5.27,West Midlands (England)
+2006-11,5.18,West Midlands (England)
+2006-12,5.27,West Midlands (England)
+2007-01,5.48,West Midlands (England)
+2007-02,5.37,West Midlands (England)
+2007-03,5.38,West Midlands (England)
+2007-04,5.47,West Midlands (England)
+2007-05,5.54,West Midlands (England)
+2007-06,5.47,West Midlands (England)
+2007-07,5.23,West Midlands (England)
+2007-08,5.31,West Midlands (England)
+2007-09,5.35,West Midlands (England)
+2007-10,5.26,West Midlands (England)
+2007-11,5.01,West Midlands (England)
+2007-12,5.02,West Midlands (England)
+2008-01,5.02,West Midlands (England)
+2008-02,4.99,West Midlands (England)
+2008-03,4.99,West Midlands (England)
+2008-04,4.99,West Midlands (England)
+2008-05,4.99,West Midlands (England)
+2008-06,5.02,West Midlands (England)
+2008-07,5.02,West Midlands (England)
+2008-08,5.03,West Midlands (England)
+2008-09,5.02,West Midlands (England)
+2008-10,5.07,West Midlands (England)
+2008-11,5.07,West Midlands (England)
+2008-12,5.21,West Midlands (England)
+2009-01,5.21,West Midlands (England)
+2009-02,5.19,West Midlands (England)
+2009-03,5.21,West Midlands (England)
+2009-04,5.32,West Midlands (England)
+2009-05,5.34,West Midlands (England)
+2009-06,5.25,West Midlands (England)
+2009-07,5.25,West Midlands (England)
+2009-08,5.28,West Midlands (England)
+2009-09,5.28,West Midlands (England)
+2009-10,5.28,West Midlands (England)
+2009-11,5.28,West Midlands (England)
+2009-12,5.28,West Midlands (England)
+2010-01,5.29,West Midlands (England)
+2010-02,5.12,West Midlands (England)
+2010-03,5.12,West Midlands (England)
+2010-04,5.17,West Midlands (England)
+2010-05,5.18,West Midlands (England)
+2010-06,5.18,West Midlands (England)
+2010-07,5.18,West Midlands (England)
+2010-08,5.18,West Midlands (England)
+2010-09,5.18,West Midlands (England)
+2010-10,5.18,West Midlands (England)
+2010-11,5.25,West Midlands (England)
+2010-12,5.33,West Midlands (England)
+2011-01,5.36,West Midlands (England)
+2011-02,4.89,West Midlands (England)
+2011-03,4.89,West Midlands (England)
+2011-04,4.89,West Midlands (England)
+2011-05,4.89,West Midlands (England)
+2011-06,4.94,West Midlands (England)
+2011-07,5.03,West Midlands (England)
+2011-08,5.19,West Midlands (England)
+2011-09,5.19,West Midlands (England)
+2011-10,5.19,West Midlands (England)
+2011-11,5.08,West Midlands (England)
+2011-12,5.08,West Midlands (England)
+2012-01,5.15,West Midlands (England)
+2012-02,5.20,West Midlands (England)
+2012-03,5.23,West Midlands (England)
+2012-04,5.23,West Midlands (England)
+2012-05,5.23,West Midlands (England)
+2012-06,5.26,West Midlands (England)
+2012-07,5.26,West Midlands (England)
+2012-08,5.26,West Midlands (England)
+2012-09,5.26,West Midlands (England)
+2012-10,5.26,West Midlands (England)
+2012-11,5.26,West Midlands (England)
+2012-12,5.29,West Midlands (England)
+2013-01,5.29,West Midlands (England)
+2013-02,5.12,West Midlands (England)
+2013-03,5.12,West Midlands (England)
+2013-04,5.14,West Midlands (England)
+2013-05,5.14,West Midlands (England)
+2013-06,5.20,West Midlands (England)
+2013-07,5.20,West Midlands (England)
+2013-08,5.16,West Midlands (England)
+2013-09,5.16,West Midlands (England)
+2013-10,5.16,West Midlands (England)
+2013-11,5.22,West Midlands (England)
+2013-12,5.22,West Midlands (England)
+2014-01,5.22,West Midlands (England)
+2014-02,5.24,West Midlands (England)
+2014-03,5.30,West Midlands (England)
+2014-04,5.30,West Midlands (England)
+2014-05,5.30,West Midlands (England)
+2014-06,5.15,West Midlands (England)
+2014-07,5.15,West Midlands (England)
+2014-08,5.16,West Midlands (England)
+2014-09,5.16,West Midlands (England)
+2014-10,5.16,West Midlands (England)
+2014-11,5.16,West Midlands (England)
+2014-12,5.16,West Midlands (England)
+2015-01,5.20,West Midlands (England)
+2015-02,5.08,West Midlands (England)
+2015-03,5.07,West Midlands (England)
+2015-04,5.07,West Midlands (England)
+2015-05,5.07,West Midlands (England)
+2015-06,5.07,West Midlands (England)
+2015-07,5.07,West Midlands (England)
+2015-08,5.07,West Midlands (England)
+2015-09,5.07,West Midlands (England)
+2015-10,5.14,West Midlands (England)
+2015-11,5.14,West Midlands (England)
+2015-12,5.08,West Midlands (England)
+2016-01,5.14,West Midlands (England)
+2016-02,5.16,West Midlands (England)
+2016-03,5.16,West Midlands (England)
+2016-04,5.52,West Midlands (England)
+2016-05,5.51,West Midlands (England)
+2016-06,5.49,West Midlands (England)
+2016-07,5.49,West Midlands (England)
+2016-08,5.49,West Midlands (England)
+2016-09,5.49,West Midlands (England)
+2016-10,5.49,West Midlands (England)
+2016-11,5.49,West Midlands (England)
+2016-12,5.49,West Midlands (England)
+2017-01,5.49,West Midlands (England)
+2017-02,5.50,West Midlands (England)
+2017-03,5.48,West Midlands (England)
+2017-04,5.50,West Midlands (England)
+2017-05,5.50,West Midlands (England)
+2017-06,5.50,West Midlands (England)
+2017-07,5.52,West Midlands (England)
+2017-08,5.46,West Midlands (England)
+2017-09,5.52,West Midlands (England)
+2017-10,5.52,West Midlands (England)
+2017-11,5.60,West Midlands (England)
+2017-12,5.63,West Midlands (England)
+2018-01,5.63,West Midlands (England)
+2018-02,5.65,West Midlands (England)
+2018-03,5.75,West Midlands (England)
+2018-04,5.74,West Midlands (England)
+2018-05,5.75,West Midlands (England)
+2018-06,5.75,West Midlands (England)
+2018-07,5.75,West Midlands (England)
+2018-08,5.78,West Midlands (England)
+2018-09,5.78,West Midlands (England)
+2018-10,5.78,West Midlands (England)
+2018-11,5.78,West Midlands (England)
+2018-12,5.84,West Midlands (England)
+2019-01,5.86,West Midlands (England)
+2019-02,5.64,West Midlands (England)
+2019-03,5.64,West Midlands (England)
+2019-04,5.64,West Midlands (England)
+2019-05,5.64,West Midlands (England)
+2019-06,5.71,West Midlands (England)
+2019-07,5.65,West Midlands (England)
+2019-08,5.73,West Midlands (England)
+2019-09,5.73,West Midlands (England)
+2019-10,5.73,West Midlands (England)
+2019-11,5.73,West Midlands (England)
+2019-12,5.71,West Midlands (England)
+2020-01,5.71,West Midlands (England)
+2020-02,5.70,West Midlands (England)
+2020-03,5.72,West Midlands (England)
+2020-04,6.30,West Midlands (England)
+2020-05,6.21,West Midlands (England)
+2020-06,6.09,West Midlands (England)
+2020-07,5.89,West Midlands (England)
+2020-08,5.73,West Midlands (England)
+2020-09,5.89,West Midlands (England)
+2020-10,5.89,West Midlands (England)
+2020-11,6.13,West Midlands (England)
+2020-12,6.12,West Midlands (England)
+2021-01,6.15,West Midlands (England)
+2021-02,6.04,West Midlands (England)
+2021-03,5.99,West Midlands (England)
+2021-04,6.00,West Midlands (England)
+2021-05,6.02,West Midlands (England)
+2021-06,6.02,West Midlands (England)
+2021-07,6.01,West Midlands (England)
+2021-08,6.22,West Midlands (England)
+2021-09,6.22,West Midlands (England)
+2021-10,6.22,West Midlands (England)
+2021-11,6.24,West Midlands (England)
+2021-12,6.36,West Midlands (England)
+2022-01,6.36,West Midlands (England)
+2022-02,6.52,West Midlands (England)
+2022-03,6.52,West Midlands (England)
+2022-04,6.53,West Midlands (England)
+2022-05,6.57,West Midlands (England)
+2022-06,6.61,West Midlands (England)
+2022-07,6.80,West Midlands (England)
+2022-08,6.80,West Midlands (England)
+2022-09,6.85,West Midlands (England)
+2022-10,6.85,West Midlands (England)
+2022-11,6.97,West Midlands (England)
+2022-12,7.18,West Midlands (England)
+2023-01,7.18,West Midlands (England)
+2023-02,6.72,West Midlands (England)
+2023-03,6.72,West Midlands (England)
+2023-04,6.76,West Midlands (England)
+2023-05,6.82,West Midlands (England)
+2023-06,6.82,West Midlands (England)
+2023-07,6.76,West Midlands (England)
+2023-08,6.78,West Midlands (England)
+2023-09,6.76,West Midlands (England)
+2023-10,6.81,West Midlands (England)
+2023-11,6.85,West Midlands (England)
+2023-12,6.92,West Midlands (England)
+2024-01,7.01,West Midlands (England)
+2024-02,7.68,West Midlands (England)
+2024-03,7.68,West Midlands (England)
+2024-04,7.75,West Midlands (England)
+2024-05,7.68,West Midlands (England)
+2024-06,7.68,West Midlands (England)
+2024-07,7.72,West Midlands (England)
+2024-08,7.72,West Midlands (England)
+2024-09,7.72,West Midlands (England)
+2002-02,4.13,Yorkshire and The Humber
+2002-03,4.13,Yorkshire and The Humber
+2002-04,4.16,Yorkshire and The Humber
+2002-05,4.26,Yorkshire and The Humber
+2002-06,4.23,Yorkshire and The Humber
+2002-07,4.36,Yorkshire and The Humber
+2002-08,4.30,Yorkshire and The Humber
+2002-09,4.39,Yorkshire and The Humber
+2002-10,4.35,Yorkshire and The Humber
+2002-11,4.32,Yorkshire and The Humber
+2002-12,4.42,Yorkshire and The Humber
+2003-01,4.42,Yorkshire and The Humber
+2003-02,4.01,Yorkshire and The Humber
+2003-03,4.03,Yorkshire and The Humber
+2003-04,4.03,Yorkshire and The Humber
+2003-05,4.00,Yorkshire and The Humber
+2003-06,4.00,Yorkshire and The Humber
+2003-07,4.03,Yorkshire and The Humber
+2003-08,4.03,Yorkshire and The Humber
+2003-09,4.03,Yorkshire and The Humber
+2003-10,4.01,Yorkshire and The Humber
+2003-11,4.01,Yorkshire and The Humber
+2003-12,4.01,Yorkshire and The Humber
+2004-01,4.02,Yorkshire and The Humber
+2004-02,3.90,Yorkshire and The Humber
+2004-03,3.90,Yorkshire and The Humber
+2004-04,3.90,Yorkshire and The Humber
+2004-05,3.90,Yorkshire and The Humber
+2004-06,3.92,Yorkshire and The Humber
+2004-07,3.88,Yorkshire and The Humber
+2004-08,3.88,Yorkshire and The Humber
+2004-09,3.94,Yorkshire and The Humber
+2004-10,3.97,Yorkshire and The Humber
+2004-11,4.01,Yorkshire and The Humber
+2004-12,4.01,Yorkshire and The Humber
+2005-01,3.97,Yorkshire and The Humber
+2005-02,4.08,Yorkshire and The Humber
+2005-03,4.08,Yorkshire and The Humber
+2005-04,4.09,Yorkshire and The Humber
+2005-05,4.20,Yorkshire and The Humber
+2005-06,4.10,Yorkshire and The Humber
+2005-07,4.06,Yorkshire and The Humber
+2005-08,4.06,Yorkshire and The Humber
+2005-09,4.06,Yorkshire and The Humber
+2005-10,4.03,Yorkshire and The Humber
+2005-11,4.22,Yorkshire and The Humber
+2005-12,4.04,Yorkshire and The Humber
+2006-01,4.20,Yorkshire and The Humber
+2006-02,4.20,Yorkshire and The Humber
+2006-03,4.20,Yorkshire and The Humber
+2006-04,4.19,Yorkshire and The Humber
+2006-05,4.29,Yorkshire and The Humber
+2006-06,4.29,Yorkshire and The Humber
+2006-07,4.33,Yorkshire and The Humber
+2006-08,4.49,Yorkshire and The Humber
+2006-09,4.45,Yorkshire and The Humber
+2006-10,4.48,Yorkshire and The Humber
+2006-11,4.42,Yorkshire and The Humber
+2006-12,4.39,Yorkshire and The Humber
+2007-01,4.39,Yorkshire and The Humber
+2007-02,4.43,Yorkshire and The Humber
+2007-03,4.53,Yorkshire and The Humber
+2007-04,4.26,Yorkshire and The Humber
+2007-05,4.26,Yorkshire and The Humber
+2007-06,4.26,Yorkshire and The Humber
+2007-07,4.34,Yorkshire and The Humber
+2007-08,4.34,Yorkshire and The Humber
+2007-09,4.25,Yorkshire and The Humber
+2007-10,4.21,Yorkshire and The Humber
+2007-11,4.26,Yorkshire and The Humber
+2007-12,4.28,Yorkshire and The Humber
+2008-01,4.39,Yorkshire and The Humber
+2008-02,4.81,Yorkshire and The Humber
+2008-03,4.81,Yorkshire and The Humber
+2008-04,4.78,Yorkshire and The Humber
+2008-05,4.79,Yorkshire and The Humber
+2008-06,4.79,Yorkshire and The Humber
+2008-07,4.83,Yorkshire and The Humber
+2008-08,4.82,Yorkshire and The Humber
+2008-09,4.82,Yorkshire and The Humber
+2008-10,4.82,Yorkshire and The Humber
+2008-11,4.82,Yorkshire and The Humber
+2008-12,4.83,Yorkshire and The Humber
+2009-01,4.60,Yorkshire and The Humber
+2009-02,4.82,Yorkshire and The Humber
+2009-03,4.82,Yorkshire and The Humber
+2009-04,4.82,Yorkshire and The Humber
+2009-05,4.86,Yorkshire and The Humber
+2009-06,4.83,Yorkshire and The Humber
+2009-07,4.83,Yorkshire and The Humber
+2009-08,4.83,Yorkshire and The Humber
+2009-09,4.83,Yorkshire and The Humber
+2009-10,4.66,Yorkshire and The Humber
+2009-11,4.66,Yorkshire and The Humber
+2009-12,4.78,Yorkshire and The Humber
+2010-01,4.67,Yorkshire and The Humber
+2010-02,4.91,Yorkshire and The Humber
+2010-03,4.91,Yorkshire and The Humber
+2010-04,4.91,Yorkshire and The Humber
+2010-05,4.91,Yorkshire and The Humber
+2010-06,4.91,Yorkshire and The Humber
+2010-07,5.04,Yorkshire and The Humber
+2010-08,5.04,Yorkshire and The Humber
+2010-09,5.11,Yorkshire and The Humber
+2010-10,5.11,Yorkshire and The Humber
+2010-11,5.15,Yorkshire and The Humber
+2010-12,5.15,Yorkshire and The Humber
+2011-01,5.15,Yorkshire and The Humber
+2011-02,5.17,Yorkshire and The Humber
+2011-03,4.93,Yorkshire and The Humber
+2011-04,5.03,Yorkshire and The Humber
+2011-05,4.95,Yorkshire and The Humber
+2011-06,4.95,Yorkshire and The Humber
+2011-07,4.95,Yorkshire and The Humber
+2011-08,4.95,Yorkshire and The Humber
+2011-09,4.95,Yorkshire and The Humber
+2011-10,4.99,Yorkshire and The Humber
+2011-11,5.02,Yorkshire and The Humber
+2011-12,5.04,Yorkshire and The Humber
+2012-01,5.13,Yorkshire and The Humber
+2012-02,5.34,Yorkshire and The Humber
+2012-03,5.24,Yorkshire and The Humber
+2012-04,5.21,Yorkshire and The Humber
+2012-05,5.07,Yorkshire and The Humber
+2012-06,5.20,Yorkshire and The Humber
+2012-07,5.20,Yorkshire and The Humber
+2012-08,5.20,Yorkshire and The Humber
+2012-09,5.20,Yorkshire and The Humber
+2012-10,5.20,Yorkshire and The Humber
+2012-11,5.22,Yorkshire and The Humber
+2012-12,5.20,Yorkshire and The Humber
+2013-01,5.20,Yorkshire and The Humber
+2013-02,5.34,Yorkshire and The Humber
+2013-03,5.34,Yorkshire and The Humber
+2013-04,5.34,Yorkshire and The Humber
+2013-05,5.23,Yorkshire and The Humber
+2013-06,5.23,Yorkshire and The Humber
+2013-07,5.19,Yorkshire and The Humber
+2013-08,5.19,Yorkshire and The Humber
+2013-09,5.23,Yorkshire and The Humber
+2013-10,5.23,Yorkshire and The Humber
+2013-11,5.25,Yorkshire and The Humber
+2013-12,5.29,Yorkshire and The Humber
+2014-01,5.31,Yorkshire and The Humber
+2014-02,5.40,Yorkshire and The Humber
+2014-03,5.42,Yorkshire and The Humber
+2014-04,5.42,Yorkshire and The Humber
+2014-05,5.39,Yorkshire and The Humber
+2014-06,5.25,Yorkshire and The Humber
+2014-07,5.21,Yorkshire and The Humber
+2014-08,5.25,Yorkshire and The Humber
+2014-09,5.25,Yorkshire and The Humber
+2014-10,5.28,Yorkshire and The Humber
+2014-11,5.28,Yorkshire and The Humber
+2014-12,5.29,Yorkshire and The Humber
+2015-01,5.29,Yorkshire and The Humber
+2015-02,5.38,Yorkshire and The Humber
+2015-03,5.26,Yorkshire and The Humber
+2015-04,5.27,Yorkshire and The Humber
+2015-05,5.43,Yorkshire and The Humber
+2015-06,5.43,Yorkshire and The Humber
+2015-07,5.45,Yorkshire and The Humber
+2015-08,5.43,Yorkshire and The Humber
+2015-09,5.43,Yorkshire and The Humber
+2015-10,5.43,Yorkshire and The Humber
+2015-11,5.43,Yorkshire and The Humber
+2015-12,5.43,Yorkshire and The Humber
+2016-01,5.45,Yorkshire and The Humber
+2016-02,5.38,Yorkshire and The Humber
+2016-03,5.38,Yorkshire and The Humber
+2016-04,5.38,Yorkshire and The Humber
+2016-05,5.38,Yorkshire and The Humber
+2016-06,5.40,Yorkshire and The Humber
+2016-07,5.40,Yorkshire and The Humber
+2016-08,5.39,Yorkshire and The Humber
+2016-09,5.40,Yorkshire and The Humber
+2016-10,5.40,Yorkshire and The Humber
+2016-11,5.43,Yorkshire and The Humber
+2016-12,5.36,Yorkshire and The Humber
+2017-01,5.43,Yorkshire and The Humber
+2017-02,5.50,Yorkshire and The Humber
+2017-03,5.58,Yorkshire and The Humber
+2017-04,5.43,Yorkshire and The Humber
+2017-05,5.40,Yorkshire and The Humber
+2017-06,5.50,Yorkshire and The Humber
+2017-07,5.53,Yorkshire and The Humber
+2017-08,5.44,Yorkshire and The Humber
+2017-09,5.44,Yorkshire and The Humber
+2017-10,5.44,Yorkshire and The Humber
+2017-11,5.49,Yorkshire and The Humber
+2017-12,5.48,Yorkshire and The Humber
+2018-01,5.48,Yorkshire and The Humber
+2018-02,5.11,Yorkshire and The Humber
+2018-03,5.00,Yorkshire and The Humber
+2018-04,5.06,Yorkshire and The Humber
+2018-05,5.33,Yorkshire and The Humber
+2018-06,5.35,Yorkshire and The Humber
+2018-07,5.53,Yorkshire and The Humber
+2018-08,5.45,Yorkshire and The Humber
+2018-09,5.45,Yorkshire and The Humber
+2018-10,5.45,Yorkshire and The Humber
+2018-11,5.63,Yorkshire and The Humber
+2018-12,5.63,Yorkshire and The Humber
+2019-01,5.54,Yorkshire and The Humber
+2019-02,5.52,Yorkshire and The Humber
+2019-03,5.62,Yorkshire and The Humber
+2019-04,5.62,Yorkshire and The Humber
+2019-05,5.91,Yorkshire and The Humber
+2019-06,5.91,Yorkshire and The Humber
+2019-07,5.91,Yorkshire and The Humber
+2019-08,5.98,Yorkshire and The Humber
+2019-09,6.04,Yorkshire and The Humber
+2019-10,6.10,Yorkshire and The Humber
+2019-11,6.01,Yorkshire and The Humber
+2019-12,5.80,Yorkshire and The Humber
+2020-01,5.80,Yorkshire and The Humber
+2020-02,5.88,Yorkshire and The Humber
+2020-03,5.84,Yorkshire and The Humber
+2020-04,5.82,Yorkshire and The Humber
+2020-05,5.59,Yorkshire and The Humber
+2020-06,5.59,Yorkshire and The Humber
+2020-07,5.65,Yorkshire and The Humber
+2020-08,5.91,Yorkshire and The Humber
+2020-09,6.08,Yorkshire and The Humber
+2020-10,5.71,Yorkshire and The Humber
+2020-11,6.36,Yorkshire and The Humber
+2020-12,6.06,Yorkshire and The Humber
+2021-01,5.99,Yorkshire and The Humber
+2021-02,6.14,Yorkshire and The Humber
+2021-03,5.56,Yorkshire and The Humber
+2021-04,5.72,Yorkshire and The Humber
+2021-05,5.92,Yorkshire and The Humber
+2021-06,6.06,Yorkshire and The Humber
+2021-07,6.24,Yorkshire and The Humber
+2021-08,6.31,Yorkshire and The Humber
+2021-09,6.37,Yorkshire and The Humber
+2021-10,6.37,Yorkshire and The Humber
+2021-11,6.41,Yorkshire and The Humber
+2021-12,6.44,Yorkshire and The Humber
+2022-01,6.50,Yorkshire and The Humber
+2022-02,6.56,Yorkshire and The Humber
+2022-03,6.78,Yorkshire and The Humber
+2022-04,6.70,Yorkshire and The Humber
+2022-05,6.72,Yorkshire and The Humber
+2022-06,6.71,Yorkshire and The Humber
+2022-07,6.86,Yorkshire and The Humber
+2022-08,7.04,Yorkshire and The Humber
+2022-09,6.87,Yorkshire and The Humber
+2022-10,6.94,Yorkshire and The Humber
+2022-11,6.94,Yorkshire and The Humber
+2022-12,6.96,Yorkshire and The Humber
+2023-01,7.00,Yorkshire and The Humber
+2023-02,7.00,Yorkshire and The Humber
+2023-03,7.02,Yorkshire and The Humber
+2023-04,7.13,Yorkshire and The Humber
+2023-05,7.00,Yorkshire and The Humber
+2023-06,7.18,Yorkshire and The Humber
+2023-07,7.18,Yorkshire and The Humber
+2023-08,7.15,Yorkshire and The Humber
+2023-09,6.90,Yorkshire and The Humber
+2023-10,7.00,Yorkshire and The Humber
+2023-11,7.00,Yorkshire and The Humber
+2023-12,7.00,Yorkshire and The Humber
+2024-01,7.02,Yorkshire and The Humber
+2024-02,7.24,Yorkshire and The Humber
+2024-03,7.24,Yorkshire and The Humber
+2024-04,7.28,Yorkshire and The Humber
+2024-05,7.26,Yorkshire and The Humber
+2024-06,7.26,Yorkshire and The Humber
+2024-07,7.26,Yorkshire and The Humber
+2024-08,7.49,Yorkshire and The Humber
+2024-09,7.49,Yorkshire and The Humber
+2002-02,4.14,North West (England)
+2002-03,4.12,North West (England)
+2002-04,4.12,North West (England)
+2002-05,4.12,North West (England)
+2002-06,4.13,North West (England)
+2002-07,4.17,North West (England)
+2002-08,4.06,North West (England)
+2002-09,4.17,North West (England)
+2002-10,4.19,North West (England)
+2002-11,4.20,North West (England)
+2002-12,4.26,North West (England)
+2003-01,4.23,North West (England)
+2003-02,4.49,North West (England)
+2003-03,4.49,North West (England)
+2003-04,4.41,North West (England)
+2003-05,4.41,North West (England)
+2003-06,4.43,North West (England)
+2003-07,4.42,North West (England)
+2003-08,4.43,North West (England)
+2003-09,4.48,North West (England)
+2003-10,4.44,North West (England)
+2003-11,4.44,North West (England)
+2003-12,4.44,North West (England)
+2004-01,4.44,North West (England)
+2004-02,4.30,North West (England)
+2004-03,4.34,North West (England)
+2004-04,4.36,North West (England)
+2004-05,4.37,North West (England)
+2004-06,4.41,North West (England)
+2004-07,4.44,North West (England)
+2004-08,4.44,North West (England)
+2004-09,4.42,North West (England)
+2004-10,4.46,North West (England)
+2004-11,4.48,North West (England)
+2004-12,4.49,North West (England)
+2005-01,4.45,North West (England)
+2005-02,4.37,North West (England)
+2005-03,4.37,North West (England)
+2005-04,4.40,North West (England)
+2005-05,4.33,North West (England)
+2005-06,4.40,North West (England)
+2005-07,4.42,North West (England)
+2005-08,4.42,North West (England)
+2005-09,4.41,North West (England)
+2005-10,4.41,North West (England)
+2005-11,4.41,North West (England)
+2005-12,4.41,North West (England)
+2006-01,4.42,North West (England)
+2006-02,4.45,North West (England)
+2006-03,4.37,North West (England)
+2006-04,4.37,North West (England)
+2006-05,4.58,North West (England)
+2006-06,4.48,North West (England)
+2006-07,4.48,North West (England)
+2006-08,4.55,North West (England)
+2006-09,4.40,North West (England)
+2006-10,4.53,North West (England)
+2006-11,4.55,North West (England)
+2006-12,4.60,North West (England)
+2007-01,4.64,North West (England)
+2007-02,4.63,North West (England)
+2007-03,4.63,North West (England)
+2007-04,4.73,North West (England)
+2007-05,4.73,North West (England)
+2007-06,4.73,North West (England)
+2007-07,4.73,North West (England)
+2007-08,4.73,North West (England)
+2007-09,4.73,North West (England)
+2007-10,4.64,North West (England)
+2007-11,4.76,North West (England)
+2007-12,4.76,North West (England)
+2008-01,4.72,North West (England)
+2008-02,4.98,North West (England)
+2008-03,4.98,North West (England)
+2008-04,5.00,North West (England)
+2008-05,5.02,North West (England)
+2008-06,5.08,North West (England)
+2008-07,5.08,North West (England)
+2008-08,5.04,North West (England)
+2008-09,5.04,North West (England)
+2008-10,5.15,North West (England)
+2008-11,5.08,North West (England)
+2008-12,5.33,North West (England)
+2009-01,5.24,North West (England)
+2009-02,5.18,North West (England)
+2009-03,5.01,North West (England)
+2009-04,5.19,North West (England)
+2009-05,5.09,North West (England)
+2009-06,5.16,North West (England)
+2009-07,5.16,North West (England)
+2009-08,5.16,North West (England)
+2009-09,5.16,North West (England)
+2009-10,5.15,North West (England)
+2009-11,5.15,North West (England)
+2009-12,5.18,North West (England)
+2010-01,5.15,North West (England)
+2010-02,5.15,North West (England)
+2010-03,5.23,North West (England)
+2010-04,5.23,North West (England)
+2010-05,5.22,North West (England)
+2010-06,5.22,North West (England)
+2010-07,5.28,North West (England)
+2010-08,5.30,North West (England)
+2010-09,5.30,North West (England)
+2010-10,5.31,North West (England)
+2010-11,5.40,North West (England)
+2010-12,5.33,North West (England)
+2011-01,5.42,North West (England)
+2011-02,5.36,North West (England)
+2011-03,5.42,North West (England)
+2011-04,5.44,North West (England)
+2011-05,5.44,North West (England)
+2011-06,5.44,North West (England)
+2011-07,5.47,North West (England)
+2011-08,5.44,North West (England)
+2011-09,5.48,North West (England)
+2011-10,5.44,North West (England)
+2011-11,5.45,North West (England)
+2011-12,5.47,North West (England)
+2012-01,5.49,North West (England)
+2012-02,5.44,North West (England)
+2012-03,5.33,North West (England)
+2012-04,5.58,North West (England)
+2012-05,5.51,North West (England)
+2012-06,5.46,North West (England)
+2012-07,5.53,North West (England)
+2012-08,5.54,North West (England)
+2012-09,5.33,North West (England)
+2012-10,5.41,North West (England)
+2012-11,5.38,North West (England)
+2012-12,5.45,North West (England)
+2013-01,5.41,North West (England)
+2013-02,5.21,North West (England)
+2013-03,5.21,North West (England)
+2013-04,5.21,North West (England)
+2013-05,5.05,North West (England)
+2013-06,5.12,North West (England)
+2013-07,5.14,North West (England)
+2013-08,5.14,North West (England)
+2013-09,5.25,North West (England)
+2013-10,5.14,North West (England)
+2013-11,5.13,North West (England)
+2013-12,5.14,North West (England)
+2014-01,5.14,North West (England)
+2014-02,5.12,North West (England)
+2014-03,5.32,North West (England)
+2014-04,5.06,North West (England)
+2014-05,5.06,North West (England)
+2014-06,5.05,North West (England)
+2014-07,5.26,North West (England)
+2014-08,5.26,North West (England)
+2014-09,5.26,North West (England)
+2014-10,5.43,North West (England)
+2014-11,5.44,North West (England)
+2014-12,5.35,North West (England)
+2015-01,5.35,North West (England)
+2015-02,5.41,North West (England)
+2015-03,5.42,North West (England)
+2015-04,5.37,North West (England)
+2015-05,5.41,North West (England)
+2015-06,5.41,North West (England)
+2015-07,5.41,North West (England)
+2015-08,5.44,North West (England)
+2015-09,5.45,North West (England)
+2015-10,5.43,North West (England)
+2015-11,5.45,North West (England)
+2015-12,5.51,North West (England)
+2016-01,5.47,North West (England)
+2016-02,5.33,North West (England)
+2016-03,5.33,North West (England)
+2016-04,5.29,North West (England)
+2016-05,5.49,North West (England)
+2016-06,5.53,North West (England)
+2016-07,5.53,North West (England)
+2016-08,5.55,North West (England)
+2016-09,5.55,North West (England)
+2016-10,5.55,North West (England)
+2016-11,5.58,North West (England)
+2016-12,5.49,North West (England)
+2017-01,5.49,North West (England)
+2017-02,5.59,North West (England)
+2017-03,5.50,North West (England)
+2017-04,5.45,North West (England)
+2017-05,5.54,North West (England)
+2017-06,5.58,North West (England)
+2017-07,5.59,North West (England)
+2017-08,5.59,North West (England)
+2017-09,5.59,North West (England)
+2017-10,5.59,North West (England)
+2017-11,5.58,North West (England)
+2017-12,5.44,North West (England)
+2018-01,5.55,North West (England)
+2018-02,5.58,North West (England)
+2018-03,5.64,North West (England)
+2018-04,5.58,North West (England)
+2018-05,5.54,North West (England)
+2018-06,5.47,North West (England)
+2018-07,5.54,North West (England)
+2018-08,5.69,North West (England)
+2018-09,5.71,North West (England)
+2018-10,5.65,North West (England)
+2018-11,5.52,North West (England)
+2018-12,5.44,North West (England)
+2019-01,5.57,North West (England)
+2019-02,5.59,North West (England)
+2019-03,5.62,North West (England)
+2019-04,5.50,North West (England)
+2019-05,5.73,North West (England)
+2019-06,5.73,North West (England)
+2019-07,5.74,North West (England)
+2019-08,5.63,North West (England)
+2019-09,5.74,North West (England)
+2019-10,5.75,North West (England)
+2019-11,5.75,North West (England)
+2019-12,5.76,North West (England)
+2020-01,5.60,North West (England)
+2020-02,5.79,North West (England)
+2020-03,5.75,North West (England)
+2020-04,5.64,North West (England)
+2020-05,5.73,North West (England)
+2020-06,5.88,North West (England)
+2020-07,5.99,North West (England)
+2020-08,6.09,North West (England)
+2020-09,5.77,North West (England)
+2020-10,5.90,North West (England)
+2020-11,5.86,North West (England)
+2020-12,5.79,North West (England)
+2021-01,5.85,North West (England)
+2021-02,5.85,North West (England)
+2021-03,6.28,North West (England)
+2021-04,6.24,North West (England)
+2021-05,6.34,North West (England)
+2021-06,6.45,North West (England)
+2021-07,6.39,North West (England)
+2021-08,6.43,North West (England)
+2021-09,6.40,North West (England)
+2021-10,6.43,North West (England)
+2021-11,6.51,North West (England)
+2021-12,6.36,North West (England)
+2022-01,6.37,North West (England)
+2022-02,6.14,North West (England)
+2022-03,6.09,North West (England)
+2022-04,6.41,North West (England)
+2022-05,6.37,North West (England)
+2022-06,6.46,North West (England)
+2022-07,6.61,North West (England)
+2022-08,6.59,North West (England)
+2022-09,6.60,North West (England)
+2022-10,6.60,North West (England)
+2022-11,6.74,North West (England)
+2022-12,6.80,North West (England)
+2023-01,6.80,North West (England)
+2023-02,6.61,North West (England)
+2023-03,6.52,North West (England)
+2023-04,6.75,North West (England)
+2023-05,6.77,North West (England)
+2023-06,6.69,North West (England)
+2023-07,6.70,North West (England)
+2023-08,6.63,North West (England)
+2023-09,6.69,North West (England)
+2023-10,6.66,North West (England)
+2023-11,6.64,North West (England)
+2023-12,6.69,North West (England)
+2024-01,6.81,North West (England)
+2024-02,6.86,North West (England)
+2024-03,6.85,North West (England)
+2024-04,6.98,North West (England)
+2024-05,7.02,North West (England)
+2024-06,7.00,North West (England)
+2024-07,7.00,North West (England)
+2024-08,7.05,North West (England)
+2024-09,7.07,North West (England)
+2002-02,4.41,North East (England)
+2002-03,4.41,North East (England)
+2002-04,4.46,North East (England)
+2002-05,4.46,North East (England)
+2002-06,4.46,North East (England)
+2002-07,4.46,North East (England)
+2002-08,4.70,North East (England)
+2002-09,4.90,North East (England)
+2002-10,4.90,North East (England)
+2002-11,4.90,North East (England)
+2002-12,4.90,North East (England)
+2003-01,4.68,North East (England)
+2003-02,4.68,North East (England)
+2003-03,4.46,North East (England)
+2003-04,4.48,North East (England)
+2003-05,4.48,North East (England)
+2003-06,4.48,North East (England)
+2003-07,4.48,North East (England)
+2003-08,4.48,North East (England)
+2003-09,4.48,North East (England)
+2003-10,4.53,North East (England)
+2003-11,4.54,North East (England)
+2003-12,4.64,North East (England)
+2004-01,4.53,North East (England)
+2004-02,4.52,North East (England)
+2004-03,4.54,North East (England)
+2004-04,4.54,North East (England)
+2004-05,4.38,North East (England)
+2004-06,4.54,North East (England)
+2004-07,4.54,North East (England)
+2004-08,4.54,North East (England)
+2004-09,4.54,North East (England)
+2004-10,4.54,North East (England)
+2004-11,4.43,North East (England)
+2004-12,4.57,North East (England)
+2005-01,4.68,North East (England)
+2005-02,4.83,North East (England)
+2005-03,4.97,North East (England)
+2005-04,4.90,North East (England)
+2005-05,4.83,North East (England)
+2005-06,4.90,North East (England)
+2005-07,4.90,North East (England)
+2005-08,4.68,North East (England)
+2005-09,4.68,North East (England)
+2005-10,4.70,North East (England)
+2005-11,4.58,North East (England)
+2005-12,4.73,North East (England)
+2006-01,4.82,North East (England)
+2006-02,4.88,North East (England)
+2006-03,4.88,North East (England)
+2006-04,4.92,North East (England)
+2006-05,4.92,North East (England)
+2006-06,4.92,North East (England)
+2006-07,4.73,North East (England)
+2006-08,5.28,North East (England)
+2006-09,5.47,North East (England)
+2006-10,4.92,North East (England)
+2006-11,5.28,North East (England)
+2006-12,5.02,North East (England)
+2007-01,5.12,North East (England)
+2007-02,5.12,North East (England)
+2007-03,5.05,North East (England)
+2007-04,5.02,North East (England)
+2007-05,4.97,North East (England)
+2007-06,4.97,North East (England)
+2007-07,5.18,North East (England)
+2007-08,5.28,North East (England)
+2007-09,5.30,North East (England)
+2007-10,5.30,North East (England)
+2007-11,5.30,North East (England)
+2007-12,5.23,North East (England)
+2008-01,5.35,North East (England)
+2008-02,5.22,North East (England)
+2008-03,5.30,North East (England)
+2008-04,5.10,North East (England)
+2008-05,5.22,North East (England)
+2008-06,5.22,North East (England)
+2008-07,5.22,North East (England)
+2008-08,5.35,North East (England)
+2008-09,5.22,North East (England)
+2008-10,5.10,North East (England)
+2008-11,5.15,North East (England)
+2008-12,5.15,North East (England)
+2009-01,5.24,North East (England)
+2009-02,5.15,North East (England)
+2009-03,5.22,North East (England)
+2009-04,5.30,North East (England)
+2009-05,5.36,North East (England)
+2009-06,5.33,North East (England)
+2009-07,5.36,North East (England)
+2009-08,5.43,North East (England)
+2009-09,5.43,North East (England)
+2009-10,5.30,North East (England)
+2009-11,5.30,North East (England)
+2009-12,5.22,North East (England)
+2010-01,5.33,North East (England)
+2010-02,5.28,North East (England)
+2010-03,5.32,North East (England)
+2010-04,5.32,North East (England)
+2010-05,5.36,North East (England)
+2010-06,5.36,North East (England)
+2010-07,5.36,North East (England)
+2010-08,5.36,North East (England)
+2010-09,5.37,North East (England)
+2010-10,5.37,North East (England)
+2010-11,5.40,North East (England)
+2010-12,5.40,North East (England)
+2011-01,5.48,North East (England)
+2011-02,5.58,North East (England)
+2011-03,5.38,North East (England)
+2011-04,5.28,North East (England)
+2011-05,5.40,North East (England)
+2011-06,5.40,North East (England)
+2011-07,5.58,North East (England)
+2011-08,5.40,North East (England)
+2011-09,5.54,North East (England)
+2011-10,5.73,North East (England)
+2011-11,5.40,North East (England)
+2011-12,5.40,North East (England)
+2012-01,5.40,North East (England)
+2012-02,5.32,North East (England)
+2012-03,5.32,North East (England)
+2012-04,5.42,North East (England)
+2012-05,5.42,North East (England)
+2012-06,5.32,North East (England)
+2012-07,5.37,North East (England)
+2012-08,5.37,North East (England)
+2012-09,5.37,North East (England)
+2012-10,5.40,North East (England)
+2012-11,5.33,North East (England)
+2012-12,5.37,North East (England)
+2013-01,5.38,North East (England)
+2013-02,5.46,North East (England)
+2013-03,5.40,North East (England)
+2013-04,5.50,North East (England)
+2013-05,5.63,North East (England)
+2013-06,5.50,North East (England)
+2013-07,5.70,North East (England)
+2013-08,5.70,North East (England)
+2013-09,5.70,North East (England)
+2013-10,5.70,North East (England)
+2013-11,5.63,North East (England)
+2013-12,5.95,North East (England)
+2014-01,5.70,North East (England)
+2014-02,5.70,North East (England)
+2014-03,5.77,North East (England)
+2014-04,5.77,North East (England)
+2014-05,5.92,North East (England)
+2014-06,5.74,North East (England)
+2014-07,5.82,North East (England)
+2014-08,5.93,North East (England)
+2014-09,5.82,North East (England)
+2014-10,5.82,North East (England)
+2014-11,5.98,North East (England)
+2014-12,5.96,North East (England)
+2015-01,5.84,North East (England)
+2015-02,5.77,North East (England)
+2015-03,6.17,North East (England)
+2015-04,6.17,North East (England)
+2015-05,6.17,North East (England)
+2015-06,6.12,North East (England)
+2015-07,6.12,North East (England)
+2015-08,6.12,North East (England)
+2015-09,5.94,North East (England)
+2015-10,6.18,North East (England)
+2015-11,5.90,North East (England)
+2015-12,6.00,North East (England)
+2016-01,6.06,North East (England)
+2016-02,6.06,North East (England)
+2016-03,6.50,North East (England)
+2016-04,6.58,North East (England)
+2016-05,6.38,North East (England)
+2016-06,6.58,North East (England)
+2016-07,6.38,North East (England)
+2016-08,6.38,North East (England)
+2016-09,6.38,North East (England)
+2016-10,6.38,North East (England)
+2016-11,6.58,North East (England)
+2016-12,6.42,North East (England)
+2017-01,6.63,North East (England)
+2017-02,6.63,North East (England)
+2017-03,6.63,North East (England)
+2017-04,6.54,North East (England)
+2017-05,6.54,North East (England)
+2017-06,6.54,North East (England)
+2017-07,6.66,North East (England)
+2017-08,6.70,North East (England)
+2017-09,6.58,North East (England)
+2017-10,6.72,North East (England)
+2017-11,6.62,North East (England)
+2017-12,6.76,North East (England)
+2018-01,6.62,North East (England)
+2018-02,6.92,North East (England)
+2018-03,6.92,North East (England)
+2018-04,6.92,North East (England)
+2018-05,6.92,North East (England)
+2018-06,6.92,North East (England)
+2018-07,6.92,North East (England)
+2018-08,6.92,North East (England)
+2018-09,6.92,North East (England)
+2018-10,6.92,North East (England)
+2018-11,6.94,North East (England)
+2018-12,7.06,North East (England)
+2019-01,7.03,North East (England)
+2019-02,6.94,North East (England)
+2019-03,7.03,North East (England)
+2019-04,7.03,North East (England)
+2019-05,7.03,North East (England)
+2019-06,7.03,North East (England)
+2019-07,7.03,North East (England)
+2019-08,6.94,North East (England)
+2019-09,7.03,North East (England)
+2019-10,7.03,North East (England)
+2019-11,7.03,North East (England)
+2019-12,7.03,North East (England)
+2020-01,7.03,North East (England)
+2020-02,7.08,North East (England)
+2020-03,7.08,North East (England)
+2020-04,7.42,North East (England)
+2020-05,7.54,North East (England)
+2020-06,7.54,North East (England)
+2020-07,7.27,North East (England)
+2020-08,7.18,North East (England)
+2020-09,7.33,North East (England)
+2020-10,7.33,North East (England)
+2020-11,7.33,North East (England)
+2020-12,7.43,North East (England)
+2021-01,7.43,North East (England)
+2021-02,7.43,North East (England)
+2021-03,7.43,North East (England)
+2021-04,7.43,North East (England)
+2021-05,7.40,North East (England)
+2021-06,7.40,North East (England)
+2021-07,7.38,North East (England)
+2021-08,7.38,North East (England)
+2021-09,7.38,North East (England)
+2021-10,7.47,North East (England)
+2021-11,7.47,North East (England)
+2021-12,7.78,North East (England)
+2022-01,7.90,North East (England)
+2022-02,7.90,North East (England)
+2022-03,8.04,North East (England)
+2022-04,8.18,North East (England)
+2022-05,8.25,North East (England)
+2022-06,8.28,North East (England)
+2022-07,7.87,North East (England)
+2022-08,7.87,North East (England)
+2022-09,7.97,North East (England)
+2022-10,8.16,North East (England)
+2022-11,7.97,North East (England)
+2022-12,8.07,North East (England)
+2023-01,8.12,North East (England)
+2023-02,8.02,North East (England)
+2023-03,8.00,North East (England)
+2023-04,8.02,North East (England)
+2023-05,8.02,North East (England)
+2023-06,8.02,North East (England)
+2023-07,8.22,North East (England)
+2023-08,8.22,North East (England)
+2023-09,8.17,North East (England)
+2023-10,8.28,North East (England)
+2023-11,8.06,North East (England)
+2023-12,8.20,North East (England)
+2024-01,8.63,North East (England)
+2024-02,8.58,North East (England)
+2024-03,8.75,North East (England)
+2024-04,8.92,North East (England)
+2024-05,9.10,North East (England)
+2024-06,9.10,North East (England)
+2024-07,9.17,North East (England)
+2024-08,9.20,North East (England)
+2024-09,9.35,North East (England)
+2002-02,3.72,Wales
+2002-03,3.78,Wales
+2002-04,3.80,Wales
+2002-05,3.83,Wales
+2002-06,3.83,Wales
+2002-07,3.83,Wales
+2002-08,3.77,Wales
+2002-09,3.83,Wales
+2002-10,3.83,Wales
+2002-11,3.84,Wales
+2002-12,3.84,Wales
+2003-01,3.84,Wales
+2003-02,3.68,Wales
+2003-03,3.72,Wales
+2003-04,3.72,Wales
+2003-05,3.72,Wales
+2003-06,3.72,Wales
+2003-07,3.72,Wales
+2003-08,3.73,Wales
+2003-09,3.70,Wales
+2003-10,3.70,Wales
+2003-11,3.70,Wales
+2003-12,3.70,Wales
+2004-01,3.73,Wales
+2004-02,3.75,Wales
+2004-03,3.83,Wales
+2004-04,3.83,Wales
+2004-05,3.83,Wales
+2004-06,3.83,Wales
+2004-07,3.85,Wales
+2004-08,4.28,Wales
+2004-09,4.28,Wales
+2004-10,3.77,Wales
+2004-11,3.77,Wales
+2004-12,3.77,Wales
+2005-01,3.77,Wales
+2005-02,4.20,Wales
+2005-03,4.20,Wales
+2005-04,4.27,Wales
+2005-05,4.20,Wales
+2005-06,4.27,Wales
+2005-07,4.27,Wales
+2005-08,4.28,Wales
+2005-09,4.28,Wales
+2005-10,4.28,Wales
+2005-11,4.28,Wales
+2005-12,4.28,Wales
+2006-01,4.28,Wales
+2006-02,4.49,Wales
+2006-03,4.49,Wales
+2006-04,4.49,Wales
+2006-05,4.53,Wales
+2006-06,4.53,Wales
+2006-07,4.44,Wales
+2006-08,4.44,Wales
+2006-09,4.44,Wales
+2006-10,4.44,Wales
+2006-11,4.44,Wales
+2006-12,4.44,Wales
+2007-01,4.46,Wales
+2007-02,4.46,Wales
+2007-03,4.46,Wales
+2007-04,4.48,Wales
+2007-05,4.48,Wales
+2007-06,4.48,Wales
+2007-07,4.48,Wales
+2007-08,4.48,Wales
+2007-09,4.48,Wales
+2007-10,4.48,Wales
+2007-11,4.51,Wales
+2007-12,4.51,Wales
+2008-01,4.55,Wales
+2008-02,4.55,Wales
+2008-03,4.51,Wales
+2008-04,4.51,Wales
+2008-05,4.51,Wales
+2008-06,4.54,Wales
+2008-07,4.54,Wales
+2008-08,4.54,Wales
+2008-09,4.58,Wales
+2008-10,4.58,Wales
+2008-11,4.58,Wales
+2008-12,4.58,Wales
+2009-01,4.69,Wales
+2009-02,4.71,Wales
+2009-03,4.63,Wales
+2009-04,4.68,Wales
+2009-05,4.68,Wales
+2009-06,4.68,Wales
+2009-07,4.68,Wales
+2009-08,4.75,Wales
+2009-09,4.79,Wales
+2009-10,4.79,Wales
+2009-11,4.74,Wales
+2009-12,4.71,Wales
+2010-01,4.79,Wales
+2010-02,4.65,Wales
+2010-03,4.71,Wales
+2010-04,4.66,Wales
+2010-05,4.66,Wales
+2010-06,4.66,Wales
+2010-07,4.66,Wales
+2010-08,4.71,Wales
+2010-09,4.71,Wales
+2010-10,4.71,Wales
+2010-11,4.71,Wales
+2010-12,4.71,Wales
+2011-01,4.74,Wales
+2011-02,4.87,Wales
+2011-03,5.04,Wales
+2011-04,5.04,Wales
+2011-05,5.04,Wales
+2011-06,5.06,Wales
+2011-07,5.00,Wales
+2011-08,5.00,Wales
+2011-09,5.00,Wales
+2011-10,5.00,Wales
+2011-11,5.00,Wales
+2011-12,5.28,Wales
+2012-01,5.07,Wales
+2012-02,4.80,Wales
+2012-03,4.78,Wales
+2012-04,4.80,Wales
+2012-05,4.80,Wales
+2012-06,4.80,Wales
+2012-07,4.82,Wales
+2012-08,4.80,Wales
+2012-09,4.80,Wales
+2012-10,4.80,Wales
+2012-11,4.80,Wales
+2012-12,4.87,Wales
+2013-01,4.87,Wales
+2013-02,4.87,Wales
+2013-03,4.87,Wales
+2013-04,4.87,Wales
+2013-05,4.87,Wales
+2013-06,4.87,Wales
+2013-07,4.87,Wales
+2013-08,4.87,Wales
+2013-09,4.88,Wales
+2013-10,4.93,Wales
+2013-11,4.94,Wales
+2013-12,4.94,Wales
+2014-01,4.98,Wales
+2014-02,4.78,Wales
+2014-03,4.82,Wales
+2014-04,4.82,Wales
+2014-05,4.82,Wales
+2014-06,4.77,Wales
+2014-07,4.77,Wales
+2014-08,4.77,Wales
+2014-09,4.80,Wales
+2014-10,4.78,Wales
+2014-11,4.78,Wales
+2014-12,4.80,Wales
+2015-01,4.78,Wales
+2015-02,4.78,Wales
+2015-03,4.80,Wales
+2015-04,4.80,Wales
+2015-05,4.80,Wales
+2015-06,4.80,Wales
+2015-07,4.70,Wales
+2015-08,4.83,Wales
+2015-09,4.70,Wales
+2015-10,4.92,Wales
+2015-11,4.80,Wales
+2015-12,4.82,Wales
+2016-01,4.95,Wales
+2016-02,5.48,Wales
+2016-03,4.80,Wales
+2016-04,4.82,Wales
+2016-05,4.82,Wales
+2016-06,4.85,Wales
+2016-07,4.88,Wales
+2016-08,4.93,Wales
+2016-09,4.93,Wales
+2016-10,4.93,Wales
+2016-11,4.93,Wales
+2016-12,5.03,Wales
+2017-01,4.92,Wales
+2017-02,4.85,Wales
+2017-03,5.00,Wales
+2017-04,5.00,Wales
+2017-05,5.03,Wales
+2017-06,5.03,Wales
+2017-07,5.03,Wales
+2017-08,5.08,Wales
+2017-09,5.08,Wales
+2017-10,5.08,Wales
+2017-11,5.08,Wales
+2017-12,5.08,Wales
+2018-01,5.10,Wales
+2018-02,5.20,Wales
+2018-03,5.20,Wales
+2018-04,5.20,Wales
+2018-05,5.20,Wales
+2018-06,5.20,Wales
+2018-07,5.23,Wales
+2018-08,5.23,Wales
+2018-09,5.23,Wales
+2018-10,5.23,Wales
+2018-11,5.23,Wales
+2018-12,5.25,Wales
+2019-01,5.25,Wales
+2019-02,5.38,Wales
+2019-03,5.38,Wales
+2019-04,5.52,Wales
+2019-05,5.55,Wales
+2019-06,5.55,Wales
+2019-07,5.55,Wales
+2019-08,5.55,Wales
+2019-09,5.55,Wales
+2019-10,5.55,Wales
+2019-11,5.56,Wales
+2019-12,5.55,Wales
+2020-01,5.57,Wales
+2020-02,5.63,Wales
+2020-03,5.63,Wales
+2020-04,6.05,Wales
+2020-05,5.46,Wales
+2020-06,5.46,Wales
+2020-07,5.60,Wales
+2020-08,5.63,Wales
+2020-09,5.49,Wales
+2020-10,5.39,Wales
+2020-11,5.55,Wales
+2020-12,5.53,Wales
+2021-01,5.36,Wales
+2021-02,5.36,Wales
+2021-03,5.36,Wales
+2021-04,5.35,Wales
+2021-05,5.32,Wales
+2021-06,5.46,Wales
+2021-07,5.46,Wales
+2021-08,5.47,Wales
+2021-09,5.65,Wales
+2021-10,5.86,Wales
+2021-11,5.86,Wales
+2021-12,5.86,Wales
+2022-01,5.92,Wales
+2022-02,6.52,Wales
+2022-03,6.52,Wales
+2022-04,6.71,Wales
+2022-05,6.81,Wales
+2022-06,6.64,Wales
+2022-07,6.27,Wales
+2022-08,6.39,Wales
+2022-09,6.27,Wales
+2022-10,6.37,Wales
+2022-11,6.37,Wales
+2022-12,6.79,Wales
+2023-01,6.71,Wales
+2023-02,6.79,Wales
+2023-03,6.79,Wales
+2023-04,6.79,Wales
+2023-05,6.94,Wales
+2023-06,6.93,Wales
+2023-07,6.93,Wales
+2023-08,6.91,Wales
+2023-09,6.93,Wales
+2023-10,6.93,Wales
+2023-11,6.91,Wales
+2023-12,6.99,Wales
+2024-01,7.09,Wales
+2024-02,6.89,Wales
+2024-03,6.74,Wales
+2024-04,6.89,Wales
+2024-05,6.89,Wales
+2024-06,6.89,Wales
+2024-07,7.02,Wales
+2024-08,6.93,Wales
+2024-09,7.02,Wales
+2002-02,4.35,Scotland
+2002-03,4.31,Scotland
+2002-04,4.12,Scotland
+2002-05,4.12,Scotland
+2002-06,4.34,Scotland
+2002-07,4.34,Scotland
+2002-08,4.28,Scotland
+2002-09,4.56,Scotland
+2002-10,4.57,Scotland
+2002-11,4.58,Scotland
+2002-12,4.58,Scotland
+2003-01,4.58,Scotland
+2003-02,4.83,Scotland
+2003-03,4.81,Scotland
+2003-04,4.81,Scotland
+2003-05,4.81,Scotland
+2003-06,4.81,Scotland
+2003-07,4.55,Scotland
+2003-08,4.55,Scotland
+2003-09,4.44,Scotland
+2003-10,4.56,Scotland
+2003-11,4.56,Scotland
+2003-12,4.58,Scotland
+2004-01,4.66,Scotland
+2004-02,4.62,Scotland
+2004-03,4.62,Scotland
+2004-04,4.54,Scotland
+2004-05,4.54,Scotland
+2004-06,4.54,Scotland
+2004-07,4.55,Scotland
+2004-08,4.59,Scotland
+2004-09,4.56,Scotland
+2004-10,4.60,Scotland
+2004-11,4.61,Scotland
+2004-12,4.58,Scotland
+2005-01,4.58,Scotland
+2005-02,4.53,Scotland
+2005-03,4.53,Scotland
+2005-04,4.53,Scotland
+2005-05,4.60,Scotland
+2005-06,4.58,Scotland
+2005-07,4.61,Scotland
+2005-08,4.63,Scotland
+2005-09,4.63,Scotland
+2005-10,4.59,Scotland
+2005-11,4.49,Scotland
+2005-12,4.46,Scotland
+2006-01,4.46,Scotland
+2006-02,4.51,Scotland
+2006-03,4.53,Scotland
+2006-04,4.52,Scotland
+2006-05,4.64,Scotland
+2006-06,4.52,Scotland
+2006-07,4.64,Scotland
+2006-08,4.52,Scotland
+2006-09,4.52,Scotland
+2006-10,4.52,Scotland
+2006-11,4.78,Scotland
+2006-12,4.78,Scotland
+2007-01,4.65,Scotland
+2007-02,4.88,Scotland
+2007-03,4.65,Scotland
+2007-04,4.65,Scotland
+2007-05,4.65,Scotland
+2007-06,4.86,Scotland
+2007-07,4.88,Scotland
+2007-08,4.66,Scotland
+2007-09,4.88,Scotland
+2007-10,4.82,Scotland
+2007-11,4.75,Scotland
+2007-12,4.86,Scotland
+2008-01,4.90,Scotland
+2008-02,4.67,Scotland
+2008-03,4.67,Scotland
+2008-04,4.59,Scotland
+2008-05,4.69,Scotland
+2008-06,4.74,Scotland
+2008-07,4.77,Scotland
+2008-08,4.77,Scotland
+2008-09,4.77,Scotland
+2008-10,4.77,Scotland
+2008-11,4.77,Scotland
+2008-12,4.77,Scotland
+2009-01,4.72,Scotland
+2009-02,4.60,Scotland
+2009-03,4.56,Scotland
+2009-04,4.62,Scotland
+2009-05,4.62,Scotland
+2009-06,4.62,Scotland
+2009-07,4.68,Scotland
+2009-08,4.75,Scotland
+2009-09,4.65,Scotland
+2009-10,4.65,Scotland
+2009-11,4.65,Scotland
+2009-12,4.67,Scotland
+2010-01,4.63,Scotland
+2010-02,4.47,Scotland
+2010-03,4.53,Scotland
+2010-04,4.61,Scotland
+2010-05,4.61,Scotland
+2010-06,4.61,Scotland
+2010-07,4.61,Scotland
+2010-08,4.61,Scotland
+2010-09,5.16,Scotland
+2010-10,5.34,Scotland
+2010-11,5.20,Scotland
+2010-12,5.22,Scotland
+2011-01,5.37,Scotland
+2011-02,4.76,Scotland
+2011-03,4.71,Scotland
+2011-04,4.66,Scotland
+2011-05,4.67,Scotland
+2011-06,4.73,Scotland
+2011-07,4.70,Scotland
+2011-08,4.58,Scotland
+2011-09,4.75,Scotland
+2011-10,4.68,Scotland
+2011-11,4.68,Scotland
+2011-12,4.68,Scotland
+2012-01,4.68,Scotland
+2012-02,4.66,Scotland
+2012-03,4.71,Scotland
+2012-04,4.60,Scotland
+2012-05,4.66,Scotland
+2012-06,4.71,Scotland
+2012-07,4.73,Scotland
+2012-08,4.77,Scotland
+2012-09,4.77,Scotland
+2012-10,4.73,Scotland
+2012-11,4.79,Scotland
+2012-12,4.79,Scotland
+2013-01,4.76,Scotland
+2013-02,5.23,Scotland
+2013-03,5.08,Scotland
+2013-04,5.08,Scotland
+2013-05,5.08,Scotland
+2013-06,5.13,Scotland
+2013-07,5.18,Scotland
+2013-08,5.18,Scotland
+2013-09,5.18,Scotland
+2013-10,5.18,Scotland
+2013-11,5.18,Scotland
+2013-12,5.23,Scotland
+2014-01,5.27,Scotland
+2014-02,5.39,Scotland
+2014-03,5.39,Scotland
+2014-04,5.39,Scotland
+2014-05,5.39,Scotland
+2014-06,5.39,Scotland
+2014-07,5.39,Scotland
+2014-08,5.41,Scotland
+2014-09,5.53,Scotland
+2014-10,5.38,Scotland
+2014-11,5.57,Scotland
+2014-12,5.47,Scotland
+2015-01,5.47,Scotland
+2015-02,5.47,Scotland
+2015-03,5.60,Scotland
+2015-04,5.60,Scotland
+2015-05,5.60,Scotland
+2015-06,5.60,Scotland
+2015-07,5.76,Scotland
+2015-08,5.47,Scotland
+2015-09,5.61,Scotland
+2015-10,5.42,Scotland
+2015-11,5.42,Scotland
+2015-12,5.62,Scotland
+2016-01,5.24,Scotland
+2016-02,5.44,Scotland
+2016-03,5.44,Scotland
+2016-04,5.71,Scotland
+2016-05,5.44,Scotland
+2016-06,5.63,Scotland
+2016-07,5.63,Scotland
+2016-08,5.63,Scotland
+2016-09,5.63,Scotland
+2016-10,5.63,Scotland
+2016-11,5.71,Scotland
+2016-12,5.72,Scotland
+2017-01,5.56,Scotland
+2017-02,5.69,Scotland
+2017-03,5.78,Scotland
+2017-04,5.86,Scotland
+2017-05,5.86,Scotland
+2017-06,5.85,Scotland
+2017-07,5.80,Scotland
+2017-08,5.85,Scotland
+2017-09,5.82,Scotland
+2017-10,5.96,Scotland
+2017-11,5.94,Scotland
+2017-12,5.86,Scotland
+2018-01,6.00,Scotland
+2018-02,5.73,Scotland
+2018-03,5.68,Scotland
+2018-04,5.68,Scotland
+2018-05,5.61,Scotland
+2018-06,5.68,Scotland
+2018-07,5.74,Scotland
+2018-08,5.56,Scotland
+2018-09,5.56,Scotland
+2018-10,5.56,Scotland
+2018-11,5.56,Scotland
+2018-12,5.62,Scotland
+2019-01,5.60,Scotland
+2019-02,5.69,Scotland
+2019-03,5.61,Scotland
+2019-04,5.61,Scotland
+2019-05,5.67,Scotland
+2019-06,5.67,Scotland
+2019-07,5.67,Scotland
+2019-08,5.74,Scotland
+2019-09,5.73,Scotland
+2019-10,5.73,Scotland
+2019-11,5.77,Scotland
+2019-12,5.92,Scotland
+2020-01,5.92,Scotland
+2020-02,5.93,Scotland
+2020-03,5.93,Scotland
+2020-04,5.77,Scotland
+2020-05,5.80,Scotland
+2020-06,5.71,Scotland
+2020-07,5.54,Scotland
+2020-08,5.67,Scotland
+2020-09,5.72,Scotland
+2020-10,5.72,Scotland
+2020-11,5.74,Scotland
+2020-12,5.95,Scotland
+2021-01,5.79,Scotland
+2021-02,5.79,Scotland
+2021-03,5.79,Scotland
+2021-04,6.11,Scotland
+2021-05,6.11,Scotland
+2021-06,6.15,Scotland
+2021-07,6.12,Scotland
+2021-08,6.06,Scotland
+2021-09,6.07,Scotland
+2021-10,6.13,Scotland
+2021-11,6.24,Scotland
+2021-12,6.19,Scotland
+2022-01,6.27,Scotland
+2022-02,6.41,Scotland
+2022-03,6.47,Scotland
+2022-04,6.73,Scotland
+2022-05,6.50,Scotland
+2022-06,6.50,Scotland
+2022-07,6.81,Scotland
+2022-08,6.65,Scotland
+2022-09,6.51,Scotland
+2022-10,6.68,Scotland
+2022-11,6.87,Scotland
+2022-12,6.81,Scotland
+2023-01,6.85,Scotland
+2023-02,7.02,Scotland
+2023-03,7.05,Scotland
+2023-04,7.02,Scotland
+2023-05,6.84,Scotland
+2023-06,6.84,Scotland
+2023-07,6.92,Scotland
+2023-08,6.88,Scotland
+2023-09,6.88,Scotland
+2023-10,6.88,Scotland
+2023-11,6.99,Scotland
+2023-12,7.04,Scotland
+2024-01,7.04,Scotland
+2024-02,7.43,Scotland
+2024-03,7.44,Scotland
+2024-04,7.56,Scotland
+2024-05,7.56,Scotland
+2024-06,7.56,Scotland
+2024-07,7.57,Scotland
+2024-08,7.88,Scotland
+2024-09,7.78,Scotland
+2002-02,4.78,Northern Ireland
+2002-03,4.65,Northern Ireland
+2002-04,4.40,Northern Ireland
+2002-05,4.40,Northern Ireland
+2002-06,4.39,Northern Ireland
+2002-07,4.25,Northern Ireland
+2002-08,4.37,Northern Ireland
+2002-09,4.37,Northern Ireland
+2002-10,4.40,Northern Ireland
+2002-11,4.40,Northern Ireland
+2002-12,4.43,Northern Ireland
+2003-01,4.33,Northern Ireland
+2003-02,4.25,Northern Ireland
+2003-03,4.25,Northern Ireland
+2003-04,4.41,Northern Ireland
+2003-05,4.46,Northern Ireland
+2003-06,4.46,Northern Ireland
+2003-07,4.46,Northern Ireland
+2003-08,4.46,Northern Ireland
+2003-09,4.82,Northern Ireland
+2003-10,4.46,Northern Ireland
+2003-11,4.46,Northern Ireland
+2003-12,4.51,Northern Ireland
+2004-01,4.88,Northern Ireland
+2004-02,4.63,Northern Ireland
+2004-03,4.58,Northern Ireland
+2004-04,4.34,Northern Ireland
+2004-05,4.34,Northern Ireland
+2004-06,4.34,Northern Ireland
+2004-07,4.37,Northern Ireland
+2004-08,4.37,Northern Ireland
+2004-09,4.37,Northern Ireland
+2004-10,4.34,Northern Ireland
+2004-11,4.37,Northern Ireland
+2004-12,4.60,Northern Ireland
+2005-01,4.60,Northern Ireland
+2005-02,4.66,Northern Ireland
+2005-03,4.66,Northern Ireland
+2005-04,4.70,Northern Ireland
+2005-05,4.60,Northern Ireland
+2005-06,4.70,Northern Ireland
+2005-07,4.70,Northern Ireland
+2005-08,4.73,Northern Ireland
+2005-09,4.70,Northern Ireland
+2005-10,4.70,Northern Ireland
+2005-11,4.70,Northern Ireland
+2005-12,4.70,Northern Ireland
+2006-01,4.70,Northern Ireland
+2006-02,4.70,Northern Ireland
+2006-03,4.70,Northern Ireland
+2006-04,4.62,Northern Ireland
+2006-05,4.62,Northern Ireland
+2006-06,4.78,Northern Ireland
+2006-07,4.76,Northern Ireland
+2006-08,4.76,Northern Ireland
+2006-09,4.76,Northern Ireland
+2006-10,4.80,Northern Ireland
+2006-11,4.80,Northern Ireland
+2006-12,4.80,Northern Ireland
+2007-01,4.72,Northern Ireland
+2007-02,4.72,Northern Ireland
+2007-03,4.72,Northern Ireland
+2007-04,4.72,Northern Ireland
+2007-05,4.72,Northern Ireland
+2007-06,4.78,Northern Ireland
+2007-07,4.72,Northern Ireland
+2007-08,4.72,Northern Ireland
+2007-09,4.78,Northern Ireland
+2007-10,4.72,Northern Ireland
+2007-11,4.78,Northern Ireland
+2007-12,4.98,Northern Ireland
+2008-01,4.98,Northern Ireland
+2008-02,5.05,Northern Ireland
+2008-03,4.85,Northern Ireland
+2008-04,4.85,Northern Ireland
+2008-05,4.80,Northern Ireland
+2008-06,4.80,Northern Ireland
+2008-07,4.85,Northern Ireland
+2008-08,5.36,Northern Ireland
+2008-09,5.40,Northern Ireland
+2008-10,5.40,Northern Ireland
+2008-11,5.48,Northern Ireland
+2008-12,5.40,Northern Ireland
+2009-01,5.48,Northern Ireland
+2009-02,5.88,Northern Ireland
+2009-03,5.88,Northern Ireland
+2009-04,5.88,Northern Ireland
+2009-05,5.88,Northern Ireland
+2009-06,5.88,Northern Ireland
+2009-07,5.90,Northern Ireland
+2009-08,5.88,Northern Ireland
+2009-09,5.88,Northern Ireland
+2009-10,5.88,Northern Ireland
+2009-11,5.88,Northern Ireland
+2009-12,5.88,Northern Ireland
+2010-01,5.88,Northern Ireland
+2010-02,5.08,Northern Ireland
+2010-03,5.08,Northern Ireland
+2010-04,5.05,Northern Ireland
+2010-05,5.05,Northern Ireland
+2010-06,5.05,Northern Ireland
+2010-07,5.05,Northern Ireland
+2010-08,5.08,Northern Ireland
+2010-09,5.08,Northern Ireland
+2010-10,5.03,Northern Ireland
+2010-11,5.00,Northern Ireland
+2010-12,5.00,Northern Ireland
+2011-01,5.02,Northern Ireland
+2011-02,5.02,Northern Ireland
+2011-03,5.06,Northern Ireland
+2011-04,5.06,Northern Ireland
+2011-05,5.08,Northern Ireland
+2011-06,5.06,Northern Ireland
+2011-07,5.06,Northern Ireland
+2011-08,5.06,Northern Ireland
+2011-09,5.10,Northern Ireland
+2011-10,5.10,Northern Ireland
+2011-11,5.10,Northern Ireland
+2011-12,5.14,Northern Ireland
+2012-01,5.14,Northern Ireland
+2012-02,5.22,Northern Ireland
+2012-03,5.14,Northern Ireland
+2012-04,5.24,Northern Ireland
+2012-05,5.24,Northern Ireland
+2012-06,5.30,Northern Ireland
+2012-07,5.30,Northern Ireland
+2012-08,5.30,Northern Ireland
+2012-09,5.30,Northern Ireland
+2012-10,5.28,Northern Ireland
+2012-11,5.28,Northern Ireland
+2012-12,5.28,Northern Ireland
+2013-01,5.30,Northern Ireland
+2013-02,5.30,Northern Ireland
+2013-03,5.30,Northern Ireland
+2013-04,5.25,Northern Ireland
+2013-05,5.30,Northern Ireland
+2013-06,5.30,Northern Ireland
+2013-07,5.38,Northern Ireland
+2013-08,5.38,Northern Ireland
+2013-09,5.30,Northern Ireland
+2013-10,5.30,Northern Ireland
+2013-11,5.30,Northern Ireland
+2013-12,5.30,Northern Ireland
+2014-01,5.30,Northern Ireland
+2014-02,5.25,Northern Ireland
+2014-03,5.25,Northern Ireland
+2014-04,5.25,Northern Ireland
+2014-05,5.25,Northern Ireland
+2014-06,5.20,Northern Ireland
+2014-07,5.25,Northern Ireland
+2014-08,5.25,Northern Ireland
+2014-09,5.20,Northern Ireland
+2014-10,5.25,Northern Ireland
+2014-11,5.25,Northern Ireland
+2014-12,5.20,Northern Ireland
+2015-01,5.25,Northern Ireland
+2015-02,5.25,Northern Ireland
+2015-03,5.25,Northern Ireland
+2015-04,5.25,Northern Ireland
+2015-05,5.25,Northern Ireland
+2015-06,5.25,Northern Ireland
+2015-07,5.20,Northern Ireland
+2015-08,5.25,Northern Ireland
+2015-09,5.25,Northern Ireland
+2015-10,5.25,Northern Ireland
+2015-11,5.25,Northern Ireland
+2015-12,5.28,Northern Ireland
+2016-01,5.28,Northern Ireland
+2016-02,5.03,Northern Ireland
+2016-03,5.03,Northern Ireland
+2016-04,5.03,Northern Ireland
+2016-05,5.03,Northern Ireland
+2016-06,5.20,Northern Ireland
+2016-07,5.20,Northern Ireland
+2016-08,5.20,Northern Ireland
+2016-09,5.20,Northern Ireland
+2016-10,5.63,Northern Ireland
+2016-11,5.63,Northern Ireland
+2016-12,5.63,Northern Ireland
+2017-01,5.70,Northern Ireland
+2017-02,5.70,Northern Ireland
+2017-03,5.53,Northern Ireland
+2017-04,5.53,Northern Ireland
+2017-05,5.53,Northern Ireland
+2017-06,5.03,Northern Ireland
+2017-07,5.03,Northern Ireland
+2017-08,5.30,Northern Ireland
+2017-09,5.40,Northern Ireland
+2017-10,5.40,Northern Ireland
+2017-11,5.40,Northern Ireland
+2017-12,5.70,Northern Ireland
+2018-01,5.46,Northern Ireland
+2018-02,5.46,Northern Ireland
+2018-03,5.46,Northern Ireland
+2018-04,5.78,Northern Ireland
+2018-05,5.46,Northern Ireland
+2018-06,5.46,Northern Ireland
+2018-07,5.95,Northern Ireland
+2018-08,5.69,Northern Ireland
+2018-09,5.95,Northern Ireland
+2018-10,5.69,Northern Ireland
+2018-11,5.69,Northern Ireland
+2018-12,5.69,Northern Ireland
+2019-01,5.69,Northern Ireland
+2019-02,5.69,Northern Ireland
+2019-03,5.69,Northern Ireland
+2019-04,5.69,Northern Ireland
+2019-05,5.95,Northern Ireland
+2019-06,5.69,Northern Ireland
+2019-07,5.69,Northern Ireland
+2019-08,5.69,Northern Ireland
+2019-09,5.76,Northern Ireland
+2019-10,5.76,Northern Ireland
+2019-11,5.76,Northern Ireland
+2019-12,5.76,Northern Ireland
+2020-01,5.76,Northern Ireland
+2020-02,5.76,Northern Ireland
+2020-03,5.68,Northern Ireland
+2020-05,5.70,Northern Ireland
+2020-06,5.70,Northern Ireland
+2020-07,6.25,Northern Ireland
+2020-08,5.75,Northern Ireland
+2020-09,6.17,Northern Ireland
+2020-10,5.80,Northern Ireland
+2020-11,6.40,Northern Ireland
+2020-12,5.50,Northern Ireland
+2021-01,6.40,Northern Ireland
+2021-02,6.40,Northern Ireland
+2021-03,6.40,Northern Ireland
+2021-04,6.40,Northern Ireland
+2021-05,6.27,Northern Ireland
+2021-06,5.70,Northern Ireland
+2021-07,5.94,Northern Ireland
+2021-08,5.63,Northern Ireland
+2021-09,6.05,Northern Ireland
+2021-10,5.74,Northern Ireland
+2021-11,5.74,Northern Ireland
+2021-12,5.86,Northern Ireland
+2022-01,6.06,Northern Ireland
+2022-02,5.73,Northern Ireland
+2022-03,5.73,Northern Ireland
+2022-04,6.02,Northern Ireland
+2022-05,5.92,Northern Ireland
+2022-06,6.15,Northern Ireland
+2022-07,6.40,Northern Ireland
+2022-08,6.90,Northern Ireland
+2022-09,7.04,Northern Ireland
+2022-10,7.28,Northern Ireland
+2022-11,7.09,Northern Ireland
+2022-12,7.09,Northern Ireland
+2023-01,7.10,Northern Ireland
+2023-02,7.43,Northern Ireland
+2023-03,7.43,Northern Ireland
+2023-04,7.43,Northern Ireland
+2023-05,7.48,Northern Ireland
+2023-06,7.48,Northern Ireland
+2023-07,7.48,Northern Ireland
+2023-08,7.60,Northern Ireland
+2023-09,7.46,Northern Ireland
+2023-10,7.48,Northern Ireland
+2023-11,7.62,Northern Ireland
+2023-12,7.72,Northern Ireland
+2024-01,7.65,Northern Ireland
+2024-02,7.65,Northern Ireland
+2024-03,7.72,Northern Ireland
+2024-04,7.72,Northern Ireland
+2024-05,7.72,Northern Ireland
+2024-06,7.72,Northern Ireland
+2024-07,7.72,Northern Ireland
+2024-08,7.76,Northern Ireland
+2024-09,7.76,Northern Ireland
