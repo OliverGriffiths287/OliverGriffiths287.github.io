@@ -143,22 +143,24 @@ figure {
   margin-top: 50px;
 }
 
-.chart-grid {
+.grid-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  max-width: 1200px;
-  margin-left: 50px;
-}
-
-.chart-container {
-  width: 430px;
-  height: 415px;
-  padding: 5px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0px;
+  width: 1000px;
+  padding: 10px;
+  margin-left: 250px;
   border-radius: 25px;
   overflow: hidden;
   background-color: #ffffff;
   box-shadow: 0 4px 8px rgba#ffffff;
+}
+
+.chart-wrapper {
+  width: 315px;
+  height: 315px;
+  padding: 0;
+  margin: 0;
 }
 
 
@@ -306,21 +308,23 @@ figure {
     margin-top: 50px;
   }
   
-  .chart-grid {
+  .grid-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 10px;
-    max-width: 400px;
-    margin-left: 0;
-  }
-  
-  .chart-container {
-    width: 375px;
-    height: 375px;
-    padding: 5px;
+    gap: 0px;
+    width: 350px;
+    padding: 10px;
+    margin-left: 0px;
     border-radius: 25px;
     overflow: hidden;
     background-color: #ffffff;
     box-shadow: 0 4px 8px rgba#ffffff;
+  }
+  
+  .chart-wrapper {
+    width: 340px;
+    height: 340px;
+    padding: 0;
+    margin: 0;
   }
 }
