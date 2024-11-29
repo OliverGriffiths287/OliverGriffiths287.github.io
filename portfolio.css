@@ -7,7 +7,7 @@ body {
   height: 100vh;
   background: linear-gradient(to right, rgb(155, 163, 180) 0%, rgb(130, 144, 172) 15%, rgb(130, 144, 172) 85%, rgb(155, 163, 180) 100%);
   width: 900px;
-  padding-top: 50px;
+  padding-top: 25px;
   align-items: center;
 }
 
@@ -16,6 +16,7 @@ body {
   margin-left: 450px;
   align-self: center;
   align-items: center;
+  padding-top: 20px;
 }
 
 header {
