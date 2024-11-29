@@ -1,0 +1,80 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/data/Prem_Revenue_Points_2022.csv"
+  },
+  "width": "container",
+  "height": "container",
+  "encoding": {
+    "x": {
+      "field": "points",
+      "type": "quantitative",
+      "title": null, 
+      "scale": {"domain": [20, 100]}
+    },
+    "y": {
+      "field": "revenue",
+      "type": "quantitative",
+      "axis": {
+        "title": "2021/22",
+        "titleAngle": 0,
+        "titleAlign": "left",
+        "titleX": 5,
+        "titleY": 12
+      }, 
+      "scale": {"domain": [100, 650]}
+    },
+    "color": {
+      "field": "Team",
+      "type": "nominal",
+      "legend": {"labelFontSize": 7}
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "circle",
+        "size": 100,
+        "opacity": 1
+      }
+    },
+    {
+      "params": [
+        {
+          "name": "hover",
+          "select": {
+            "type": "point",
+            "on": "pointerover",
+            "clear": "pointerout"
+          }
+        }
+      ],
+      "mark": {
+        "type": "circle",
+        "tooltip": true
+      },
+      "encoding": {
+        "opacity": {
+          "condition": {
+            "test": {
+              "param": "hover",
+              "empty": false
+            },
+            "value": 1
+          },
+          "value": 0
+        },
+        "size": {
+          "condition": {
+            "test": {
+              "param": "hover",
+              "empty": false
+            },
+            "value": 100
+          },
+          "value": 200
+        }
+      }
+    }
+  ]
+}

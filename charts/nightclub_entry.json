@@ -17,7 +17,7 @@
       "field": "price",
       "type": "quantitative",
       "scale": {"type": "linear", "domain": [3.5, 11.5]},
-      "axis": {"grid": true, "title": "Enrty Cost"}
+      "axis": {"grid": true, "title": "Entry Cost"}
     },
     "color": {"field": "area", "type": "nominal", "legend":{"title": "Region", "symbolOpacity": 1}}
   },

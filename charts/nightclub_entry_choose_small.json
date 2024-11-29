@@ -1,0 +1,83 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Nightclub Entry Cost - pick a region",
+    "subtitle": [
+      "Average Saturday night cost across all location in region, measured in £."
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "subtitlePadding": 5,
+    "anchor": "start",
+    "color": "black"
+  },
+  "padding": 20,
+  "width": 280,
+  "height": 280,
+  "data": {
+    "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/main/data/average_nightclub.csv"
+  },
+  "params": [
+    {
+      "name": "areaSelection",
+      "value": "London",
+      "bind": {
+        "input": "select",
+        "options": [
+          "London",
+          "South East",
+          "South West",
+          "East Anglia",
+          "East Midlands",
+          "West Midlands",
+          "North West",
+          "North"
+        ],
+        "labels": [
+          "London",
+          "South East",
+          "South West",
+          "East Anglia",
+          "East Midlands",
+          "West Midlands",
+          "North West",
+          "North"
+        ],
+        "name": "Pick area:"
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "datum.area == areaSelection"
+    }
+  ],
+  "mark": {
+    "type": "line",
+    "point": {
+      "size": 50,
+      "color": "black"
+    },
+    "opacity": 1,
+    "strokeWidth": 2.5,
+    "color": "black"
+  },
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "temporal",
+      "title": null
+    },
+    "y": {
+      "field": "price",
+      "type": "quantitative",
+      "title": "Entry Cost",
+      "scale": {
+        "domain": [
+          0,
+          13
+        ]
+      }
+    }
+  }
+}

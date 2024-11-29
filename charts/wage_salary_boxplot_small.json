@@ -1,0 +1,60 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 300,
+  "height": 250,
+  "title": {"text": "Premier League Annual Wages Distribution and Average Salary Trend","subtitle": "Points denote extreme values, log scale on y-axis. Source: Capology"},
+  "data": {
+    "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/data/PL_annual_wages.csv"
+  },
+   "transform": [
+    {
+      "calculate": "toNumber(datum.annual_gross_gbp)",
+      "as": "annual_gross_gbp_numeric"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "boxplot",
+        "opacity": 1
+      },
+      "encoding": {
+        "x": {"field": "season", "type": "ordinal", "title": "Season"},
+        "y": {
+          "field": "annual_gross_gbp_numeric",
+          "type": "quantitative",
+          "title": "Annual Salary (£)",
+          "scale": {"type":"log", "domain": [10000, 35000000]},
+          "axis": {"grid": false}
+        },
+        "color":{"field": "season", "legend": null, "title": "Season" }
+       
+      }
+    
+    },
+    
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/PL_avg_salaries.csv"
+      },
+      "mark": {
+        "type": "line",
+        "point":{"fill": "white", "filled": false, "color": "black", "size": 50},
+        "color": "black",
+        "strokeWidth": 2
+      },
+      "encoding": {
+        "x": {"field": "Season", "type": "ordinal"},
+        "y": {
+          "field": "Average Salary",
+          "type": "quantitative",
+          "scale": {"type": "log", "domain": [10000, 35000000]}
+        },
+        "tooltip": [
+          {"field": "Season", "type": "ordinal"},
+          {"field": "Average Salary", "type": "quantitative", "format": ",.0f", "title": "Mean Salary"}
+        ]
+      }
+    }
+  ]
+}

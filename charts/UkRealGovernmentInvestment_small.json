@@ -1,0 +1,35 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "UK Government Investment, adjusted for inflation",
+    "anchor": "start",
+    "subtitle": "General Gov GFCF, £ million | Source: ONS through ECO API",
+    "fontSize": 18,
+    "subtitleFontSize": 13,
+    "color": "#000000",
+    "subtitleColor": "#ff0000"
+  },
+  "height": 200,
+  "width": 300,
+  "autosize": {"type": "fit", "contains": "padding"},
+  "background": "#ffffff",
+  "view": {"fill": "#ffffff", "strokeOpacity": 0},
+  "data": {
+    "url": "https://api.economicsobservatory.com/gbr/ginv_r?vega",
+    "format": {"type": "json"}
+  },
+  "mark": {"type": "circle", "color": "#272bd8", "strokeWidth": 3},
+  "encoding": {
+    "x": {
+      "field": "date",
+      "type": "temporal",
+      "axis": {"title": "Year", "titleColor": "#122B39", "grid": false}
+    },
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "axis": {"title": "Investment (£M)", "titleColor": "#122B39", "grid": true}
+    }
+  },
+  "config": {}
+}

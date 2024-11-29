@@ -1,0 +1,50 @@
+{ const axios = require('axios');
+const cheerio = require('cheerio');
+const fs = require('fs');
+
+const url = 'https://www.statista.com/statistics/566666/premier-league-clubs-by-revenue/';
+
+async function scrapeData() {
+    try {
+        // Fetch the HTML content
+        const { data } = await axios.get(url);
+
+        // Load the HTML into cheerio
+        const $ = cheerio.load(data);
+        
+        // Find the table
+        const table = $('table');
+
+        // Extract headers
+        const headers = [];
+        table.find('th').each((index, element) => {
+            headers.push($(element).text().trim());
+        });
+
+        // Extract rows
+        const rows = [];
+        table.find('tr').each((index, element) => {
+            const cols = [];
+            $(element).find('td').each((i, el) => {
+                cols.push($(el).text().trim());
+            });
+            if (cols.length) {
+                rows.push(cols);
+            }
+        });
+
+        // Combine headers and rows
+        const dataToSave = [headers, ...rows];
+
+        // Save to CSV file
+        const csvContent = dataToSave.map(e => e.join(',')).join('\n');
+        fs.writeFileSync('premier_league_revenue.csv', csvContent);
+
+        console.log('Data saved to premier_league_revenue.csv');
+
+    } catch (error) {
+        console.error('Error fetching data:', error);
+    }
+}
+
+scrapeData();}

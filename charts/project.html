@@ -1,0 +1,170 @@
+<html>
+
+<head>
+   <link rel="stylesheet" type="text/css" href="project.css">
+   <title>Project</title>
+
+   <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Scrollable Vega-Embed Gallery</title>
+
+</head>
+
+<body>
+   <header>
+      <nav>
+         <ul>
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="https://github.com/OliverGriffiths287/OliverGriffiths287.github.io">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/oliver-griffiths-bb901329a/">LinkedIn</a></li>
+         </ul>
+      </nav>
+   </header>
+
+   <div class="page-container">
+
+      <div class="title">
+         <h1> What effect has increased commercialisation had on domestic and european football?</h1>
+      </div>
+   </div>
+
+   <script>
+      let spec1 = "Revenue_Points_2015_small.json"
+      let spec2 = "Revenue_Points_2016_small.json"
+      let spec3 = "Revenue_Points_2017_small.json"
+      let spec4 = "Revenue_Points_2018_small.json"
+      let spec5 = "Revenue_Points_2019_small.json"
+      let spec6 = "Revenue_Points_2020_small.json"
+      let spec7 = "Revenue_Points_2021_small.json"
+      let spec8 = "Revenue_Points_2022_small.json"
+      let spec9 = "Revenue_Points_2023_small.json"
+   </script>
+
+   <div class="grid-container">
+      <div class="chart-wrapper">
+         <div id="chart1"></div>
+      </div>
+      <div class="chart-wrapper">
+         <div id="chart2"></div>
+      </div>
+      <div class="chart-wrapper">
+         <div id="chart3"></div>
+      </div>
+      <div class="chart-wrapper">
+         <div id="chart4"></div>
+      </div>
+      <div class="chart-wrapper">
+         <div id="chart5"></div>
+      </div>
+      <div class="chart-wrapper">
+         <div id="chart6"></div>
+      </div>
+      <div class="chart-wrapper">
+         <div id="chart7"></div>
+      </div>
+      <div class="chart-wrapper">
+         <div id="chart8"></div>
+      </div>
+      <div class="chart-wrapper">
+         <div id="chart9"></div>
+      </div>
+   </div>
+
+   <script>
+      window.addEventListener('load', function () {
+         const embedOptions = {
+            actions: false,
+            mode: "vega-lite",
+            renderer: "svg",
+            theme: "light"
+         };
+
+         const specs = [spec1, spec2, spec3, spec4, spec5, spec6, spec7, spec8, spec9];
+
+         specs.forEach((spec, index) => {
+            vegaEmbed(`#chart${index + 1}`, spec, embedOptions).then(result => {
+               const view = result.view;
+               view.signal('width', view.container().clientWidth);
+               view.signal('height', view.container().clientHeight);
+               view.runAsync();
+            });
+
+            window.addEventListener('resize', function () {
+               specs.forEach((spec, index) => {
+                  const view = vegaEmbed(`#chart${index + 1}`).then(result => {
+                     const view = result.view;
+                     view.signal('width', view.container().clientWidth);
+                     view.signal('height', view.container().clientHeight);
+                     view.runAsync();
+                  });
+               });
+            });
+         });
+      });
+   </script>
+
+   <div class="page-container">
+
+      <section>
+         <figure id="Location1"></figure>
+      </section>
+
+      <script>
+         let figure_1_spec = "Europe_Revenue_Map_small.json";
+         window.addEventListener('load', function () {
+            vegaEmbed('#Location1', figure_1_spec, { actions: false })
+         });
+      </script>
+
+      <section>
+         <figure id="Location2"></figure>
+      </section>
+
+      <script>
+         let figure_2_spec = "2014_2023_Wages.json";
+         window.addEventListener('load', function () {
+            vegaEmbed('#Location2', figure_2_spec, { actions: false })
+         });
+      </script>
+
+      <section>
+         <figure id="Location3"></figure>
+      </section>
+
+      <script>
+         let figure_3_spec = "PL_Yearly_Revenue.json";
+         window.addEventListener('load', function () {
+            vegaEmbed('#Location3', figure_3_spec, { actions: false })
+         });
+      </script>
+
+      <section>
+         <figure id="Location4"></figure>
+      </section>
+
+      <script>
+         let figure_4_spec = "Revenue_Breakdown.json";
+         window.addEventListener('load', function () {
+            vegaEmbed('#Location4', figure_4_spec, { actions: false })
+         });
+      </script>
+
+      <section>
+         <figure id="Location5"></figure>
+      </section>
+
+      <script>
+         let figure_5_spec = "wage_salary_boxplot.json";
+         window.addEventListener('load', function () {
+            vegaEmbed('#Location5', figure_5_spec, { actions: false })
+         });
+      </script>
+
+   </div>
+
+</body>

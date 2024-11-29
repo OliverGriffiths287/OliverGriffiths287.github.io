@@ -1,0 +1,42 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title":{"text":"Revenue by European country 2022", "subtitle": "Revenue measured in million euros by nation's top division. Source: UEFA"},
+  "height": "container",
+  "width": "container",
+  "padding": 20,
+  "data": {
+    "url": "https://raw.githubusercontent.com/leakyMirror/map-of-europe/refs/heads/master/TopoJSON/europe.topojson",
+    "format": {
+      "type": "topojson",
+      "feature": "europe" 
+    }
+  },
+  "transform": [
+    {
+      "lookup": "properties.NAME", 
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/data/Europe_Revenue.csv",
+          "format": {"type": "csv"}
+        },
+        "key": "Country", 
+        "fields": ["Revenue"] 
+      }
+    }
+  ],
+  "projection": {"type": "mercator"},
+  "mark": {"type": "geoshape", "stroke": "black", "strokeWidth": 0.5},
+  "encoding": {
+    "color": {
+      "field": "Revenue", 
+      "type": "quantitative",
+      "scale": {
+        "scheme": "reds" 
+      }
+    },
+    "tooltip": [
+      {"field": "properties.NAME", "type": "nominal", "title": "Country"},
+      {"field": "Revenue", "type": "quantitative", "title": "Revenue"}
+    ]
+  }
+}

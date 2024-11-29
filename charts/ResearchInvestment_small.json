@@ -1,0 +1,74 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/data/Research_Development.csv"
+  },
+  "title": {
+    "text": "UK Quarterly Investment by Sector",
+    "subtitle": "Current Prices and Non Seasonally Adjusted. Source: ONS"
+  },
+  "height": 250,
+  "width": 250,
+  "encoding": {
+    "x": {
+      "field": "time",
+      "type": "temporal",
+      "title": "",
+      "axis": {
+        "grid": false
+      }
+    },
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "title": "Quarterly investment"
+    },
+    "color": {
+      "field": "Sector",
+      "type": "nominal"
+    }
+  },
+  "layer": [
+    {
+      "mark": "line"
+    },
+    {
+      "params": [
+        {
+          "name": "hover",
+          "select": {
+            "type": "point",
+            "on": "pointerover",
+            "clear": "pointerout"
+          }
+        }
+      ],
+      "mark": {
+        "type": "circle",
+        "tooltip": true
+      },
+      "encoding": {
+        "opacity": {
+          "condition": {
+            "test": {
+              "param": "hover",
+              "empty": false
+            },
+            "value": 1
+          },
+          "value": 0
+        },
+        "size": {
+          "condition": {
+            "test": {
+              "param": "hover",
+              "empty": false
+            },
+            "value": 48
+          },
+          "value": 100
+        }
+      }
+    }
+  ]
+}

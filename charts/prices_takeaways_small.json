@@ -1,0 +1,43 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 300,
+  "height": 400,
+  "title":{"text": "Chinese Takeaways Prices", "subtitle": "ITL1 regions, September 2024"},
+  "data": {
+    "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/data/ITL1_regions.geojson",
+    "format": {"property": "features"}
+  },
+  "projection": {"type": "equalEarth"},
+  "transform": [
+    {
+      "lookup": "properties.ITL121NM",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/data/average_prices_2024-09.csv"
+        },
+        "key": "area",
+        "fields": ["area", "price"]
+      }
+    }
+  ],
+  "layer": [
+    {
+      "mark": {"type": "geoshape"},
+      "encoding": {
+        "color": {
+          "title": "Average Price",
+          "field": "price",
+          "type": "quantitative",
+          "scale": {"type": "linear", "scheme": "plasma", "reverse": true}
+        }
+      }
+    }
+  ],
+  "encoding": {
+    "tooltip": [
+      {"field": "properties.ITL121NM", "title": "Region"},
+      {"field": "price", "type": "quantitative", "title": "Average Price"}
+    ]
+  }
+
+}
