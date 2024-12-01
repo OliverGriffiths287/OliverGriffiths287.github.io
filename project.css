@@ -168,7 +168,7 @@ figure {
 @media only screen and (max-width: 480px) {
   body {
     font-family: 'Calibri', Helvetica, Arial, sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     color: #000000;
     line-height: 1.6;
     background-color: rgb(130, 144, 172);
