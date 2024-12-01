@@ -32,15 +32,38 @@
          <h1> What effect has increased commercialisation had on domestic and european football?</h1>
       </div>
 
-      <div class="chart-description">
-         <h2>
-            Premier League Points and Revenue per Season
-         </h2>
-         <p>
-            Points accumulated out of possible 114, revenue measured in million pounds. Source: TNT Sports and Gov.uk.
-         </p>
-      </div>
-      
+      <section>
+         <figure id="Location3"></figure>
+      </section>
+
+      <script>
+         let figure_3_spec = "charts/PL_Yearly_Revenue.json";
+         window.addEventListener('load', function () {
+            vegaEmbed('#Location3', figure_3_spec, { actions: false })
+         });
+      </script>
+
+      <section>
+         <div>
+            <p>
+               <a href="https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/charts/PL_Yearly_Revenue.json">Chart Spec</a> | 
+               <a href="https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/data/PL_Revenue_Yearly.csv">Chart Data</a>
+            </p> 
+         </div>
+      </section>
+
+      <section>
+         <div class="chart-description">
+            <h2>
+               Premier League Points and Revenue per Season
+            </h2>
+            <p>
+               Points accumulated out of possible 114, revenue measured in million pounds. Source: TNT Sports and
+               Gov.uk.
+            </p>
+         </div>
+      </section>
+
    </div>
 
    <script>
@@ -120,11 +143,18 @@
 
    <div class="page-container">
 
-      <div>
-         <p>The python notebook <a href="https://github.com/OliverGriffiths287/OliverGriffiths287.github.io/blob/main/python_code/scraped_prempoints.ipynb">Points Scraping Notebook</a> was used to create a loop,
-            generating the points total for all nine seasons.
-         </p>
-      </div>
+      <section>
+         <div>
+            <p>
+               <a href="https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/charts/Revenue_Points_2023.json">Individual
+               Chart Spec</a> | <a
+               href="https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/data/Prem_Revenue_Points_2023.csv">Individual
+               Chart Data</a> | <a
+               href="https://github.com/OliverGriffiths287/OliverGriffiths287.github.io/blob/main/python_code/scraped_prempoints.ipynb">Points
+               Scraping Notebook</a>
+            </p>
+         </div>
+      </section>
 
       <section>
          <figure id="Location1"></figure>
@@ -138,6 +168,16 @@
       </script>
 
       <section>
+         <div>
+            <p>
+               <a href="https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/charts/Europe_Revenue_Map_small.json">Chart Spec</a> | <a
+               href="https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/data/Europe_Revenue.csv">Chart Data</a> | <a
+               href="https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/data/europe_map.json">Europe Map</a>
+            </p>
+         </div>
+      </section>
+
+      <section>
          <figure id="Location2"></figure>
       </section>
 
@@ -149,15 +189,14 @@
       </script>
 
       <section>
-         <figure id="Location3"></figure>
+         <div>
+            <p>
+              <a href="https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/charts/2014_2023_Wages.json">Chart Spec</a> | <a
+              href="https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/data/2014_2023_Wages.csv">Chart Data</a> | <a
+              href="https://github.com/OliverGriffiths287/OliverGriffiths287.github.io/blob/main/python_code/Wages_scraping.ipynb">Wage Scraping Notebook</a>
+            </p>
+         </div>
       </section>
-
-      <script>
-         let figure_3_spec = "charts/PL_Yearly_Revenue.json";
-         window.addEventListener('load', function () {
-            vegaEmbed('#Location3', figure_3_spec, { actions: false })
-         });
-      </script>
 
       <section>
          <figure id="Location4"></figure>
@@ -171,6 +210,15 @@
       </script>
 
       <section>
+         <div>
+            <p>
+               <a href="https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/charts/Revenue_Breakdown.json">Chart Spec</a> | <a
+               href="https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/data/Revenue_Breakdown_PL.csv">Chart Data</a>
+            </p>
+         </div>
+      </section>
+
+      <section>
          <figure id="Location5"></figure>
       </section>
 
@@ -180,6 +228,16 @@
             vegaEmbed('#Location5', figure_5_spec, { actions: false })
          });
       </script>
+
+      <section>
+         <div>
+            <p>
+              <a href="https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/charts/wage_salary_boxplot.json">Chart Spec</a> | <a
+              href="https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/data/PL_annual_wages.csv">Chart Data</a> | <a
+              href="https://github.com/OliverGriffiths287/OliverGriffiths287.github.io/blob/main/python_code/salary_season_scraping.ipynb">Salary Scraping Notebook</a>
+            </p>
+         </div>
+      </section>
 
    </div>
 
