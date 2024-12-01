@@ -99,32 +99,32 @@ a:hover {
 #Location1 {
   width: 600px;
   height: 600px;
-  margin-left: 125px;
-  margin-top: 100px;
+  margin-left: 100px;
+  margin-top: 25px;
 }
 
 #Location2 {
   width: 600px;
   height: 600px;
-  margin-left: 125px;
+  margin-left: 100px;
 }
 
 #Location3 {
   width: 600px;
   height: 600px;
-  margin-left: 125px;
+  margin-left: 100px;
 }
 
 #Location4 {
   width: 600px;
   height: 600px;
-  margin-left: 125px;
+  margin-left: 100px;
 }
 
 #Location5 {
   width: 600px;
   height: 600px;
-  margin-left: 125px;
+  margin-left: 100px;
 }
 
 figure {
@@ -174,14 +174,14 @@ figure {
     background-color: rgb(130, 144, 172);
     height: 100vh;
     background: linear-gradient(to right, rgb(155, 163, 180) 0%, rgb(130, 144, 172) 15%, rgb(130, 144, 172) 85%, rgb(155, 163, 180) 100%);
-    width: 450px;
+    max-width: 100%;
     padding-top: 50px;
     align-self: center;
     align-items: center;
   }
 
   .page-container {
-    width: 400px;
+    max-width: 325px;
     margin-left: 0;
     align-self: center;
     align-items: center;
