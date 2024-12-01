@@ -1,8 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title":{"text":"Revenue by European country 2022", "subtitle": "Revenue measured in million euros by nation's top division. Source: UEFA"},
-  "width": "container",
+  "title":{"text":"Revenue by European country 2022", "subtitle": "Million euros by nation's top division. Source: UEFA", "subtitleFontSize": 7},
   "height": "container",
+  "width": "container",
+  "padding": 20,
   "data": {
     "url": "https://raw.githubusercontent.com/leakyMirror/map-of-europe/refs/heads/master/TopoJSON/europe.topojson",
     "format": {

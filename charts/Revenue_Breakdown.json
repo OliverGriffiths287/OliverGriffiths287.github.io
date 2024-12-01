@@ -5,7 +5,8 @@
   },
   "title": {
     "text": "Premier League Revenue Breakdown",
-    "subtitle": "Revenue measured in Million Pounds. Source: Deloitte"
+    "subtitle": "2020 - 2021 effected by Covid. Source: Deloitte",
+    "subtitleFontSize": 7
   },
   "width": "container",
   "height": "container",
@@ -15,7 +16,7 @@
       "aggregate": "sum",
       "field": "Revenue",
       "axis": {
-        "title": "Revenue"
+        "title": "Revenue (£M)"
       }
     },
     "y": {

@@ -6,7 +6,7 @@
   "title": {
     "text": "Premier League Yearly Revenue",
     "fontSize": 20,
-    "subtitle": "Measured in million pounds since league creation in 1992. Source: Gov.uk",
+    "subtitle": "Million pounds since 1992. Source: Gov.uk",
     "subtitleFontSize": 14
   },
   "height": "container",
