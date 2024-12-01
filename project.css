@@ -100,31 +100,31 @@ a:hover {
   width: 600px;
   height: 600px;
   margin-left: 50px;
-  margin-top: 50px;
+  margin-top: 0;
 }
 
 #Location2 {
   width: 600px;
   height: 600px;
-  margin-left: 50px;
+  margin-left: 0;
 }
 
 #Location3 {
   width: 600px;
   height: 600px;
-  margin-left: 50px;
+  margin-left: 0;
 }
 
 #Location4 {
   width: 600px;
   height: 600px;
-  margin-left: 50px;
+  margin-left: 0;
 }
 
 #Location5 {
   width: 600px;
   height: 600px;
-  margin-left: 50px;
+  margin-left: 0;
 }
 
 figure {
