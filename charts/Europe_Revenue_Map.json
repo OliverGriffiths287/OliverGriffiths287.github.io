@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title":{"text":"Revenue by European country 2022", "subtitle": "Million euros by nation's top division. Source: UEFA"},
+  "title":{"text":"Revenue by European country 2022", "subtitle": "Million euros, top division. Source: UEFA"},
   "height": "container",
   "width": "container",
   "padding": 20,

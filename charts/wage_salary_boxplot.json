@@ -2,8 +2,8 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": "container",
   "height": "container",
-  "padding": 20,
-  "title": {"text": "Annual Wage Distribution","subtitle": "Points denote extreme values, log scale on y-axis. Source: Capology"},
+  "padding": 5,
+  "title": {"text": "Annual Wage Distribution","subtitle": "Points denote extreme values. Source: Capology"},
   "data": {
     "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/data/PL_annual_wages.csv"
   },
@@ -20,11 +20,11 @@
         "opacity": 1
       },
       "encoding": {
-        "x": {"field": "season", "type": "ordinal", "title": "Season"},
+        "x": {"field": "season", "type": "ordinal", "title": null},
         "y": {
           "field": "annual_gross_gbp_numeric",
           "type": "quantitative",
-          "title": "Annual Salary (£)",
+          "title": "Annual Salary (£) - log scale",
           "scale": {"type":"log", "domain": [10000, 35000000]},
           "axis": {"grid": false}
         },

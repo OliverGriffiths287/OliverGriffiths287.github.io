@@ -5,7 +5,7 @@
   },
   "title": {
     "text": "Ticket Prices",
-    "subtitle": "Cheapest available matchday ticket. Source: GIVEMESPORT"
+    "subtitle": "Cheapest matchday ticket. Source: GIVEMESPORT"
   },
   "params": [
     {"name": "highlight", "select": {"type": "point", "on": "mouseover"}}
@@ -13,6 +13,7 @@
   "mark": {"type": "bar"},
   "height": "container",
   "width": "container",
+  "padding": 5,
   "encoding": {
     "x": {"field": "team", "type": "ordinal", "title": null},
     "y": {"field": "cheap", "type": "quantitative", "title": "Ticket Price (£)"},

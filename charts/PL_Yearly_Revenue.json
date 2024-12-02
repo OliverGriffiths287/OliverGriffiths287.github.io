@@ -5,9 +5,9 @@
   },
   "title": {
     "text": "Premier League Yearly Revenue",
-    "fontSize": 20,
+    "fontSize": 16,
     "subtitle": "Million pounds since 1992. Source: Gov.uk",
-    "subtitleFontSize": 14
+    "subtitleFontSize": 11
   },
   "height": "container",
   "width": "container",
