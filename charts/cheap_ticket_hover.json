@@ -1,0 +1,30 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/data/cheap_tickets.csv"
+  },
+  "title": {
+    "text": "Ticket Prices",
+    "subtitle": "Cheapest available matchday ticket. Source: GIVEMESPORT"
+  },
+  "params": [
+    {"name": "highlight", "select": {"type": "point", "on": "mouseover"}}
+  ],
+  "mark": {"type": "bar"},
+  "height": "container",
+  "width": "container",
+  "encoding": {
+    "x": {"field": "team", "type": "ordinal", "title": null},
+    "y": {"field": "cheap", "type": "quantitative", "title": "Ticket Price (£)"},
+    "fillOpacity": {
+      "condition": {"param": "highlight", "value": 1},
+      "value": 0.6
+    },
+    "xOffset": {"field": "season"},
+    "color": {"field": "season", "legend": {"title": "Season"}},
+    "tooltip": [
+      {"field": "season", "title": "Season"},
+      {"field": "cheap", "title": "Price"}
+    ]
+  }
+}
