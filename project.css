@@ -18,6 +18,7 @@ body {
   align-items: center;
   text-align: center;
   padding-bottom: 20px;
+  padding-top: 10px;
 }
 
 header {
@@ -101,32 +102,32 @@ a:hover {
 #Location1 {
   width: 600px;
   height: 600px;
-  margin-left: 100px;
+  margin-left: 75px;
   margin-top: 25px;
 }
 
 #Location2 {
   width: 600px;
   height: 600px;
-  margin-left: 100px;
+  margin-left: 75px;
 }
 
 #Location3 {
   width: 600px;
   height: 600px;
-  margin-left: 100px;
+  margin-left: 75px;
 }
 
 #Location4 {
   width: 600px;
   height: 600px;
-  margin-left: 100px;
+  margin-left: 75px;
 }
 
 #Location5 {
   width: 600px;
   height: 600px;
-  margin-left: 100px;
+  margin-left: 75px;
 }
 
 figure {
@@ -166,6 +167,18 @@ figure {
   margin: 0;
 }
 
+.full-width-line {
+  width: 1600px;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -100vw;
+  border: none;
+  height: 2px;
+  background-color: #000;
+  margin-top: 5px;
+}
 
 @media only screen and (max-width: 480px) {
   body {
@@ -267,31 +280,31 @@ figure {
   #Location1 {
     width: 315px;
     height: 315px;
-    margin-left: 0;
+    margin-left: 20px;
   }
   
   #Location2 {
     width: 315px;
     height: 315px;
-    margin-left: 0;
+    margin-left: 20px;
   }
   
   #Location3 {
     width: 315px;
     height: 315px;
-    margin-left: 0;
+    margin-left: 20px;
   }
   
   #Location4 {
     width: 315px;
     height: 315px;
-    margin-left: 0;
+    margin-left: 20px;
   }
   
   #Location5 {
     width: 315px;
     height: 315px;
-    margin-left: 0;
+    margin-left: 20px;
   }
   
   figure {
@@ -316,7 +329,7 @@ figure {
     grid-template-columns: repeat(1, 1fr);
     gap: 0px;
     width: 320px;
-    padding: 10px;
+    padding-top: 0;
     margin-left: 0px;
     border-radius: 25px;
     overflow: hidden;
