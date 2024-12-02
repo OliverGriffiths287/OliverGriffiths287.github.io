@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": "container",
   "height": "container",
-  "padding": 10,
+  "padding": 15,
   "title": {"text": "Annual Wage Distribution","subtitle": "Points denote extreme values. Source: Capology"},
   "data": {
     "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/data/PL_annual_wages.csv"
