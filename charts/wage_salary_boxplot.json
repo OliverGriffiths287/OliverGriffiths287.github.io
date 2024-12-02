@@ -20,13 +20,13 @@
         "opacity": 1
       },
       "encoding": {
-        "x": {"field": "season", "type": "ordinal", "title": null},
+        "x": {"field": "season", "type": "ordinal", "title": null, "axis": {"labelFontSize": 7}},
         "y": {
           "field": "annual_gross_gbp_numeric",
           "type": "quantitative",
           "title": "Annual Salary (£) - log scale",
           "scale": {"type":"log", "domain": [10000, 35000000]},
-          "axis": {"grid": false}
+          "axis": {"grid": false, "labelFontSize": 7}
         },
         "color":{"field": "season", "legend": null, "title": "Season" }
        
@@ -45,11 +45,12 @@
         "strokeWidth": 2
       },
       "encoding": {
-        "x": {"field": "Season", "type": "ordinal"},
+        "x": {"field": "Season", "type": "ordinal", "axis": {"labelFontSize": 7}},
         "y": {
           "field": "Average Salary",
           "type": "quantitative",
-          "scale": {"type": "log", "domain": [10000, 35000000]}
+          "scale": {"type": "log", "domain": [10000, 35000000]},
+          "axis": {"labelFontSize": 7}
         },
         "tooltip": [
           {"field": "Season", "type": "ordinal"},
