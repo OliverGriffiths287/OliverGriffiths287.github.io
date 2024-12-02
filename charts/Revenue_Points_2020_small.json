@@ -29,7 +29,8 @@
     "color": {
       "field": "Team",
       "type": "nominal",
-      "legend": {"labelFontSize": 7}
+      "legend": {"labelFontSize": 7},
+      "scale": {"scheme": "tableau20"}
     }
   },
   "layer": [
