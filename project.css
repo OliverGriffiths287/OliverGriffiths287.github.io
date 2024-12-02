@@ -1,6 +1,6 @@
 body {
   font-family: 'Calibri', Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   color: #000000;
   line-height: 1.6;
   background-color: rgb(130, 144, 172);
@@ -53,7 +53,8 @@ h1 {
   color: #000000;
   margin-top: 24px;
   margin-bottom: 16px;
-  font-weight: 600;
+  font-weight: 500;
+  text-decoration: underline;
 }
 
 
@@ -74,7 +75,8 @@ h2 {
 
 p {
   margin-bottom: 1em;
-  font-weight: 300;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 section {
