@@ -220,7 +220,7 @@ img {
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   padding: 10px;
-  margin-left: 275px;
+  margin-left: 200px;
 }
 
 .grid-item {
@@ -244,8 +244,8 @@ img {
   }
   
   .page-container {
-    width: 330px;
-    margin-left: 30px;
+    width: 325px;
+    margin-left: 20px;
     align-self: center;
   }
   
@@ -321,14 +321,14 @@ img {
   }
   
   #Location3 {
-    width: 400px;
+    width: 350px;
     height: 250px;
     margin-top: 20px;
     margin-left: 0;
   }
   
   #Location4 {
-    width: 400px;
+    width: 350px;
     height: 250px;
     margin-top: 50px;
     margin-left: 0;
@@ -450,16 +450,17 @@ img {
   
   .grid-container {
     display: grid;
+    width: 300px;
     columns: 1fr;
     grid-template-columns: repeat(1, 1fr);
     gap: 10px;
-    padding: 0;
-    margin-left: 40px;
+    padding: 10px;
+    margin-left: 20px;
   }
   
   .grid-item {
     border: 1px solid #ccc;
-    padding: 0;
+    padding: 10px;
   }
 
 }
