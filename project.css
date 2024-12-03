@@ -200,7 +200,7 @@ figure {
 
   .page-container {
     max-width: 325px;
-    margin-left: 0;
+    margin-left: 40px;
     align-self: center;
     align-items: center;
   }
@@ -353,7 +353,7 @@ figure {
   }
 
   .full-width-line {
-    width: 400px;
+    width: 420px;
     position: relative;
     left: 50%;
     right: 50%;
