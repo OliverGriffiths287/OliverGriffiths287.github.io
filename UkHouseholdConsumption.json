@@ -1,0 +1,50 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "UK Household Consumption, adjusted for inflation",
+    "anchor": "start",
+    "subtitle": "Household final consumption expenditure, CVM, £ million GBP | Source: ONS through ECO API",
+    "fontSize": 12,
+    "subtitleFontSize": 8,
+    "color": "#000000",
+    "subtitleColor": "#000000"
+  },
+  "width": "container",
+  "height": "container",
+  "background": "#ffffff",
+  "view": {
+    "fill": "#ffffff",
+    "strokeOpacity": 0
+  },
+  "data": {
+    "url": "https://api.economicsobservatory.com/gbr/hcon_r?vega",
+    "format": {
+      "type": "json"
+    }
+  },
+  "mark": {
+    "type": "line",
+    "color": "#0c699f",
+    "strokeWidth": 1.5
+  },
+  "encoding": {
+    "x": {
+      "field": "date",
+      "type": "temporal",
+      "axis": {
+        "title": "Time",
+        "titleColor": "#0c699f",
+        "grid": true
+      }
+    },
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "axis": {
+        "title": "Consumption (£M)",
+        "titleColor": "#0c699f",
+        "grid": true
+      }
+    }
+  }
+}
