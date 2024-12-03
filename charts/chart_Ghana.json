@@ -7,8 +7,8 @@
     "text": "Monthly UK imports",
     "subtitle": "Ghana"
   },
-  "width": 200,
-  "height": 200,
+  "width":"container",
+  "height": "container",
   "mark": {
     "type": "line",
     "color": "red"
