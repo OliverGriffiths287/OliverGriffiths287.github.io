@@ -32,6 +32,9 @@
     </header>
 
     <div class="page-container">
+
+        <hr class="full-width-line">
+
         <h1 class="big" style="margin-bottom: 0px;">
             Data Science Portfolio
         </h1>
@@ -309,7 +312,7 @@
                 }
             };
     
-            vegaEmbed(`#${chart.id}`, spec);
+            vegaEmbed(`#${chart.id}`, spec).catch(error => console.error(error));
         });
     </script>
 
