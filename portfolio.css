@@ -123,6 +123,7 @@ p {
   width: 520px;
   height: 500px;
   margin-left: 25px;
+  padding-left: 25px;
 }
 
 #Location8 {
@@ -220,7 +221,7 @@ img {
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   padding: 10px;
-  margin-left: 250px;
+  margin-left: 200px;
 }
 
 .grid-item {
@@ -334,17 +335,17 @@ img {
   }
   
   #Location3 {
-    width: 400px;
+    width: 350px;
     height: 250px;
     margin-top: 20px;
-    margin-left: 15;
+    margin-left: 5px;
   }
   
   #Location4 {
-    width: 400px;
+    width: 350px;
     height: 250px;
     margin-top: 50px;
-    margin-left: 15;
+    margin-left: 5px;
   }
   
   #Location5 {
@@ -362,7 +363,7 @@ img {
   #Location7 {
     width: 350px;
     height: 350px;
-    padding: 25px;
+    padding-left: 30px;
     margin-left: 0;
   }
   
@@ -463,17 +464,18 @@ img {
   
   .grid-container {
     display: grid;
-    width: 200px;
+    width: 250px;
     columns: 1fr;
     grid-template-columns: repeat(1, 1fr);
     gap: 10px;
-    padding: 10px;
-    margin-left: 20px;
+    margin-left: 5px;
+    padding-right: 0;
   }
   
   .grid-item {
-    border: 1px solid #ffffff;
-    padding: 10px;
+    width: 315px;
+    height: 315px;
+    padding: 5px;
   }
 
   .full-width-line {
