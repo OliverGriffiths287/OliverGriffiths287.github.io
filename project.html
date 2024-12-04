@@ -287,6 +287,69 @@
             </p>
          </div>
       </section>
+   </div>
+
+   <script>
+      let grid1 = "charts/sponsorship_locations.json"
+      let grid2 = "charts/sponsorship_industries.json"
+   </script>
+
+   <div class="grid-collective">
+      <div class="pie-wrapper">
+         <div id="pie1"></div>
+      </div>
+      <div class="pie-wrapper">
+         <div id="pie2"></div>
+      </div>
+   </div>
+   
+   <script>
+      window.addEventListener('load', function () {
+         const embedOptions = {
+            actions: false,
+            mode: "vega-lite",
+            renderer: "svg",
+            theme: "light"
+         };
+   
+         const grids = [grid1, grid2];
+
+         grids.forEach((grid, index) => {
+            vegaEmbed(`#pie${index + 1}`, grid, embedOptions).then(result => {
+               const view = result.view;
+               view.signal('width', view.container().clientWidth);
+               view.signal('height', view.container().clientHeight);
+               view.runAsync();
+            });
+   
+            window.addEventListener('resize', function () {
+               grids.forEach((grid, index) => {
+                  const view = vegaEmbed(`#pie${index + 1}`).then(result => {
+                     const view = result.view;
+                     view.signal('width', view.container().clientWidth);
+                     view.signal('height', view.container().clientHeight);
+                     view.runAsync();
+                  });
+               });
+            });
+         });
+      });
+   </script>
+
+   <div class="page-container">
+
+      <section>
+         <div>
+            <p>
+               <a
+                  href="https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/charts/sponsorship_industries.json"> Individual Chart
+                  Spec</a> | <a
+                  href="https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/data/sponsorship_industry.csv"> Individual Chart
+                  Data</a> | <a
+                  href="https://colab.research.google.com/github/OliverGriffiths287/OliverGriffiths287.github.io/blob/main/python_code/sponsorship.ipynb">Sponsorship Scraping Notebook</a>
+            </p>
+         </div>
+      </section>
 
       <section>
          <figure id="Location5"></figure>

@@ -170,6 +170,26 @@ figure {
   margin: 0;
 }
 
+.pie-wrapper {
+  width: 340px;
+  height: 340px;
+  padding: 0;
+  margin: 0;
+}
+
+.grid-collective {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0px;
+  width: 700px;
+  padding-top: 0;
+  margin-left: 300px;
+  border-radius: 25px;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba#ffffff;
+}
+
 .full-width-line {
   width: 1600px;
   position: relative;
@@ -350,6 +370,26 @@ figure {
     height: 315px;
     padding: 0;
     margin: 0;
+  }
+
+  .pie-wrapper {
+    width: 315px;
+    height: 315px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .grid-collective {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0px;
+    width: 320px;
+    padding-top: 0;
+    margin-left: 5px;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba#ffffff;
   }
 
   .full-width-line {
