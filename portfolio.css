@@ -218,6 +218,7 @@ img {
 
 .grid-container {
   display: grid;
+  width: 900px;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   padding: 10px;
@@ -226,6 +227,8 @@ img {
 
 .grid-item {
   border: 1px solid #ccc;
+  width: 275px;
+  height: 275px;
   padding: 10px;
   background-color: #f9f9f9;
 }
