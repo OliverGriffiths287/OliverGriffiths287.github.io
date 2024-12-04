@@ -1,0 +1,18 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Pie Chart with percentage_tooltip",
+  "data": {"url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/data/sponsorship_location.csv" 
+  },
+  "title": {
+    "text": "Shirt Sponsorship Locations",
+    "subtitle": "2021/22. Source: ScoreandChange",
+    "fontSize": 11
+  },
+  "height": "container",
+  "width": "container",
+  "mark": {"type": "arc", "tooltip": true},
+  "encoding": {
+    "theta": {"field": "Count", "type": "quantitative", "stack": "normalize"},
+    "color": {"field": "Location", "type": "nominal", "scale":{"scheme": "category20"}}
+  }
+}
