@@ -227,8 +227,6 @@ img {
 
 .grid-item {
   border: 1px solid #ccc;
-  width: 275px;
-  height: 275px;
   padding: 10px;
   background-color: #f9f9f9;
 }
@@ -367,6 +365,7 @@ img {
     width: 350px;
     height: 350px;
     padding-left: 30px;
+    padding-right: 0;
     margin-left: 0;
   }
   
@@ -476,8 +475,6 @@ img {
   }
   
   .grid-item {
-    width: 315px;
-    height: 315px;
     padding: 5px;
   }
 
