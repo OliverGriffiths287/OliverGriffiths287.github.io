@@ -4,8 +4,8 @@
     "text": "UK Household Consumption, adjusted for inflation",
     "anchor": "start",
     "subtitle": "Household final consumption expenditure, CVM, £ million GBP | Source: ONS through ECO API",
-    "fontSize": 15,
-    "subtitleFontSize": 11,
+    "fontSize": 12,
+    "subtitleFontSize": 8,
     "color": "#000000",
     "subtitleColor": "#000000"
   },

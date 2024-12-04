@@ -5,7 +5,9 @@
   },
   "title": {
     "text": "Premier League Season Revenue and Points Total, 2022/23",
-    "subtitle": "114 Possible points. Source: Premier League and Gov.uk"
+    "subtitle": "114 Possible points. Source: Premier League and Gov.uk",
+    "fontSize": 12,
+    "subtitleFontSize": 8
   },
   "height": "container",
   "width": "container",

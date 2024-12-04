@@ -3,7 +3,7 @@
   "data": {
     "url": "https://raw.githubusercontent.com/OliverGriffiths287/OliverGriffiths287.github.io/refs/heads/main/data/transformed_ticket_prices.csv"
   },
-  "title":{"text": "Average ticket price 2018/19-2019/20", "subtitle": "Europe's top five leagues, measured in Euros. Source: Seatpick"},
+  "title":{"text": "Average ticket price 2018/19-2019/20", "subtitle": "Europe's top five leagues, measured in Euros. Source: Seatpick", "subtitleFontSize": 8},
   "width": "container",
   "height": "container",
   "mark": "bar",

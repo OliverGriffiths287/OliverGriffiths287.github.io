@@ -5,7 +5,7 @@
   },
   "height": "container",
   "width": "container",
-  "title":{"text": "All time Premier League finishing positions", "subtitle": "White displays 0 occasions finished. Source: Premier League"},
+  "title":{"text": "All time Premier League finishing positions", "subtitle": "White displays 0 occasions. Source: Premier League", "subtitleFontSize": 8},
   "transform": [
     {
       "calculate": "toNumber(datum.Position)",

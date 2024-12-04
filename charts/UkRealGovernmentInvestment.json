@@ -4,8 +4,8 @@
     "text": "UK Government Investment, adjusted for inflation",
     "anchor": "start",
     "subtitle": "General Gov GFCF, £ million | Source: ONS through ECO API",
-    "fontSize": 18,
-    "subtitleFontSize": 13,
+    "fontSize": 13,
+    "subtitleFontSize": 8,
     "color": "#000000",
     "subtitleColor": "#ff0000"
   },

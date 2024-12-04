@@ -5,7 +5,8 @@
   },
   "title": {
     "text": "UK Quarterly Investment by Sector",
-    "subtitle": "Current Prices and Non Seasonally Adjusted. Source: ONS"
+    "subtitle": "Current Prices and Non Seasonally Adjusted. Source: ONS",
+    "subtitleFontSize": 8
   },
   "height": "container",
   "width": "container",

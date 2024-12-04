@@ -5,7 +5,9 @@
   },
   "title": {
     "text": "Government Expenditure on Education for G7 nations",
-    "subtitle": "Percentage of total government expenditure. Source: WorldBank"
+    "subtitle": "Percentage of total government expenditure. Source: WorldBank",
+    "subtitleFontSize": 8,
+    "fontSize": 12
   },
   "width": "container",
   "height": "container",

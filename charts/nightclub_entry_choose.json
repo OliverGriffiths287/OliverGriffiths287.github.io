@@ -3,7 +3,7 @@
   "title": {
     "text": "Nightclub Entry Cost - pick a region",
     "subtitle": [
-      "Average Saturday night cost across all location in region, measured in £."
+      "Average Saturday night cost across all regions, measured in £."
     ],
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
