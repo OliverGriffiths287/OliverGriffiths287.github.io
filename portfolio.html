@@ -282,37 +282,42 @@
             }
         ];
     
-        charts.forEach(chart => {
-            const spec = {
-                "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-                "title": {
-                    "text": "Monthly UK Imports",
-                    "subtitle": chart.subtitle
-                },
-                "width": "250",
-                "height": "250",
-                "data": {
-                    "url": chart.url
-                },
-                "mark": {
-                    "type": "line",
-                    "color": "red"
-                },
-                "encoding": {
-                    "x": {
-                        "field": "date",
-                        "type": "temporal",
-                        "title": "Date"
+        function loadChart(chart, delay) {
+            setTimeout(() => {
+                const spec = {
+                   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+                   "title": {
+                      "text": "Monthly UK Imports",
+                      "subtitle": chart.subtitle
                     },
-                    "y": {
-                        "field": "value",
-                        "type": "quantitative",
-                        "title": "Import Value"
+                   "width": "250",
+                   "height": "250",
+                    "data": {
+                       "url": chart.url
+                    },
+                    "mark": {
+                        "type": "line",
+                        "color": "red"
+                    },
+                    "encoding": {
+                        "x": {
+                            "field": "date",
+                            "type": "temporal",
+                            "title": "Date"
+                        },
+                        "y": {
+                            "field": "value",
+                            "type": "quantitative",
+                            "title": "Import Value"
+                        }
                     }
-                }
-            };
-    
-            vegaEmbed(`#${chart.id}`, spec).catch(error => console.error(error));
+                };
+                vegaEmbed(`#${chart.id}`, spec).catch(error => console.error(`Error loading ${chart.subtitle}:`, error));
+            }, delay);
+        }
+
+        charts.forEach((chart, index) => {
+           loadChart(chart, index * 500);
         });
     </script>
 
